@@ -1,0 +1,98 @@
+| 2024:06:17 21:19:31,146 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:17 21:19:31,943 | I | root | ------
+| 2024:06:17 21:19:32,040 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:17 21:19:33,472 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:17 21:19:33,481 | I | root | main.py 88 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:17 21:19:50,028 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:17 21:19:50,747 | I | root | ------
+| 2024:06:17 21:19:50,845 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:17 21:19:51,938 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:17 21:19:51,944 | I | root | main.py 88 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:17 21:20:52,170 | I | STDOUT | 2024-06-01
+| 2024:06:17 21:20:52,171 | I | STDOUT | 2024-06-30
+| 2024:06:17 21:20:52,181 | I | STDOUT | *****late Count********* 2
+| 2024:06:17 21:20:52,182 | I | STDOUT | **********leaveCount******* 0
+| 2024:06:17 21:20:52,182 | I | STDOUT | ************totalDayPresent***** 2
+| 2024:06:17 21:20:52,182 | I | STDOUT | **************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001995F111C40>)
+| 2024:06:17 21:20:52,183 | I | STDOUT | *********** []
+| 2024:06:17 21:20:52,187 | I | STDOUT | ****************** 10333
+| 2024:06:17 21:20:52,514 | D | root | web\user\getEmployeeDetail.py 267 get RSP	{'code': 4100, 'status': 200, 'message': 'data fetched succesfully', 'result': ['user info', [{'_id': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'johndoe@gmail.com', 'role': ObjectId('666824e2c43f23878e12216c'), 'createdBy': ObjectId('6668259eb27f0e68666fa3b9')}], [{'is_late_count': 2, 'leave_count': 0, 'total_present_days': 2}], [{'baseSalary': 80000, 'finalSalary': 10333.333333333332}]]}
+| 2024:06:17 21:20:52,516 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 379.22ms
+| 2024:06:17 21:47:06,031 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:17 21:47:07,064 | I | root | ------
+| 2024:06:17 21:47:07,235 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:17 21:47:07,964 | E | STDERR | Traceback (most recent call last):
+| 2024:06:17 21:47:07,964 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\server\main.py", line 32, in <module>
+| 2024:06:17 21:47:08,008 | E | STDERR |     from web.user.getEmployeeDetail import getEmployeeDetailHandler
+| 2024:06:17 21:47:08,110 | E | STDERR | ImportError: cannot import name 'getEmployeeDetailHandler' from 'web.user.getEmployeeDetail' (C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py). Did you mean: 'GetEmployeeDetailHandler'?
+| 2024:06:17 21:47:48,311 | I | root | ------
+| 2024:06:17 21:47:48,408 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:17 21:47:48,851 | E | STDERR | Traceback (most recent call last):
+| 2024:06:17 21:47:48,852 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\server\main.py", line 32, in <module>
+| 2024:06:17 21:47:48,853 | E | STDERR |     from web.user.getEmployeeDetail import getEmployeeDetailHandler
+| 2024:06:17 21:47:48,854 | E | STDERR | ImportError: cannot import name 'getEmployeeDetailHandler' from 'web.user.getEmployeeDetail' (C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py). Did you mean: 'GetEmployeeDetailHandler'?
+| 2024:06:17 21:49:06,568 | I | root | ------
+| 2024:06:17 21:49:06,662 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:17 21:49:07,763 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:17 21:49:07,772 | I | root | main.py 88 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:17 21:49:10,167 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 48.56ms
+| 2024:06:17 21:51:03,356 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:17 21:51:05,327 | I | root | ------
+| 2024:06:17 21:51:05,418 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:17 21:51:06,590 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:17 21:51:06,606 | I | root | main.py 88 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:17 21:55:15,181 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:17 21:55:16,011 | I | root | ------
+| 2024:06:17 21:55:16,129 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:17 21:55:17,538 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:17 21:55:17,544 | I | root | main.py 88 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:17 21:55:29,606 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:17 21:55:30,352 | I | root | ------
+| 2024:06:17 21:55:30,460 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:17 21:55:31,601 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:17 21:55:31,609 | I | root | main.py 88 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:17 21:55:48,983 | D | root | web\user\getEmployeeDetail.py 292 get RSP	{'code': 200, 'status': False, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'user_id': '6668259eb27f0e68666fa3ba', 'name': 'N/A', 'email': 'johndoe@gmail.com', 'role': ObjectId('666824e2c43f23878e12216c'), 'createdBy': ObjectId('6668259eb27f0e68666fa3b9')}, 'Month': {'May': {'total_working_days': 31, 'total_present': 2, 'total_absent': 29, 'Leave_taken': 0, 'salary_taken': 10333}, 'June': {'total_working_days': 30, 'total_present': 2, 'total_absent': 28, 'Leave_taken': 0, 'salary_taken': 10333}}, 'Task': []}]}}
+| 2024:06:17 21:55:48,985 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 182.47ms
+| 2024:06:17 22:00:13,166 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:17 22:00:13,939 | I | root | ------
+| 2024:06:17 22:00:14,067 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:17 22:00:15,274 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:17 22:00:15,281 | I | root | main.py 88 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:17 22:21:54,342 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:17 22:21:55,245 | I | root | ------
+| 2024:06:17 22:21:55,374 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:17 22:21:55,873 | E | STDERR | Traceback (most recent call last):
+| 2024:06:17 22:21:55,874 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\server\main.py", line 32, in <module>
+| 2024:06:17 22:21:55,878 | E | STDERR |     from web.user.getEmployeeDetail import getEmployeeDetailHandler
+| 2024:06:17 22:21:55,882 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py", line 106
+| 2024:06:17 22:21:55,882 | E | STDERR |     'PersonalInfo':1
+| 2024:06:17 22:21:55,883 | E | STDERR |                    ^
+| 2024:06:17 22:21:55,885 | E | STDERR | SyntaxError: invalid syntax. Perhaps you forgot a comma?
+| 2024:06:17 22:24:33,766 | I | root | ------
+| 2024:06:17 22:24:33,855 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:17 22:24:35,173 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:17 22:24:35,179 | I | root | main.py 88 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:17 22:24:38,598 | I | STDOUT | 888888****8**888*88**88*8*8 [{'_id': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'johndoe@gmail.com', 'role': ObjectId('666824e2c43f23878e12216c'), 'PersonalInfo': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'createdBy': ObjectId('6668259eb27f0e68666fa3b9')}]
+| 2024:06:17 22:24:38,875 | D | root | web\user\getEmployeeDetail.py 297 get RSP	{'code': 200, 'status': False, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'user_id': '6668259eb27f0e68666fa3ba', 'name': 'N/A', 'email': 'johndoe@gmail.com', 'role': ObjectId('666824e2c43f23878e12216c'), 'createdBy': ObjectId('6668259eb27f0e68666fa3b9')}, 'Month': {'May': {'total_working_days': 31, 'total_present': 2, 'total_absent': 29, 'Leave_taken': 0, 'salary_taken': 10333}, 'June': {'total_working_days': 30, 'total_present': 2, 'total_absent': 28, 'Leave_taken': 0, 'salary_taken': 10333}}, 'Task': []}]}}
+| 2024:06:17 22:24:38,877 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 323.55ms
+| 2024:06:17 22:25:00,313 | I | STDOUT | 888888****8**888*88**88*8*8 [{'_id': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'johndoe@gmail.com', 'role': ObjectId('666824e2c43f23878e12216c'), 'PersonalInfo': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'createdBy': ObjectId('6668259eb27f0e68666fa3b9')}]
+| 2024:06:17 22:25:00,324 | D | root | web\user\getEmployeeDetail.py 297 get RSP	{'code': 200, 'status': False, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'user_id': '6668259eb27f0e68666fa3ba', 'name': 'N/A', 'email': 'johndoe@gmail.com', 'role': ObjectId('666824e2c43f23878e12216c'), 'createdBy': ObjectId('6668259eb27f0e68666fa3b9')}, 'Month': {'May': {'total_working_days': 31, 'total_present': 2, 'total_absent': 29, 'Leave_taken': 0, 'salary_taken': 10333}, 'June': {'total_working_days': 30, 'total_present': 2, 'total_absent': 28, 'Leave_taken': 0, 'salary_taken': 10333}}, 'Task': []}]}}
+| 2024:06:17 22:25:00,325 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 14.69ms
+| 2024:06:17 22:29:18,274 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:17 22:29:18,905 | I | root | ------
+| 2024:06:17 22:29:19,014 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:17 22:29:20,397 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:17 22:29:20,403 | I | root | main.py 88 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:17 22:29:23,751 | I | STDOUT | 888888****8**888*88**88*8*8 [{'_id': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'johndoe@gmail.com', 'role': ObjectId('666824e2c43f23878e12216c'), 'PersonalInfo': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'createdBy': ObjectId('6668259eb27f0e68666fa3b9')}]
+| 2024:06:17 22:29:23,983 | D | root | web\user\getEmployeeDetail.py 297 get RSP	{'code': 200, 'status': False, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'user_id': '6668259eb27f0e68666fa3ba', 'name': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'email': 'johndoe@gmail.com', 'role': ObjectId('666824e2c43f23878e12216c'), 'createdBy': ObjectId('6668259eb27f0e68666fa3b9')}, 'Month': {'May': {'total_working_days': 31, 'total_present': 2, 'total_absent': 29, 'Leave_taken': 0, 'salary_taken': 10333}, 'June': {'total_working_days': 30, 'total_present': 2, 'total_absent': 28, 'Leave_taken': 0, 'salary_taken': 10333}}, 'Task': []}]}}
+| 2024:06:17 22:29:23,988 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 245.34ms
+| 2024:06:17 23:11:15,475 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\project\assignProject.py modified; restarting server
+| 2024:06:17 23:11:16,342 | I | root | ------
+| 2024:06:17 23:11:16,437 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:17 23:11:16,904 | E | STDERR | Traceback (most recent call last):
+| 2024:06:17 23:11:16,905 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\server\main.py", line 27, in <module>
+| 2024:06:17 23:11:16,906 | E | STDERR |     from web.project.assignProject import ProjectAssignHandler
+| 2024:06:17 23:11:16,908 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\server\web\project\assignProject.py", line 46
+| 2024:06:17 23:11:16,909 | E | STDERR |     status = False
+| 2024:06:17 23:11:16,910 | E | STDERR |     ^
+| 2024:06:17 23:11:16,911 | E | STDERR | IndentationError: expected an indented block after function definition on line 45

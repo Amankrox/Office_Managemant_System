@@ -1,0 +1,206 @@
+| 2024:06:19 10:42:41,931 | I | root | ------
+| 2024:06:19 10:42:42,066 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 10:42:47,141 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 10:42:47,185 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 10:44:48,215 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:19 10:44:48,764 | I | root | ------
+| 2024:06:19 10:44:48,862 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 10:44:49,947 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 10:44:49,952 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 10:53:42,067 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:19 10:53:42,925 | I | root | ------
+| 2024:06:19 10:53:43,050 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 10:53:44,684 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 10:53:44,690 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 10:54:38,589 | I | STDOUT | **********
+| 2024:06:19 10:54:38,589 | I | STDOUT | userID 6668259eb27f0e68666fa3ba
+| 2024:06:19 10:54:38,590 | I | STDOUT | ***************** 2024-05-01
+| 2024:06:19 10:54:38,590 | I | STDOUT | ***************** 2024-05-31
+| 2024:06:19 10:54:38,591 | I | STDOUT | ***************** 2024-06-01
+| 2024:06:19 10:54:38,591 | I | STDOUT | ***************** 2024-06-30
+| 2024:06:19 10:54:38,625 | I | STDOUT | month is ************* 5
+| 2024:06:19 10:54:38,627 | I | STDOUT | ***************** 2024-06-30
+| 2024:06:19 10:54:38,634 | I | STDOUT | ****************** 0 0 0
+| 2024:06:19 10:54:38,634 | I | STDOUT | ********************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000002A9F928A810>)
+| 2024:06:19 10:54:38,637 | I | STDOUT | ****************** 3 0 3
+| 2024:06:19 10:54:38,645 | I | STDOUT | ************ [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]
+| 2024:06:19 10:54:38,645 | I | STDOUT | 8888888********** [{'Project': '1', ' tasks': [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]}]
+| 2024:06:19 10:54:38,984 | D | root | web\user\getEmployeeDetail.py 476 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'user_id': '6668259eb27f0e68666fa3ba', 'name': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'email': 'johndoe@gmail.com', 'role': '666824e2c43f23878e12216c', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 31, 'total_present': 0, 'total_absent': 31, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'total_working_days': 30, 'total_present': 3, 'total_absent': 27, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 13000}}, 'Task': [{'Project': '1', ' tasks': [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]}]}]}}
+| 2024:06:19 10:54:38,987 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 401.92ms
+| 2024:06:19 10:56:10,233 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:19 10:56:11,061 | I | root | ------
+| 2024:06:19 10:56:11,250 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 10:56:12,863 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 10:56:12,868 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 10:56:19,480 | I | STDOUT | **********
+| 2024:06:19 10:56:19,480 | I | STDOUT | userID 6668259eb27f0e68666fa3ba
+| 2024:06:19 10:56:19,480 | I | STDOUT | ***************** 2024-05-01
+| 2024:06:19 10:56:19,484 | I | STDOUT | ***************** 2024-05-31
+| 2024:06:19 10:56:19,484 | I | STDOUT | ***************** 2024-06-01
+| 2024:06:19 10:56:19,485 | I | STDOUT | ***************** 2024-06-30
+| 2024:06:19 10:56:19,505 | I | STDOUT | month is ************* 5
+| 2024:06:19 10:56:19,506 | I | STDOUT | month is ************* 6
+| 2024:06:19 10:56:19,506 | I | STDOUT | ***************** 2024-06-30
+| 2024:06:19 10:56:19,511 | I | STDOUT | ****************** 0 0 0
+| 2024:06:19 10:56:19,513 | I | STDOUT | ********************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x00000281AF59F2F0>)
+| 2024:06:19 10:56:19,519 | I | STDOUT | ****************** 3 0 3
+| 2024:06:19 10:56:19,530 | I | STDOUT | ************ [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]
+| 2024:06:19 10:56:19,531 | I | STDOUT | 8888888********** [{'Project': '1', ' tasks': [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]}]
+| 2024:06:19 10:56:19,721 | D | root | web\user\getEmployeeDetail.py 478 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'user_id': '6668259eb27f0e68666fa3ba', 'name': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'email': 'johndoe@gmail.com', 'role': '666824e2c43f23878e12216c', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 31, 'total_present': 0, 'total_absent': 31, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'total_working_days': 30, 'total_present': 3, 'total_absent': 27, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 13000}}, 'Task': [{'Project': '1', ' tasks': [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]}]}]}}
+| 2024:06:19 10:56:19,723 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 243.11ms
+| 2024:06:19 10:56:52,964 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:19 10:56:54,143 | I | root | ------
+| 2024:06:19 10:56:54,309 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 10:56:56,153 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 10:56:56,163 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 10:56:56,867 | I | STDOUT | **********
+| 2024:06:19 10:56:56,868 | I | STDOUT | userID 6668259eb27f0e68666fa3ba
+| 2024:06:19 10:56:56,872 | I | STDOUT | ***************** 2024-05-01
+| 2024:06:19 10:56:56,878 | I | STDOUT | ***************** 2024-05-31
+| 2024:06:19 10:56:56,879 | I | STDOUT | ***************** 2024-06-01
+| 2024:06:19 10:56:56,881 | I | STDOUT | ***************** 2024-06-30
+| 2024:06:19 10:56:56,916 | I | STDOUT | month is ************* 5
+| 2024:06:19 10:56:56,917 | I | STDOUT | month is ************* 6
+| 2024:06:19 10:56:56,925 | I | STDOUT | ***************** 2024-06-30
+| 2024:06:19 10:56:56,935 | I | STDOUT | ****************** 0 0 0
+| 2024:06:19 10:56:56,937 | I | STDOUT | ********************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000017AF1687260>)
+| 2024:06:19 10:56:56,945 | I | STDOUT | ****************** 3 0 3
+| 2024:06:19 10:56:56,960 | I | STDOUT | ************ [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]
+| 2024:06:19 10:56:56,961 | I | STDOUT | 8888888********** [{'Project': '1', ' tasks': [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]}]
+| 2024:06:19 10:56:57,194 | D | root | web\user\getEmployeeDetail.py 478 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'user_id': '6668259eb27f0e68666fa3ba', 'name': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'email': 'johndoe@gmail.com', 'role': '666824e2c43f23878e12216c', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 31, 'total_present': 0, 'total_absent': 31, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'total_working_days': 30, 'total_present': 3, 'total_absent': 27, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 13000}}, 'Task': [{'Project': '1', ' tasks': [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]}]}]}}
+| 2024:06:19 10:56:57,197 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 332.61ms
+| 2024:06:19 11:01:19,207 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:19 11:01:20,170 | I | root | ------
+| 2024:06:19 11:01:20,335 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 11:01:23,390 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 11:01:23,402 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 11:01:59,477 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:19 11:02:00,757 | I | root | ------
+| 2024:06:19 11:02:01,070 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 11:02:03,458 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 11:02:03,470 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 11:02:07,563 | I | STDOUT | **********
+| 2024:06:19 11:02:07,564 | I | STDOUT | userID 6668259eb27f0e68666fa3ba
+| 2024:06:19 11:02:07,568 | I | STDOUT | ***************** 2024-05-01
+| 2024:06:19 11:02:07,573 | I | STDOUT | ***************** 2024-05-31
+| 2024:06:19 11:02:07,575 | I | STDOUT | ***************** 2024-06-01
+| 2024:06:19 11:02:07,576 | I | STDOUT | ***************** 2024-06-30
+| 2024:06:19 11:02:07,603 | I | STDOUT | month is ************* 5
+| 2024:06:19 11:02:07,880 | W | root | web\user\getEmployeeDetail.py 471 get EXC	Exception: AttributeError. Argument: ("'int' object has no attribute 'strftime'",)
+| 2024:06:19 11:02:07,891 | D | root | web\user\getEmployeeDetail.py 472 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 181 TYPE: <class 'AttributeError'>
+| 2024:06:19 11:02:07,896 | D | root | web\user\getEmployeeDetail.py 480 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:19 11:02:07,899 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 335.82ms
+| 2024:06:19 11:02:47,077 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:19 11:02:47,957 | I | root | ------
+| 2024:06:19 11:02:48,128 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 11:02:49,759 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 11:02:49,768 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 11:04:23,323 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:19 11:04:24,197 | I | root | ------
+| 2024:06:19 11:04:24,362 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 11:04:26,290 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 11:04:26,301 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 11:04:32,999 | I | STDOUT | **********
+| 2024:06:19 11:04:32,999 | I | STDOUT | userID 6668259eb27f0e68666fa3ba
+| 2024:06:19 11:04:33,009 | I | STDOUT | ***************** 2024-05-01
+| 2024:06:19 11:04:33,010 | I | STDOUT | ***************** 2024-05-31
+| 2024:06:19 11:04:33,011 | I | STDOUT | ***************** 2024-06-01
+| 2024:06:19 11:04:33,012 | I | STDOUT | ***************** 2024-06-30
+| 2024:06:19 11:04:33,039 | I | STDOUT | month is ************* 5
+| 2024:06:19 11:04:33,040 | I | STDOUT | ***month name*********** May
+| 2024:06:19 11:04:33,047 | I | STDOUT | month is ************* 6
+| 2024:06:19 11:04:33,050 | I | STDOUT | ***************** 2024-06-30
+| 2024:06:19 11:04:33,063 | I | STDOUT | ****************** 0 0 0
+| 2024:06:19 11:04:33,063 | I | STDOUT | ********************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000025168E8B320>)
+| 2024:06:19 11:04:33,072 | I | STDOUT | ****************** 3 0 3
+| 2024:06:19 11:04:33,088 | I | STDOUT | ************ [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]
+| 2024:06:19 11:04:33,089 | I | STDOUT | 8888888********** [{'Project': '1', ' tasks': [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]}]
+| 2024:06:19 11:04:33,307 | D | root | web\user\getEmployeeDetail.py 480 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'user_id': '6668259eb27f0e68666fa3ba', 'name': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'email': 'johndoe@gmail.com', 'role': '666824e2c43f23878e12216c', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 31, 'total_present': 0, 'total_absent': 31, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'total_working_days': 30, 'total_present': 3, 'total_absent': 27, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 13000}}, 'Task': [{'Project': '1', ' tasks': [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]}]}]}}
+| 2024:06:19 11:04:33,308 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 310.49ms
+| 2024:06:19 11:05:25,357 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:19 11:05:26,314 | I | root | ------
+| 2024:06:19 11:05:26,492 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 11:05:28,463 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 11:05:28,475 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 11:06:06,549 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:19 11:06:07,576 | I | root | ------
+| 2024:06:19 11:06:07,782 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 11:06:10,272 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 11:06:10,283 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 11:06:16,875 | I | STDOUT | **********
+| 2024:06:19 11:06:16,875 | I | STDOUT | userID 6668259eb27f0e68666fa3ba
+| 2024:06:19 11:06:16,878 | I | STDOUT | ***************** 2024-05-01
+| 2024:06:19 11:06:16,879 | I | STDOUT | ***************** 2024-05-31
+| 2024:06:19 11:06:16,884 | I | STDOUT | ***************** 2024-06-01
+| 2024:06:19 11:06:16,885 | I | STDOUT | ***************** 2024-06-30
+| 2024:06:19 11:06:16,927 | I | STDOUT | month is ************* 5
+| 2024:06:19 11:06:16,927 | I | STDOUT | ***month name*********** May
+| 2024:06:19 11:06:16,931 | I | STDOUT | month is ************* 6
+| 2024:06:19 11:06:16,932 | I | STDOUT | ***month name*********** June
+| 2024:06:19 11:06:16,938 | I | STDOUT | ***************** 2024-06-30
+| 2024:06:19 11:06:16,943 | I | STDOUT | ****************** 0 0 0
+| 2024:06:19 11:06:16,944 | I | STDOUT | ********************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001C65EE90E60>)
+| 2024:06:19 11:06:16,949 | I | STDOUT | ****************** 3 0 3
+| 2024:06:19 11:06:16,963 | I | STDOUT | ************ [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]
+| 2024:06:19 11:06:16,964 | I | STDOUT | 8888888********** [{'Project': '1', ' tasks': [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]}]
+| 2024:06:19 11:06:17,171 | D | root | web\user\getEmployeeDetail.py 482 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'user_id': '6668259eb27f0e68666fa3ba', 'name': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'email': 'johndoe@gmail.com', 'role': '666824e2c43f23878e12216c', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 31, 'total_present': 0, 'total_absent': 31, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'total_working_days': 30, 'total_present': 3, 'total_absent': 27, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 13000}}, 'Task': [{'Project': '1', ' tasks': [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]}]}]}}
+| 2024:06:19 11:06:17,173 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 299.20ms
+| 2024:06:19 11:16:56,379 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:19 11:16:57,610 | I | root | ------
+| 2024:06:19 11:16:57,833 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 11:17:00,598 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 11:17:00,610 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 11:17:15,236 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:19 11:17:16,428 | I | root | ------
+| 2024:06:19 11:17:16,650 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 11:17:19,084 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 11:17:19,099 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 11:17:28,356 | I | STDOUT | **********
+| 2024:06:19 11:17:28,358 | I | STDOUT | userID 6668259eb27f0e68666fa3ba
+| 2024:06:19 11:17:28,365 | I | STDOUT | ***************** 2024-05-01
+| 2024:06:19 11:17:28,371 | I | STDOUT | ***************** 2024-05-31
+| 2024:06:19 11:17:28,373 | I | STDOUT | ***************** 2024-06-01
+| 2024:06:19 11:17:28,377 | I | STDOUT | ***************** 2024-06-30
+| 2024:06:19 11:17:28,433 | I | STDOUT | ***month name*********** 31
+| 2024:06:19 11:17:28,434 | I | STDOUT | ***month name*********** 30
+| 2024:06:19 11:17:28,448 | I | STDOUT | ***************** 2024-06-30
+| 2024:06:19 11:17:28,458 | I | STDOUT | ****************** 0 0 0
+| 2024:06:19 11:17:28,465 | I | STDOUT | ********************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001617088B560>)
+| 2024:06:19 11:17:28,475 | I | STDOUT | ****************** 3 0 3
+| 2024:06:19 11:17:28,500 | I | STDOUT | ************ [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]
+| 2024:06:19 11:17:28,502 | I | STDOUT | 8888888********** [{'Project': '1', ' tasks': [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]}]
+| 2024:06:19 11:17:28,954 | D | root | web\user\getEmployeeDetail.py 486 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'user_id': '6668259eb27f0e68666fa3ba', 'name': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'email': 'johndoe@gmail.com', 'role': '666824e2c43f23878e12216c', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 31, 'total_present': 0, 'total_absent': 31, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'total_working_days': 30, 'total_present': 3, 'total_absent': 27, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 13000}}, 'Task': [{'Project': '1', ' tasks': [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]}]}]}}
+| 2024:06:19 11:17:28,959 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 604.69ms
+| 2024:06:19 11:18:07,694 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:19 11:18:08,956 | I | root | ------
+| 2024:06:19 11:18:09,177 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 11:18:11,725 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 11:18:11,738 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 11:25:56,858 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:19 11:25:58,278 | I | root | ------
+| 2024:06:19 11:25:58,558 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 11:26:01,115 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 11:26:01,128 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 11:26:11,444 | I | STDOUT | **********
+| 2024:06:19 11:26:11,445 | I | STDOUT | userID 6668259eb27f0e68666fa3ba
+| 2024:06:19 11:26:11,459 | I | STDOUT | ***************** 2024-05-01
+| 2024:06:19 11:26:11,462 | I | STDOUT | ***************** 2024-05-31
+| 2024:06:19 11:26:11,464 | I | STDOUT | ***************** 2024-06-01
+| 2024:06:19 11:26:11,466 | I | STDOUT | ***************** 2024-06-30
+| 2024:06:19 11:26:11,527 | I | STDOUT | ***month name*********** 31
+| 2024:06:19 11:26:11,528 | I | STDOUT | ***month name*********** 30
+| 2024:06:19 11:26:11,543 | I | STDOUT | ***************** 2024-06-30
+| 2024:06:19 11:26:11,556 | I | STDOUT | ****************** 0 0 0
+| 2024:06:19 11:26:11,558 | I | STDOUT | ********************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000018F2268B350>)
+| 2024:06:19 11:26:11,570 | I | STDOUT | ****************** 3 0 3
+| 2024:06:19 11:26:11,592 | I | STDOUT | ************ [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]
+| 2024:06:19 11:26:11,594 | I | STDOUT | 8888888********** [{'Project': '1', ' tasks': [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]}]
+| 2024:06:19 11:26:12,278 | D | root | web\user\getEmployeeDetail.py 491 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'user_id': '6668259eb27f0e68666fa3ba', 'name': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'email': 'johndoe@gmail.com', 'role': '666824e2c43f23878e12216c', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 31, 'total_present': 0, 'total_absent': 31, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'total_working_days': 30, 'total_present': 3, 'total_absent': 27, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 13000}}, 'Task': [{'Project': '1', ' tasks': [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]}]}]}}
+| 2024:06:19 11:26:12,284 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 842.94ms
+| 2024:06:19 11:28:40,814 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:19 11:28:41,977 | I | root | ------
+| 2024:06:19 11:28:42,183 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 11:28:44,762 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 11:28:44,772 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 11:28:49,171 | D | root | web\user\getEmployeeDetail.py 491 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'user_id': '6668259eb27f0e68666fa3ba', 'name': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'email': 'johndoe@gmail.com', 'role': '666824e2c43f23878e12216c', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 31, 'total_present': 0, 'total_absent': 31, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'total_working_days': 30, 'total_present': 3, 'total_absent': 27, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 13000}}, 'Task': [{'Project': '1', ' tasks': [{'AssignedOn': 1718690016204923, 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'project_id': '667120e0bfc4dda06d254e02'}]}]}]}}
+| 2024:06:19 11:28:49,176 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 597.09ms

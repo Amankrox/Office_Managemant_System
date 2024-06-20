@@ -1,0 +1,206 @@
+| 2024:06:20 10:11:04,542 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:20 10:11:06,654 | I | root | ------
+| 2024:06:20 10:11:06,755 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 10:11:09,240 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 10:11:09,256 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 10:21:45,290 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:20 10:21:46,730 | I | root | ------
+| 2024:06:20 10:21:46,819 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 10:21:49,036 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 10:21:49,050 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 10:21:56,582 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:20 10:21:57,166 | I | root | ------
+| 2024:06:20 10:21:57,258 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 10:21:58,274 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 10:21:58,277 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 10:23:03,311 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:20 10:23:03,798 | I | root | ------
+| 2024:06:20 10:23:03,887 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 10:23:04,924 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 10:23:04,928 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 10:23:08,965 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:20 10:23:09,484 | I | root | ------
+| 2024:06:20 10:23:09,596 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 10:23:10,713 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 10:23:10,718 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 10:25:42,789 | I | STDOUT | ******* {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}
+| 2024:06:20 10:25:42,805 | I | STDOUT | ********************** [{'Project': '1', 'project_id': '667120e0bfc4dda06d254e02', 'Date_of_Assign': 1718690016204923, 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}]
+| 2024:06:20 10:25:42,913 | D | root | web\user\getEmployeeDetail.py 581 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': '66681a63ed55f1052413d85c', 'comp_name': 'Abir Private Company', 'branchId': '66681d79a3c4ba4888ad4965', 'user_id': '6668259eb27f0e68666fa3ba', 'name': 'John Doe', 'mobile_no.': '1234567890', 'email': 'johndoe@gmail.com', 'role_id': '666824e2c43f23878e12216c', 'role_name': 'branchManager', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 31, 'total_present': 0, 'total_absent': 31, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'total_working_days': 30, 'total_present': 3, 'total_absent': 27, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 13000}}, 'Task': [{'Project': '1', 'project_id': '667120e0bfc4dda06d254e02', 'Date_of_Assign': 1718690016204923, 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}]}]}}
+| 2024:06:20 10:25:42,914 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 138.63ms
+| 2024:06:20 10:31:05,259 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:20 10:31:05,788 | I | root | ------
+| 2024:06:20 10:31:05,893 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 10:31:07,050 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 10:31:07,057 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 10:31:09,429 | I | STDOUT | ******* {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}
+| 2024:06:20 10:31:09,444 | I | STDOUT | ********************** 1718859669444891
+| 2024:06:20 10:31:09,540 | D | root | web\user\getEmployeeDetail.py 581 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': '66681a63ed55f1052413d85c', 'comp_name': 'Abir Private Company', 'branchId': '66681d79a3c4ba4888ad4965', 'user_id': '6668259eb27f0e68666fa3ba', 'name': 'John Doe', 'mobile_no.': '1234567890', 'email': 'johndoe@gmail.com', 'role_id': '666824e2c43f23878e12216c', 'role_name': 'branchManager', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 31, 'total_present': 0, 'total_absent': 31, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'total_working_days': 30, 'total_present': 3, 'total_absent': 27, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 13000}}, 'Task': [{'Project': '1', 'project_id': '667120e0bfc4dda06d254e02', 'Date_of_Assign': 1718690016204923, 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}]}]}}
+| 2024:06:20 10:31:09,541 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 117.68ms
+| 2024:06:20 10:31:54,113 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:20 10:31:54,617 | I | root | ------
+| 2024:06:20 10:31:54,781 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 10:31:55,879 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 10:31:55,884 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 10:31:58,168 | I | STDOUT | ******* {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}
+| 2024:06:20 10:31:58,191 | I | STDOUT | ********************** 2024-06-20 10:31:58.191433
+| 2024:06:20 10:31:58,281 | D | root | web\user\getEmployeeDetail.py 581 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': '66681a63ed55f1052413d85c', 'comp_name': 'Abir Private Company', 'branchId': '66681d79a3c4ba4888ad4965', 'user_id': '6668259eb27f0e68666fa3ba', 'name': 'John Doe', 'mobile_no.': '1234567890', 'email': 'johndoe@gmail.com', 'role_id': '666824e2c43f23878e12216c', 'role_name': 'branchManager', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 31, 'total_present': 0, 'total_absent': 31, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'total_working_days': 30, 'total_present': 3, 'total_absent': 27, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 13000}}, 'Task': [{'Project': '1', 'project_id': '667120e0bfc4dda06d254e02', 'Date_of_Assign': 1718690016204923, 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}]}]}}
+| 2024:06:20 10:31:58,282 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 122.67ms
+| 2024:06:20 10:32:17,938 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:20 10:32:18,859 | I | root | ------
+| 2024:06:20 10:32:18,997 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 10:32:20,377 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 10:32:20,383 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 10:32:22,494 | I | STDOUT | ******* {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}
+| 2024:06:20 10:32:22,621 | W | root | web\user\getEmployeeDetail.py 572 get EXC	Exception: TypeError. Argument: ('unbound method datetime.date() needs an argument',)
+| 2024:06:20 10:32:22,624 | D | root | web\user\getEmployeeDetail.py 573 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 517 TYPE: <class 'TypeError'>
+| 2024:06:20 10:32:22,627 | D | root | web\user\getEmployeeDetail.py 581 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:20 10:32:22,629 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 144.62ms
+| 2024:06:20 10:32:59,923 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:20 10:33:00,489 | I | root | ------
+| 2024:06:20 10:33:00,590 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 10:33:01,684 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 10:33:01,691 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 10:33:03,024 | I | STDOUT | ******* {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}
+| 2024:06:20 10:33:03,044 | I | STDOUT | ********************** <method 'date' of 'datetime.datetime' objects>
+| 2024:06:20 10:33:03,161 | D | root | web\user\getEmployeeDetail.py 581 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': '66681a63ed55f1052413d85c', 'comp_name': 'Abir Private Company', 'branchId': '66681d79a3c4ba4888ad4965', 'user_id': '6668259eb27f0e68666fa3ba', 'name': 'John Doe', 'mobile_no.': '1234567890', 'email': 'johndoe@gmail.com', 'role_id': '666824e2c43f23878e12216c', 'role_name': 'branchManager', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 31, 'total_present': 0, 'total_absent': 31, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'total_working_days': 30, 'total_present': 3, 'total_absent': 27, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 13000}}, 'Task': [{'Project': '1', 'project_id': '667120e0bfc4dda06d254e02', 'Date_of_Assign': 1718690016204923, 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}]}]}}
+| 2024:06:20 10:33:03,162 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 148.60ms
+| 2024:06:20 10:33:15,735 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:20 10:33:16,640 | I | root | ------
+| 2024:06:20 10:33:16,780 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 10:33:18,139 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 10:33:18,146 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 10:34:19,682 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:20 10:34:20,190 | I | root | ------
+| 2024:06:20 10:34:20,283 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 10:34:21,329 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 10:34:21,334 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 10:34:23,896 | I | STDOUT | ******* {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}
+| 2024:06:20 10:34:23,910 | I | STDOUT | ********************** 2024-06-20
+| 2024:06:20 10:34:23,997 | D | root | web\user\getEmployeeDetail.py 581 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': '66681a63ed55f1052413d85c', 'comp_name': 'Abir Private Company', 'branchId': '66681d79a3c4ba4888ad4965', 'user_id': '6668259eb27f0e68666fa3ba', 'name': 'John Doe', 'mobile_no.': '1234567890', 'email': 'johndoe@gmail.com', 'role_id': '666824e2c43f23878e12216c', 'role_name': 'branchManager', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 31, 'total_present': 0, 'total_absent': 31, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'total_working_days': 30, 'total_present': 3, 'total_absent': 27, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 13000}}, 'Task': [{'Project': '1', 'project_id': '667120e0bfc4dda06d254e02', 'Date_of_Assign': 1718690016204923, 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}]}]}}
+| 2024:06:20 10:34:23,998 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 106.72ms
+| 2024:06:20 10:34:44,904 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\project\assignProjectToEmp.py modified; restarting server
+| 2024:06:20 10:34:45,553 | I | root | ------
+| 2024:06:20 10:34:45,684 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 10:34:47,305 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 10:34:47,310 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 10:36:51,828 | I | root | web\attendance\attendance.py 163 post ROLE :	branchManager
+| 2024:06:20 10:36:51,831 | I | STDOUT | 6668259eb27f0e68666fa3ba
+| 2024:06:20 10:36:51,832 | I | STDOUT | 2024-06-20
+| 2024:06:20 10:36:51,879 | D | root | web\attendance\attendance.py 262 post RSP	{'code': 4100, 'status': False, 'message': 'You are not checked in', 'result': []}
+| 2024:06:20 10:36:51,880 | I | tornado.access | 200 POST /v1/api/attendance (::1) 169.55ms
+| 2024:06:20 10:38:20,221 | D | root | web\project\assignProjectToEmp.py 187 post RSP	{'code': 2000, 'status': True, 'message': 'Project assigned successfully', 'result': {'project_id': ObjectId('6673b944324e76fdbf34ca89'), 'isActive': True, 'createdBy': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'AssignedOn': datetime.date(2024, 6, 20), 'users': [ObjectId('666af52cb3f5b3183945aa22'), ObjectId('6668259eb27f0e68666fa3ba')], 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'isDelivered': False, 'deliveredOn': None, 'deleted': False, '_id': ObjectId('6673b944324e76fdbf34ca8a')}}
+| 2024:06:20 10:38:20,226 | W | root | web\project\assignProjectToEmp.py 200 post EXC	Exception: TypeError. Argument: ('Object of type date is not JSON serializable',)
+| 2024:06:20 10:38:20,229 | D | root | web\project\assignProjectToEmp.py 201 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\project\assignProjectToEmp.py LINE: 189 TYPE: <class 'TypeError'>
+| 2024:06:20 10:38:20,233 | I | tornado.access | 200 POST /v1/api/post/assignProjectToEmp (::1) 17.96ms
+| 2024:06:20 10:38:20,235 | E | asyncio | Future exception was never retrieved
+future: <Future finished exception=InvalidDocument("cannot encode object: datetime.date(2024, 6, 20), of type: <class 'datetime.date'>")>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\collection.py", line 658, in insert_one
+    self._insert_one(
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\collection.py", line 598, in _insert_one
+    self.__database.client._retryable_write(
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\mongo_client.py", line 1569, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\mongo_client.py", line 1455, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\_csot.py", line 108, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\mongo_client.py", line 1501, in _retry_internal
+    ).run()
+      ^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\mongo_client.py", line 2347, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\mongo_client.py", line 2464, in _write
+    return self._func(self._session, conn, self._retryable)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\collection.py", line 586, in _insert_command
+    result = conn.command(
+             ^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\helpers.py", line 342, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\pool.py", line 1016, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\pool.py", line 988, in command
+    return command(
+           ^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\network.py", line 152, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+                                          ^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\message.py", line 758, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+bson.errors.InvalidDocument: cannot encode object: datetime.date(2024, 6, 20), of type: <class 'datetime.date'>
+| 2024:06:20 10:38:42,859 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\project\assignProjectToEmp.py modified; restarting server
+| 2024:06:20 10:38:43,540 | I | root | ------
+| 2024:06:20 10:38:43,642 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 10:38:44,641 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 10:38:44,647 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 10:39:01,284 | D | root | web\project\assignProjectToEmp.py 187 post RSP	{'code': 2000, 'status': True, 'message': 'Project assigned successfully', 'result': {'project_id': ObjectId('6673b96d59f187258097f858'), 'isActive': True, 'createdBy': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'AssignedOn': datetime.date(2024, 6, 20), 'users': [ObjectId('666af52cb3f5b3183945aa22'), ObjectId('6668259eb27f0e68666fa3ba')], 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'isDelivered': False, 'deliveredOn': None, 'deleted': False, '_id': ObjectId('6673b96d59f187258097f859')}}
+| 2024:06:20 10:39:01,286 | W | root | web\project\assignProjectToEmp.py 200 post EXC	Exception: TypeError. Argument: ('Object of type date is not JSON serializable',)
+| 2024:06:20 10:39:01,288 | D | root | web\project\assignProjectToEmp.py 201 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\project\assignProjectToEmp.py LINE: 189 TYPE: <class 'TypeError'>
+| 2024:06:20 10:39:01,290 | I | tornado.access | 200 POST /v1/api/post/assignProjectToEmp (::1) 97.74ms
+| 2024:06:20 10:39:01,291 | E | asyncio | Future exception was never retrieved
+future: <Future finished exception=InvalidDocument("cannot encode object: datetime.date(2024, 6, 20), of type: <class 'datetime.date'>")>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\collection.py", line 658, in insert_one
+    self._insert_one(
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\collection.py", line 598, in _insert_one
+    self.__database.client._retryable_write(
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\mongo_client.py", line 1569, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\mongo_client.py", line 1455, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\_csot.py", line 108, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\mongo_client.py", line 1501, in _retry_internal
+    ).run()
+      ^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\mongo_client.py", line 2347, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\mongo_client.py", line 2464, in _write
+    return self._func(self._session, conn, self._retryable)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\collection.py", line 586, in _insert_command
+    result = conn.command(
+             ^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\helpers.py", line 342, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\pool.py", line 1016, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\pool.py", line 988, in command
+    return command(
+           ^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\network.py", line 152, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+                                          ^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\pymongo\message.py", line 758, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+bson.errors.InvalidDocument: cannot encode object: datetime.date(2024, 6, 20), of type: <class 'datetime.date'>
+| 2024:06:20 10:40:12,198 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\project\assignProjectToEmp.py modified; restarting server
+| 2024:06:20 10:40:12,681 | I | root | ------
+| 2024:06:20 10:40:12,772 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 10:40:13,795 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 10:40:13,800 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 10:40:18,613 | D | root | web\project\assignProjectToEmp.py 187 post RSP	{'code': 2000, 'status': True, 'message': 'Project assigned successfully', 'result': {'project_id': ObjectId('6673b9baa1d752cec115deb5'), 'isActive': True, 'createdBy': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'AssignedOn': datetime.datetime(2024, 6, 20, 10, 40, 18, 532263), 'users': [ObjectId('666af52cb3f5b3183945aa22'), ObjectId('6668259eb27f0e68666fa3ba')], 'tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}], 'isDelivered': False, 'deliveredOn': None, 'deleted': False, '_id': ObjectId('6673b9baa1d752cec115deb6')}}
+| 2024:06:20 10:40:18,614 | I | tornado.access | 200 POST /v1/api/post/assignProjectToEmp (::1) 104.72ms
+| 2024:06:20 10:42:21,709 | I | STDOUT | ******* {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}
+| 2024:06:20 10:42:21,719 | I | STDOUT | ********************** 2024-06-20
+| 2024:06:20 10:42:21,722 | D | root | web\user\getEmployeeDetail.py 581 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': '66681a63ed55f1052413d85c', 'comp_name': 'Abir Private Company', 'branchId': '66681d79a3c4ba4888ad4965', 'user_id': '6668259eb27f0e68666fa3ba', 'name': 'John Doe', 'mobile_no.': '1234567890', 'email': 'johndoe@gmail.com', 'role_id': '666824e2c43f23878e12216c', 'role_name': 'branchManager', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 31, 'total_present': 0, 'total_absent': 31, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'total_working_days': 30, 'total_present': 3, 'total_absent': 27, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 13000}}, 'Task': [{'Project': '1', 'project_id': '667120e0bfc4dda06d254e02', 'Date_of_Assign': 1718690016204923, 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}, {'Project': '2', 'project_id': '6673b9baa1d752cec115deb5', 'Date_of_Assign': datetime.datetime(2024, 6, 20, 10, 40, 18, 532000), 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}]}]}}
+| 2024:06:20 10:42:21,724 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 17.96ms

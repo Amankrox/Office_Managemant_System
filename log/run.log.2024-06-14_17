@@ -1,0 +1,490 @@
+| 2024:06:14 15:16:01,361 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 15:16:02,145 | I | root | ------
+| 2024:06:14 15:16:02,256 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 15:16:02,778 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 15:16:02,790 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 15:16:56,316 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 15:16:56,954 | I | root | ------
+| 2024:06:14 15:16:57,079 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 15:16:57,444 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 15:16:57,448 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 15:22:19,994 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 15:22:20,555 | I | root | ------
+| 2024:06:14 15:22:20,649 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 15:22:21,088 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 15:22:21,092 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 15:25:16,635 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 15:25:17,290 | I | root | ------
+| 2024:06:14 15:25:17,382 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 15:25:17,768 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 15:25:17,772 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 15:28:17,803 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 15:28:18,360 | I | root | ------
+| 2024:06:14 15:28:18,627 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 15:28:19,084 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 15:28:19,088 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 15:53:53,629 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 15:53:54,290 | I | root | ------
+| 2024:06:14 15:53:54,377 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 15:53:54,778 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 15:53:54,782 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 15:54:24,826 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 15:54:25,328 | I | root | ------
+| 2024:06:14 15:54:25,423 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 15:54:25,785 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 15:54:25,789 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 15:57:19,827 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 15:57:20,321 | I | root | ------
+| 2024:06:14 15:57:20,409 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 15:57:20,747 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 15:57:20,751 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:00:48,778 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:00:49,262 | I | root | ------
+| 2024:06:14 16:00:49,348 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:00:49,687 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:00:49,691 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:06:46,228 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:06:46,805 | I | root | ------
+| 2024:06:14 16:06:46,900 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:06:47,298 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:06:47,302 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:07:36,834 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:07:37,307 | I | root | ------
+| 2024:06:14 16:07:37,394 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:07:37,737 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:07:37,742 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:09:25,067 | D | pymongo.serverSelection | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 666c1d71965faa5750cdbb25, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "666c1d71965faa5750cdbb25"}}
+| 2024:06:14 16:09:25,069 | D | pymongo.serverSelection | {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 666c1d71965faa5750cdbb25, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "666c1d71965faa5750cdbb25"}, "remainingTimeMS": 30}
+| 2024:06:14 16:09:25,070 | D | pymongo.serverSelection | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 666c1d71965faa5750cdbb25, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Standalone, rtt: 0.0>]>", "clientId": {"$oid": "666c1d71965faa5750cdbb25"}, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 16:09:25,072 | D | pymongo.command | {"clientId": {"$oid": "666c1d71965faa5750cdbb25"}, "message": "Command started", "command": "{\"find\": \"user\", \"filter\": {\"_id\": {\"$oid\": \"666af52cb3f5b3183945aa22\"}}, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"07nKlL0vTqyIEmu0jjJW9A==\", \"subType\": \"04\"}}}, \"$db\": \"OfficeDataBase\"}", "commandName": "find", "databaseName": "OfficeDataBase", "requestId": 18467, "operationId": 18467, "driverConnectionId": 1, "serverConnectionId": 430, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 16:09:25,073 | D | pymongo.command | {"clientId": {"$oid": "666c1d71965faa5750cdbb25"}, "message": "Command succeeded", "durationMS": 0.9970000000000001, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"666af52cb3f5b3183945aa22\"}, \"companyId\": {\"$oid\": \"66681a63ed55f1052413d85c\"}, \"branchId\": {\"$oid\": \"66681d79a3c4ba4888ad4965\"}, \"email\": \"accountsmanger@gmail.com\", \"password\": {\"$binary\": {\"base64\": \"Z0FBQUFBQm1hdlVyNl9aVVk4MWVhb1laWWhiQW5zb3JFMTFPV0JscjJJaEFGMXM2NmFGQ2ZDSGdVSTFkMktldUt5YWd2THlGVnA3NVFDa0pBVzNSQWVsRkV3RTNIV0p4M3c9PQ==\", \"subType\": \"00\"}}, \"role\": {\"$oid\": \"666af23c0e7e429a807fd951\"}, \"personalInfo\": {\"firstName\": \"Accounts\", \"lastName\": \"Manager\", \"phone\": \"1234567890\"}, \"active\": true, \"createdAt\": 1718285612022498}], \"ns\": \"OfficeDataBase.user\"}, \"ok\": 1.0}", "commandName": "find", "databaseName": "OfficeDataBase", "requestId": 18467, "operationId": 18467, "driverConnectionId": 1, "serverConnectionId": 430, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 16:09:25,075 | I | STDOUT | ************************
+| 2024:06:14 16:09:25,075 | I | STDOUT | ************************ 666af52cb3f5b3183945aa22
+| 2024:06:14 16:09:25,075 | D | pymongo.serverSelection | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 666c1d71965faa5750cdbb25, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Standalone, rtt: 0.0>]>", "clientId": {"$oid": "666c1d71965faa5750cdbb25"}}
+| 2024:06:14 16:09:25,076 | D | pymongo.serverSelection | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 666c1d71965faa5750cdbb25, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Standalone, rtt: 0.0>]>", "clientId": {"$oid": "666c1d71965faa5750cdbb25"}, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 16:09:25,076 | D | pymongo.command | {"clientId": {"$oid": "666c1d71965faa5750cdbb25"}, "message": "Command started", "command": "{\"find\": \"user\", \"filter\": {\"_id\": {\"$oid\": \"666af52cb3f5b3183945aa22\"}}, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"07nKlL0vTqyIEmu0jjJW9A==\", \"subType\": \"04\"}}}, \"$db\": \"OfficeDataBase\"}", "commandName": "find", "databaseName": "OfficeDataBase", "requestId": 6334, "operationId": 6334, "driverConnectionId": 1, "serverConnectionId": 430, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 16:09:25,076 | D | pymongo.command | {"clientId": {"$oid": "666c1d71965faa5750cdbb25"}, "message": "Command succeeded", "durationMS": 0.0, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"666af52cb3f5b3183945aa22\"}, \"companyId\": {\"$oid\": \"66681a63ed55f1052413d85c\"}, \"branchId\": {\"$oid\": \"66681d79a3c4ba4888ad4965\"}, \"email\": \"accountsmanger@gmail.com\", \"password\": {\"$binary\": {\"base64\": \"Z0FBQUFBQm1hdlVyNl9aVVk4MWVhb1laWWhiQW5zb3JFMTFPV0JscjJJaEFGMXM2NmFGQ2ZDSGdVSTFkMktldUt5YWd2THlGVnA3NVFDa0pBVzNSQWVsRkV3RTNIV0p4M3c9PQ==\", \"subType\": \"00\"}}, \"role\": {\"$oid\": \"666af23c0e7e429a807fd951\"}, \"personalInfo\": {\"firstName\": \"Accounts\", \"lastName\": \"Manager\", \"phone\": \"1234567890\"}, \"active\": true, \"createdAt\": 1718285612022498}], \"ns\": \"OfficeDataBase.user\"}, \"ok\": 1.0}", "commandName": "find", "databaseName": "OfficeDataBase", "requestId": 6334, "operationId": 6334, "driverConnectionId": 1, "serverConnectionId": 430, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 16:09:25,077 | D | pymongo.serverSelection | {"message": "Server selection started", "selector": "Primary()", "operation": "aggregate", "topologyDescription": "<TopologyDescription id: 666c1d71965faa5750cdbb25, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Standalone, rtt: 0.0>]>", "clientId": {"$oid": "666c1d71965faa5750cdbb25"}}
+| 2024:06:14 16:09:25,078 | D | pymongo.serverSelection | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "aggregate", "topologyDescription": "<TopologyDescription id: 666c1d71965faa5750cdbb25, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Standalone, rtt: 0.0>]>", "clientId": {"$oid": "666c1d71965faa5750cdbb25"}, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 16:09:25,079 | D | pymongo.command | {"clientId": {"$oid": "666c1d71965faa5750cdbb25"}, "message": "Command started", "command": "{\"aggregate\": \"payScale\", \"pipeline\": [{\"$match\": {\"_id\": {\"$oid\": \"666c1ddd965faa5750cdbb26\"}}}, {\"$project\": {\"_id\": {\"$toString\": \"$_id\"}, \"payGrade\": 1, \"performanceBonus\": 1, \"baseSalary\": 1, \"signingBonus\": 1, \"annualBonus\": 1}}], \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"07nKlL0vTqyIEmu0jjJW9A==\", \"subType\": \"04\"}}}, \"$db\": \"OfficeDataBase\"}", "commandName": "aggregate", "databaseName": "OfficeDataBase", "requestId": 26500, "operationId": 26500, "driverConnectionId": 1, "serverConnectionId": 430, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 16:09:25,081 | D | pymongo.command | {"clientId": {"$oid": "666c1d71965faa5750cdbb25"}, "message": "Command succeeded", "durationMS": 2.991, "reply": "{\"cursor\": {\"ns\": \"OfficeDataBase.payScale\"}, \"ok\": 1.0}", "commandName": "aggregate", "databaseName": "OfficeDataBase", "requestId": 26500, "operationId": 26500, "driverConnectionId": 1, "serverConnectionId": 430, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 16:09:25,114 | W | root | web\accountManagement\account.py 302 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:09:25,118 | D | root | web\accountManagement\account.py 303 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 185 TYPE: <class 'IndexError'>
+| 2024:06:14 16:09:25,120 | D | root | web\accountManagement\account.py 311 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:09:25,121 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 57.84ms
+| 2024:06:14 16:12:26,277 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\util\log_util.py modified; restarting server
+| 2024:06:14 16:12:26,781 | I | root | ------
+| 2024:06:14 16:12:26,868 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:12:27,279 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:12:27,282 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:12:49,051 | I | STDOUT | ************************
+| 2024:06:14 16:12:49,052 | I | STDOUT | ************************ 666af52cb3f5b3183945aa22
+| 2024:06:14 16:12:49,095 | W | root | web\accountManagement\account.py 302 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:12:49,101 | D | root | web\accountManagement\account.py 303 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 185 TYPE: <class 'IndexError'>
+| 2024:06:14 16:12:49,105 | D | root | web\accountManagement\account.py 311 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:12:49,106 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 64.83ms
+| 2024:06:14 16:13:05,211 | I | STDOUT | ************************
+| 2024:06:14 16:13:05,211 | I | STDOUT | ************************ 666af52cb3f5b3183945aa22
+| 2024:06:14 16:13:05,221 | W | root | web\accountManagement\account.py 302 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:13:05,224 | D | root | web\accountManagement\account.py 303 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 185 TYPE: <class 'IndexError'>
+| 2024:06:14 16:13:05,226 | D | root | web\accountManagement\account.py 311 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:13:05,227 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 17.95ms
+| 2024:06:14 16:15:11,310 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:15:11,803 | I | root | ------
+| 2024:06:14 16:15:11,889 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:15:12,229 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:15:12,235 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:15:15,033 | I | STDOUT | *********************** []
+| 2024:06:14 16:15:15,059 | W | root | web\accountManagement\account.py 303 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:15:15,060 | D | root | web\accountManagement\account.py 304 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 186 TYPE: <class 'IndexError'>
+| 2024:06:14 16:15:15,062 | D | root | web\accountManagement\account.py 312 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:15:15,063 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 58.84ms
+| 2024:06:14 16:15:57,265 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:15:57,828 | I | root | ------
+| 2024:06:14 16:15:57,939 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:15:58,337 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:15:58,343 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:16:03,650 | I | STDOUT | ************* AsyncIOMotorCursor(<pymongo.cursor.Cursor object at 0x000002B29C14E420>)
+| 2024:06:14 16:16:03,650 | I | STDOUT | *********************** []
+| 2024:06:14 16:16:03,683 | W | root | web\accountManagement\account.py 304 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:16:03,687 | D | root | web\accountManagement\account.py 305 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 187 TYPE: <class 'IndexError'>
+| 2024:06:14 16:16:03,689 | D | root | web\accountManagement\account.py 313 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:16:03,691 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 50.88ms
+| 2024:06:14 16:17:13,882 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:17:14,385 | I | root | ------
+| 2024:06:14 16:17:14,480 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:17:14,950 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:17:14,956 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:17:16,910 | I | STDOUT | ************* AsyncIOMotorCursor(<pymongo.cursor.Cursor object at 0x0000029DA3AC42F0>)
+| 2024:06:14 16:17:16,910 | I | STDOUT | *********************** []
+| 2024:06:14 16:17:16,939 | W | root | web\accountManagement\account.py 304 post EXC	Exception: TypeError. Argument: ("'AsyncIOMotorCursor' object is not iterable",)
+| 2024:06:14 16:17:16,941 | D | root | web\accountManagement\account.py 305 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 144 TYPE: <class 'TypeError'>
+| 2024:06:14 16:17:16,943 | D | root | web\accountManagement\account.py 313 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:17:16,944 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 38.90ms
+| 2024:06:14 16:17:42,492 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:18:16,163 | I | root | ------
+| 2024:06:14 16:18:16,273 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:18:16,686 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:18:16,692 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:18:20,290 | D | root | web\accountManagement\account.py 313 post RSP	{'code': 4020, 'status': False, 'message': 'enter valid emp id', 'result': []}
+| 2024:06:14 16:18:20,291 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 36.90ms
+| 2024:06:14 16:20:39,736 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:20:40,214 | I | root | ------
+| 2024:06:14 16:20:40,388 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:20:40,752 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:20:40,758 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:20:42,540 | D | root | web\accountManagement\account.py 313 post RSP	{'code': 4020, 'status': False, 'message': 'enter valid emp id', 'result': []}
+| 2024:06:14 16:20:42,540 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 51.86ms
+| 2024:06:14 16:21:05,785 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:21:06,255 | I | root | ------
+| 2024:06:14 16:21:06,433 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:21:06,848 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:21:06,855 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:21:08,903 | I | STDOUT | *********************** []
+| 2024:06:14 16:21:08,932 | W | root | web\accountManagement\account.py 304 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:21:08,936 | D | root | web\accountManagement\account.py 305 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 187 TYPE: <class 'IndexError'>
+| 2024:06:14 16:21:08,938 | D | root | web\accountManagement\account.py 313 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:21:08,939 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 43.88ms
+| 2024:06:14 16:22:40,390 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:22:41,021 | I | root | ------
+| 2024:06:14 16:22:41,131 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:22:41,598 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:22:41,604 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:22:42,334 | I | STDOUT | *********************** []
+| 2024:06:14 16:22:42,363 | W | root | web\accountManagement\account.py 304 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:22:42,365 | D | root | web\accountManagement\account.py 305 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 187 TYPE: <class 'IndexError'>
+| 2024:06:14 16:22:42,368 | D | root | web\accountManagement\account.py 313 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:22:42,369 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 65.82ms
+| 2024:06:14 16:22:56,721 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:22:57,364 | I | root | ------
+| 2024:06:14 16:22:57,480 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:22:57,937 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:22:57,942 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:22:59,509 | I | STDOUT | *********************** []
+| 2024:06:14 16:22:59,544 | W | root | web\accountManagement\account.py 304 post EXC	Exception: TypeError. Argument: ("'AsyncIOMotorCursor' object is not iterable",)
+| 2024:06:14 16:22:59,546 | D | root | web\accountManagement\account.py 305 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 144 TYPE: <class 'TypeError'>
+| 2024:06:14 16:22:59,550 | D | root | web\accountManagement\account.py 313 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:22:59,553 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 61.83ms
+| 2024:06:14 16:23:13,479 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:23:14,265 | I | root | ------
+| 2024:06:14 16:23:14,408 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:23:14,889 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:23:14,894 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:23:16,161 | D | root | web\accountManagement\account.py 313 post RSP	{'code': 4020, 'status': False, 'message': 'Internal Server error please contact admin.', 'result': []}
+| 2024:06:14 16:23:16,162 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 40.89ms
+| 2024:06:14 16:23:55,936 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:23:56,543 | I | root | ------
+| 2024:06:14 16:23:56,881 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:23:57,471 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:23:57,478 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:24:01,507 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:24:02,108 | I | root | ------
+| 2024:06:14 16:24:02,239 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:24:02,688 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:24:02,694 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:24:04,241 | I | STDOUT | ************* {'_id': ObjectId('666af52cb3f5b3183945aa22'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'accountsmanger@gmail.com', 'password': b'gAAAAABmavUr6_ZUY81eaoYZYhbAnsorE11OWBlr2IhAF1s66aFCfCHgUI1d2KeuKyagvLyFVp75QCkJAW3RAelFEwE3HWJx3w==', 'role': ObjectId('666af23c0e7e429a807fd951'), 'personalInfo': {'firstName': 'Accounts', 'lastName': 'Manager', 'phone': '1234567890'}, 'active': True, 'createdAt': 1718285612022498, 'updatedAt': None, 'deletedAt': None, 'deleted': False}
+| 2024:06:14 16:24:04,241 | I | STDOUT | *********************** []
+| 2024:06:14 16:24:04,274 | W | root | web\accountManagement\account.py 304 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:24:04,277 | D | root | web\accountManagement\account.py 305 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 187 TYPE: <class 'IndexError'>
+| 2024:06:14 16:24:04,279 | D | root | web\accountManagement\account.py 313 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:24:04,281 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 48.87ms
+| 2024:06:14 16:25:21,235 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:25:21,691 | I | root | ------
+| 2024:06:14 16:25:21,780 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:25:22,121 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:25:22,127 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:25:39,642 | I | STDOUT | ************* {'_id': ObjectId('666af52cb3f5b3183945aa22'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'accountsmanger@gmail.com', 'password': b'gAAAAABmavUr6_ZUY81eaoYZYhbAnsorE11OWBlr2IhAF1s66aFCfCHgUI1d2KeuKyagvLyFVp75QCkJAW3RAelFEwE3HWJx3w==', 'role': ObjectId('666af23c0e7e429a807fd951'), 'personalInfo': {'firstName': 'Accounts', 'lastName': 'Manager', 'phone': '1234567890'}, 'active': True, 'createdAt': 1718285612022498, 'updatedAt': None, 'deletedAt': None, 'deleted': False}
+| 2024:06:14 16:25:39,666 | W | root | web\accountManagement\account.py 304 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:25:39,669 | D | root | web\accountManagement\account.py 305 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 187 TYPE: <class 'IndexError'>
+| 2024:06:14 16:25:39,671 | D | root | web\accountManagement\account.py 313 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:25:39,672 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 82.78ms
+| 2024:06:14 16:25:58,728 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:25:59,371 | I | root | ------
+| 2024:06:14 16:25:59,604 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:26:00,092 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:26:00,097 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:26:02,294 | W | root | web\accountManagement\account.py 304 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:26:02,296 | D | root | web\accountManagement\account.py 305 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 187 TYPE: <class 'IndexError'>
+| 2024:06:14 16:26:02,299 | D | root | web\accountManagement\account.py 313 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:26:02,299 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 51.86ms
+| 2024:06:14 16:26:46,637 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:26:47,254 | I | root | ------
+| 2024:06:14 16:26:47,395 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:26:48,060 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:26:48,065 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:26:48,720 | I | STDOUT | ****************** 66681d79a3c4ba4888ad4965
+| 2024:06:14 16:26:48,754 | W | root | web\accountManagement\account.py 306 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:26:48,758 | D | root | web\accountManagement\account.py 307 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 189 TYPE: <class 'IndexError'>
+| 2024:06:14 16:26:48,760 | D | root | web\accountManagement\account.py 315 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:26:48,761 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 48.87ms
+| 2024:06:14 16:29:38,099 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:29:38,581 | I | root | ------
+| 2024:06:14 16:29:38,674 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:29:39,095 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:29:39,099 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:29:46,140 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:29:46,847 | I | root | ------
+| 2024:06:14 16:29:46,963 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:29:47,354 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:29:47,358 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:29:48,815 | I | STDOUT | **************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001F330C94EF0>)
+| 2024:06:14 16:29:48,841 | W | root | web\accountManagement\account.py 308 post EXC	Exception: NameError. Argument: ("name 'paySlip' is not defined",)
+| 2024:06:14 16:29:48,842 | D | root | web\accountManagement\account.py 309 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 191 TYPE: <class 'NameError'>
+| 2024:06:14 16:29:48,844 | D | root | web\accountManagement\account.py 317 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:29:48,845 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 34.91ms
+| 2024:06:14 16:30:45,390 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:30:46,102 | I | root | ------
+| 2024:06:14 16:30:46,209 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:30:46,576 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:30:46,581 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:31:14,612 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:31:23,784 | I | root | ------
+| 2024:06:14 16:31:23,925 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:31:24,456 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:31:24,463 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:31:28,115 | I | STDOUT | **************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001E831094CB0>)
+| 2024:06:14 16:31:28,165 | W | root | web\accountManagement\account.py 309 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:31:28,170 | D | root | web\accountManagement\account.py 310 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 192 TYPE: <class 'IndexError'>
+| 2024:06:14 16:31:28,175 | D | root | web\accountManagement\account.py 318 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:31:28,176 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 70.81ms
+| 2024:06:14 16:31:53,498 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:31:54,526 | I | root | ------
+| 2024:06:14 16:31:54,717 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:31:55,266 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:31:55,272 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:31:55,848 | I | STDOUT | **************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x00000201DC9951C0>)
+| 2024:06:14 16:31:55,850 | I | STDOUT | []
+| 2024:06:14 16:31:55,884 | W | root | web\accountManagement\account.py 309 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:31:55,889 | D | root | web\accountManagement\account.py 310 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 192 TYPE: <class 'IndexError'>
+| 2024:06:14 16:31:55,894 | D | root | web\accountManagement\account.py 318 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:31:55,895 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 53.86ms
+| 2024:06:14 16:32:48,005 | I | STDOUT | **************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x00000201DC996C60>)
+| 2024:06:14 16:32:48,009 | I | STDOUT | [{'payGrade': 'P3', 'baseSalary': 80000, 'annualBonus': 5000, 'performanceBonus': 3000, 'signingBonus': 2000, '_id': '666852634e0927faceeb6adf'}]
+| 2024:06:14 16:32:48,012 | W | root | web\accountManagement\account.py 309 post EXC	Exception: TypeError. Argument: ("unsupported operand type(s) for -: 'AsyncIOMotorLatentCommandCursor' and 'AsyncIOMotorLatentCommandCursor'",)
+| 2024:06:14 16:32:48,014 | D | root | web\accountManagement\account.py 310 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 265 TYPE: <class 'TypeError'>
+| 2024:06:14 16:32:48,016 | D | root | web\accountManagement\account.py 318 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:32:48,016 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 15.96ms
+| 2024:06:14 16:33:37,299 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:33:38,009 | I | root | ------
+| 2024:06:14 16:33:38,117 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:33:38,514 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:33:38,518 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:33:40,162 | I | STDOUT | [{'payGrade': 'P3', 'baseSalary': 80000, 'annualBonus': 5000, 'performanceBonus': 3000, 'signingBonus': 2000, '_id': '666852634e0927faceeb6adf'}]
+| 2024:06:14 16:33:40,186 | W | root | web\accountManagement\account.py 309 post EXC	Exception: TypeError. Argument: ("unsupported operand type(s) for -: 'AsyncIOMotorLatentCommandCursor' and 'AsyncIOMotorLatentCommandCursor'",)
+| 2024:06:14 16:33:40,189 | D | root | web\accountManagement\account.py 310 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 265 TYPE: <class 'TypeError'>
+| 2024:06:14 16:33:40,191 | D | root | web\accountManagement\account.py 318 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:33:40,191 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 58.84ms
+| 2024:06:14 16:40:16,047 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:40:16,624 | I | root | ------
+| 2024:06:14 16:40:16,715 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:40:17,055 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:40:17,059 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:40:42,094 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:40:42,594 | I | root | ------
+| 2024:06:14 16:40:42,689 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:40:43,049 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:40:43,052 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:40:47,115 | I | STDOUT | [{'payGrade': 'P3', 'baseSalary': 80000, 'annualBonus': 5000, 'performanceBonus': 3000, 'signingBonus': 2000, '_id': '666852634e0927faceeb6adf'}]
+| 2024:06:14 16:40:47,153 | W | root | web\accountManagement\account.py 317 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:40:47,158 | D | root | web\accountManagement\account.py 318 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 217 TYPE: <class 'IndexError'>
+| 2024:06:14 16:40:47,161 | D | root | web\accountManagement\account.py 326 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:40:47,161 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 56.85ms
+| 2024:06:14 16:41:54,090 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:41:54,588 | I | root | ------
+| 2024:06:14 16:41:54,680 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:41:55,262 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:41:55,268 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:41:58,612 | I | STDOUT | [{'payGrade': 'P3', 'baseSalary': 80000, 'annualBonus': 5000, 'performanceBonus': 3000, 'signingBonus': 2000, '_id': '666852634e0927faceeb6adf'}]
+| 2024:06:14 16:41:58,613 | I | STDOUT | ************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000024AC0296240>)
+| 2024:06:14 16:41:58,636 | W | root | web\accountManagement\account.py 318 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:41:58,638 | D | root | web\accountManagement\account.py 319 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 218 TYPE: <class 'IndexError'>
+| 2024:06:14 16:41:58,640 | D | root | web\accountManagement\account.py 327 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:41:58,640 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 36.90ms
+| 2024:06:14 16:42:30,802 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:42:31,390 | I | root | ------
+| 2024:06:14 16:42:31,550 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:42:31,998 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:42:32,004 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:42:42,204 | I | STDOUT | [{'payGrade': 'P3', 'baseSalary': 80000, 'annualBonus': 5000, 'performanceBonus': 3000, 'signingBonus': 2000, '_id': '666852634e0927faceeb6adf'}]
+| 2024:06:14 16:42:42,205 | I | STDOUT | ************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000020BCA095010>)
+| 2024:06:14 16:42:42,235 | W | root | web\accountManagement\account.py 318 post EXC	Exception: TypeError. Argument: ("'AsyncIOMotorLatentCommandCursor' object is not iterable",)
+| 2024:06:14 16:42:42,237 | D | root | web\accountManagement\account.py 319 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 216 TYPE: <class 'TypeError'>
+| 2024:06:14 16:42:42,240 | D | root | web\accountManagement\account.py 327 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:42:42,242 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 44.89ms
+| 2024:06:14 16:43:27,538 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:43:28,011 | I | root | ------
+| 2024:06:14 16:43:28,101 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:43:28,593 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:43:28,599 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:43:31,820 | I | STDOUT | *********************** [{'payGrade': 'P3', 'baseSalary': 80000, 'annualBonus': 5000, 'performanceBonus': 3000, 'signingBonus': 2000, '_id': '666852634e0927faceeb6adf'}]
+| 2024:06:14 16:43:31,821 | I | STDOUT | ************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000012ECE2955E0>)
+| 2024:06:14 16:43:31,854 | W | root | web\accountManagement\account.py 318 post EXC	Exception: TypeError. Argument: ("'AsyncIOMotorLatentCommandCursor' object is not iterable",)
+| 2024:06:14 16:43:31,857 | D | root | web\accountManagement\account.py 319 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 216 TYPE: <class 'TypeError'>
+| 2024:06:14 16:43:31,863 | D | root | web\accountManagement\account.py 327 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:43:31,864 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 52.86ms
+| 2024:06:14 16:44:46,148 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:44:46,587 | I | root | ------
+| 2024:06:14 16:44:46,674 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:44:47,131 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:44:47,136 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:44:49,336 | I | STDOUT | ****************************** []
+| 2024:06:14 16:44:49,363 | W | root | web\accountManagement\account.py 319 post EXC	Exception: TypeError. Argument: ("'AsyncIOMotorLatentCommandCursor' object is not iterable",)
+| 2024:06:14 16:44:49,365 | D | root | web\accountManagement\account.py 320 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 217 TYPE: <class 'TypeError'>
+| 2024:06:14 16:44:49,367 | D | root | web\accountManagement\account.py 328 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:44:49,367 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 37.90ms
+| 2024:06:14 16:45:42,671 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:45:43,169 | I | root | ------
+| 2024:06:14 16:45:43,255 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:45:43,622 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:45:43,628 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:46:00,166 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:46:00,707 | I | root | ------
+| 2024:06:14 16:46:00,829 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:46:01,279 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:46:01,284 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:46:16,318 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:46:17,088 | I | root | ------
+| 2024:06:14 16:46:17,248 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:46:17,811 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:46:17,818 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:46:19,299 | I | STDOUT | ****************************** []
+| 2024:06:14 16:46:19,374 | W | root | web\accountManagement\account.py 321 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:46:19,378 | D | root | web\accountManagement\account.py 322 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 221 TYPE: <class 'IndexError'>
+| 2024:06:14 16:46:19,381 | D | root | web\accountManagement\account.py 330 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:46:19,383 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 94.26ms
+| 2024:06:14 16:46:40,865 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:46:41,535 | I | root | ------
+| 2024:06:14 16:46:41,661 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:46:42,135 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:46:42,141 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:46:49,234 | I | STDOUT | ****************************** []
+| 2024:06:14 16:46:49,273 | W | root | web\accountManagement\account.py 321 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:46:49,278 | D | root | web\accountManagement\account.py 322 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 221 TYPE: <class 'IndexError'>
+| 2024:06:14 16:46:49,283 | D | root | web\accountManagement\account.py 330 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:46:49,284 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 83.29ms
+| 2024:06:14 16:48:02,685 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:48:03,157 | I | root | ------
+| 2024:06:14 16:48:03,248 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:48:03,620 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:48:03,627 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:50:10,655 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:50:11,321 | I | root | ------
+| 2024:06:14 16:50:11,432 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:50:11,901 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:50:11,907 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:50:13,323 | I | STDOUT | ****************************** []
+| 2024:06:14 16:50:13,352 | W | root | web\accountManagement\account.py 321 post EXC	Exception: IndexError. Argument: ('list index out of range',)
+| 2024:06:14 16:50:13,354 | D | root | web\accountManagement\account.py 322 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 220 TYPE: <class 'IndexError'>
+| 2024:06:14 16:50:13,356 | D | root | web\accountManagement\account.py 330 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:50:13,356 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 39.89ms
+| 2024:06:14 16:51:14,431 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 16:51:14,925 | I | root | ------
+| 2024:06:14 16:51:15,014 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:51:15,354 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:51:15,361 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 17:06:06,405 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 17:06:06,988 | I | root | ------
+| 2024:06:14 17:06:07,091 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 17:06:07,457 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 17:06:07,462 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 17:06:12,498 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 17:06:12,961 | I | root | ------
+| 2024:06:14 17:06:13,049 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 17:06:13,397 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 17:06:13,402 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 17:06:28,673 | I | STDOUT | ****************************** []
+| 2024:06:14 17:06:28,698 | W | root | web\accountManagement\account.py 321 post EXC	Exception: TypeError. Argument: ("'AsyncIOMotorLatentCommandCursor' object is not iterable",)
+| 2024:06:14 17:06:28,701 | D | root | web\accountManagement\account.py 322 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 217 TYPE: <class 'TypeError'>
+| 2024:06:14 17:06:28,705 | D | root | web\accountManagement\account.py 330 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 17:06:28,706 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 43.88ms
+| 2024:06:14 17:06:52,935 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 17:06:53,550 | I | root | ------
+| 2024:06:14 17:06:53,673 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 17:06:54,309 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 17:06:54,316 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 17:06:56,905 | I | STDOUT | ****************************** []
+| 2024:06:14 17:06:56,934 | W | root | web\accountManagement\account.py 321 post EXC	Exception: TypeError. Argument: ("'AsyncIOMotorLatentCommandCursor' object is not iterable",)
+| 2024:06:14 17:06:56,937 | D | root | web\accountManagement\account.py 322 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 217 TYPE: <class 'TypeError'>
+| 2024:06:14 17:06:56,939 | D | root | web\accountManagement\account.py 330 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 17:06:56,940 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 43.88ms
+| 2024:06:14 17:08:10,847 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 17:08:11,340 | I | root | ------
+| 2024:06:14 17:08:11,433 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 17:08:11,777 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 17:08:11,781 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 17:08:15,606 | I | STDOUT | ************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000022BE9C520C0>)
+| 2024:06:14 17:08:15,606 | I | STDOUT | ****************************** []
+| 2024:06:14 17:08:15,627 | W | root | web\accountManagement\account.py 321 post EXC	Exception: TypeError. Argument: ("'AsyncIOMotorLatentCommandCursor' object is not iterable",)
+| 2024:06:14 17:08:15,629 | D | root | web\accountManagement\account.py 322 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 217 TYPE: <class 'TypeError'>
+| 2024:06:14 17:08:15,632 | D | root | web\accountManagement\account.py 330 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 17:08:15,633 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 44.88ms
+| 2024:06:14 17:08:35,313 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 17:08:36,032 | I | root | ------
+| 2024:06:14 17:08:36,174 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 17:08:36,660 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 17:08:36,666 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 17:08:39,348 | I | STDOUT | ************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001BC59D96330>)
+| 2024:06:14 17:08:39,349 | I | STDOUT | ****************************** []
+| 2024:06:14 17:08:39,358 | I | STDOUT | ***************
+| 2024:06:14 17:08:39,390 | W | root | web\accountManagement\account.py 321 post EXC	Exception: TypeError. Argument: ("unsupported operand type(s) for -: 'list' and 'AsyncIOMotorLatentCommandCursor'",)
+| 2024:06:14 17:08:39,393 | D | root | web\accountManagement\account.py 322 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 277 TYPE: <class 'TypeError'>
+| 2024:06:14 17:08:39,395 | D | root | web\accountManagement\account.py 330 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 17:08:39,396 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 55.86ms
+| 2024:06:14 17:11:49,563 | I | STDOUT | ************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001BC59D971A0>)
+| 2024:06:14 17:11:49,563 | I | STDOUT | ****************************** []
+| 2024:06:14 17:11:49,567 | I | STDOUT | ***************
+| 2024:06:14 17:11:49,575 | W | root | web\accountManagement\account.py 321 post EXC	Exception: TypeError. Argument: ("unsupported operand type(s) for -: 'list' and 'AsyncIOMotorLatentCommandCursor'",)
+| 2024:06:14 17:11:49,577 | D | root | web\accountManagement\account.py 322 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 277 TYPE: <class 'TypeError'>
+| 2024:06:14 17:11:49,579 | D | root | web\accountManagement\account.py 330 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 17:11:49,580 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 21.94ms
+| 2024:06:14 17:12:10,211 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 17:12:10,634 | I | root | ------
+| 2024:06:14 17:12:10,751 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 17:12:11,108 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 17:12:11,112 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 17:12:16,147 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 17:12:16,681 | I | root | ------
+| 2024:06:14 17:12:16,813 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 17:12:17,209 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 17:12:17,215 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 17:12:17,482 | W | root | web\accountManagement\account.py 321 post EXC	Exception: TypeError. Argument: ("object AsyncIOMotorLatentCommandCursor can't be used in 'await' expression",)
+| 2024:06:14 17:12:17,485 | D | root | web\accountManagement\account.py 322 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py LINE: 197 TYPE: <class 'TypeError'>
+| 2024:06:14 17:12:17,490 | D | root | web\accountManagement\account.py 330 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 17:12:17,492 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 53.85ms
+| 2024:06:14 17:12:42,771 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 17:12:43,233 | I | root | ------
+| 2024:06:14 17:12:43,324 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 17:12:43,718 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 17:12:43,721 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 17:23:04,765 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 17:23:05,431 | I | root | ------
+| 2024:06:14 17:23:05,529 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 17:23:05,968 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 17:23:05,974 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 17:23:11,506 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 17:23:11,996 | I | root | ------
+| 2024:06:14 17:23:12,091 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 17:23:12,454 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 17:23:12,461 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 17:23:27,014 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 17:23:27,597 | I | root | ------
+| 2024:06:14 17:23:27,718 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 17:23:28,190 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 17:23:28,197 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 17:23:38,225 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 17:23:38,761 | I | root | ------
+| 2024:06:14 17:23:38,880 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 17:23:39,359 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 17:23:39,365 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 17:24:02,404 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 17:24:02,991 | I | root | ------
+| 2024:06:14 17:24:03,119 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 17:24:03,605 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 17:24:03,611 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 17:25:03,663 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:14 17:25:04,133 | I | root | ------
+| 2024:06:14 17:25:04,224 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 17:25:04,631 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 17:25:04,636 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 17:25:31,903 | D | root | web\accountManagement\account.py 330 post RSP	{'code': 200, 'status': True, 'message': 'paylip added succesfully', 'result': []}
+| 2024:06:14 17:25:31,904 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 52.86ms

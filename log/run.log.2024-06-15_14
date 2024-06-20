@@ -1,0 +1,564 @@
+| 2024:06:15 12:05:57,117 | I | root | ------
+| 2024:06:15 12:05:57,317 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 12:05:58,480 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 12:05:58,507 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 12:26:03,552 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:15 12:26:04,861 | I | root | ------
+| 2024:06:15 12:26:05,222 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 12:26:06,344 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 12:26:06,353 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 12:29:17,906 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 12:29:18,969 | I | root | ------
+| 2024:06:15 12:29:19,237 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 12:29:19,988 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 12:29:19,995 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 12:30:35,086 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 12:30:36,236 | I | root | ------
+| 2024:06:15 12:30:36,439 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 12:30:37,146 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 12:30:37,154 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 12:32:03,708 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 12:32:04,809 | I | root | ------
+| 2024:06:15 12:32:05,005 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 12:32:05,966 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 12:32:05,979 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 12:32:35,084 | I | STDOUT | {'_id': ObjectId('666af52cb3f5b3183945aa22'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'accountsmanger@gmail.com', 'password': b'gAAAAABmavUr6_ZUY81eaoYZYhbAnsorE11OWBlr2IhAF1s66aFCfCHgUI1d2KeuKyagvLyFVp75QCkJAW3RAelFEwE3HWJx3w==', 'role': ObjectId('666af23c0e7e429a807fd951'), 'personalInfo': {'firstName': 'Accounts', 'lastName': 'Manager', 'phone': '1234567890'}, 'active': True, 'createdAt': 1718285612022498, 'updatedAt': None, 'deletedAt': None, 'deleted': False}
+| 2024:06:15 12:32:35,204 | D | root | web\login.py 128 post RSP	{'code': 200, 'status': True, 'message': 'Login Successful.', 'result': {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjZhZjUyY2IzZjViMzE4Mzk0NWFhMjIiLCJjb21wYW55SWQiOiI2NjY4MWE2M2VkNTVmMTA1MjQxM2Q4NWMiLCJ1c2VyUm9sZSI6IkFjY291bnRzTWFuYWdlciJ9.VuU4HtYzEfzysh4G6hpTXOqQsKH1fPMJjIrlnkx6HVE'}}
+| 2024:06:15 12:32:35,205 | I | tornado.access | 200 POST /v1/api/login (::1) 146.12ms
+| 2024:06:15 12:33:38,620 | I | STDOUT | 66681d79a3c4ba4888ad4965
+| 2024:06:15 12:33:38,620 | I | STDOUT | ********************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000023CE3B9A990>)
+| 2024:06:15 12:33:38,626 | I | STDOUT | 2
+| 2024:06:15 12:33:38,633 | D | root | web\accountManagement\salary.py 209 post RSP	{'code': 4100, 'status': False, 'message': '', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 12:33:38,634 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 22.94ms
+| 2024:06:15 12:34:42,539 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 12:34:44,756 | I | root | ------
+| 2024:06:15 12:34:45,198 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 12:34:46,616 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 12:34:46,630 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 12:34:48,294 | I | STDOUT | 66681d79a3c4ba4888ad4965
+| 2024:06:15 12:34:48,295 | I | STDOUT | ********************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001A6EA8957C0>)
+| 2024:06:15 12:34:48,310 | I | STDOUT | **************************prested day count 2
+| 2024:06:15 12:34:48,413 | D | root | web\accountManagement\salary.py 209 post RSP	{'code': 4100, 'status': False, 'message': '', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 12:34:48,416 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 145.29ms
+| 2024:06:15 12:37:00,676 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 12:37:01,649 | I | root | ------
+| 2024:06:15 12:37:01,880 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 12:37:02,652 | E | STDERR | Traceback (most recent call last):
+| 2024:06:15 12:37:02,653 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\server\main.py", line 25, in <module>
+| 2024:06:15 12:37:02,657 | E | STDERR |     from web.accountManagement.salary import getPaySlipHandler
+| 2024:06:15 12:37:02,663 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py", line 180
+| 2024:06:15 12:37:02,664 | E | STDERR |     daysPresent=presentDay[0]['presentDay'])
+| 2024:06:15 12:37:02,665 | E | STDERR |                                            ^
+| 2024:06:15 12:37:02,666 | E | STDERR | SyntaxError: unmatched ')'
+| 2024:06:15 12:37:55,785 | I | root | ------
+| 2024:06:15 12:37:55,955 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 12:37:56,630 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 12:37:56,638 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 12:38:06,723 | I | STDOUT | 66681d79a3c4ba4888ad4965
+| 2024:06:15 12:38:06,723 | I | STDOUT | ********************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000002412449AA80>)
+| 2024:06:15 12:38:06,727 | I | STDOUT | 2
+| 2024:06:15 12:38:06,777 | D | root | web\accountManagement\salary.py 210 post RSP	{'code': 4100, 'status': False, 'message': '', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 12:38:06,778 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 72.80ms
+| 2024:06:15 12:39:10,707 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 12:39:11,839 | I | root | ------
+| 2024:06:15 12:39:12,022 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 12:39:12,657 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 12:39:12,663 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 12:39:23,426 | I | STDOUT | 66681d79a3c4ba4888ad4965
+| 2024:06:15 12:39:23,427 | I | STDOUT | ********************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000002014C09A3F0>)
+| 2024:06:15 12:39:23,430 | I | STDOUT | ****************** 2
+| 2024:06:15 12:39:23,496 | D | root | web\accountManagement\salary.py 210 post RSP	{'code': 4100, 'status': False, 'message': '', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 12:39:23,498 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 88.76ms
+| 2024:06:15 12:40:01,108 | I | root | ------
+| 2024:06:15 12:40:01,365 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 12:40:02,324 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 12:40:02,342 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 12:40:02,345 | E | STDERR | Traceback (most recent call last):
+| 2024:06:15 12:40:02,345 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\server\main.py", line 76, in <module>
+| 2024:06:15 12:40:02,348 | E | STDERR |     app.listen(WEB_SERVER_PORT)
+| 2024:06:15 12:40:02,349 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\tornado\web.py", line 2211, in listen
+| 2024:06:15 12:40:02,354 | E | STDERR |     server.listen(
+| 2024:06:15 12:40:02,355 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\tornado\tcpserver.py", line 183, in listen
+| 2024:06:15 12:40:02,391 | E | STDERR |     sockets = bind_sockets(
+| 2024:06:15 12:40:02,392 | E | STDERR |               ^^^^^^^^^^^^^
+| 2024:06:15 12:40:02,394 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\tornado\netutil.py", line 162, in bind_sockets
+| 2024:06:15 12:40:02,428 | E | STDERR |     sock.bind(sockaddr)
+| 2024:06:15 12:40:02,429 | E | STDERR | OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+| 2024:06:15 12:40:05,843 | I | STDOUT | 66681d79a3c4ba4888ad4965
+| 2024:06:15 12:40:05,844 | I | STDOUT | ********************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000002014C09A510>)
+| 2024:06:15 12:40:05,854 | I | STDOUT | ****************** 2
+| 2024:06:15 12:40:05,864 | D | root | web\accountManagement\salary.py 210 post RSP	{'code': 4100, 'status': False, 'message': '', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 12:40:05,867 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 30.92ms
+| 2024:06:15 12:40:27,714 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 12:40:28,601 | I | root | ------
+| 2024:06:15 12:40:28,759 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 12:40:29,517 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 12:40:29,524 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 12:44:01,105 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 12:44:02,634 | I | root | ------
+| 2024:06:15 12:44:02,937 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 12:44:04,063 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 12:44:04,075 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 12:45:13,638 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\account.py modified; restarting server
+| 2024:06:15 12:45:14,980 | I | root | ------
+| 2024:06:15 12:45:15,204 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 12:45:16,356 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 12:45:16,368 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 12:45:36,948 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 12:45:38,534 | I | root | ------
+| 2024:06:15 12:45:38,829 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 12:45:40,101 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 12:45:40,112 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 12:48:25,650 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 12:48:26,709 | I | root | ------
+| 2024:06:15 12:48:27,049 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 12:48:27,934 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 12:48:27,945 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 12:49:01,996 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 12:49:03,045 | I | root | ------
+| 2024:06:15 12:49:03,242 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 12:49:03,980 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 12:49:03,993 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 12:57:18,532 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:01:31,124 | I | root | ------
+| 2024:06:15 13:01:31,351 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:01:32,059 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:01:32,066 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:01:35,798 | D | root | web\accountManagement\salary.py 265 post RSP	{'code': 4003, 'status': False, 'message': 'You are not Authorized to use this', 'result': []}
+| 2024:06:15 13:01:35,799 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 90.75ms
+| 2024:06:15 13:02:11,166 | I | STDOUT | {'_id': ObjectId('666af52cb3f5b3183945aa22'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'accountsmanger@gmail.com', 'password': b'gAAAAABmavUr6_ZUY81eaoYZYhbAnsorE11OWBlr2IhAF1s66aFCfCHgUI1d2KeuKyagvLyFVp75QCkJAW3RAelFEwE3HWJx3w==', 'role': ObjectId('666af23c0e7e429a807fd951'), 'personalInfo': {'firstName': 'Accounts', 'lastName': 'Manager', 'phone': '1234567890'}, 'active': True, 'createdAt': 1718285612022498, 'updatedAt': None, 'deletedAt': None, 'deleted': False}
+| 2024:06:15 13:02:11,173 | D | root | web\login.py 128 post RSP	{'code': 200, 'status': True, 'message': 'Login Successful.', 'result': {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjZhZjUyY2IzZjViMzE4Mzk0NWFhMjIiLCJjb21wYW55SWQiOiI2NjY4MWE2M2VkNTVmMTA1MjQxM2Q4NWMiLCJ1c2VyUm9sZSI6IkFjY291bnRzTWFuYWdlciJ9.VuU4HtYzEfzysh4G6hpTXOqQsKH1fPMJjIrlnkx6HVE'}}
+| 2024:06:15 13:02:11,174 | I | tornado.access | 200 POST /v1/api/login (::1) 37.90ms
+| 2024:06:15 13:04:09,624 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:04:11,431 | I | root | ------
+| 2024:06:15 13:04:11,784 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:04:12,760 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:04:12,771 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:04:18,834 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:04:20,230 | I | root | ------
+| 2024:06:15 13:04:20,556 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:04:21,810 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:04:21,827 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:04:29,906 | I | STDOUT | ***************************** None
+| 2024:06:15 13:04:29,968 | D | root | web\accountManagement\salary.py 266 post RSP	{'code': 4003, 'status': False, 'message': 'You are not Authorized to use this', 'result': []}
+| 2024:06:15 13:04:29,969 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 63.83ms
+| 2024:06:15 13:05:11,890 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:05:13,171 | I | root | ------
+| 2024:06:15 13:05:13,366 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:05:14,147 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:05:14,157 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:05:19,615 | I | STDOUT | ***************************** 666af52cb3f5b3183945aa22
+| 2024:06:15 13:05:19,616 | I | STDOUT | ***************************** None
+| 2024:06:15 13:05:19,705 | D | root | web\accountManagement\salary.py 267 post RSP	{'code': 4003, 'status': False, 'message': 'You are not Authorized to use this', 'result': []}
+| 2024:06:15 13:05:19,707 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 92.75ms
+| 2024:06:15 13:06:30,234 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:06:31,480 | I | root | ------
+| 2024:06:15 13:06:31,861 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:06:32,804 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:06:32,815 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:06:38,505 | I | STDOUT | ***************************** 666af52cb3f5b3183945aa22
+| 2024:06:15 13:06:38,506 | I | STDOUT | ***************************** AccountsManager
+| 2024:06:15 13:06:38,565 | I | STDOUT | ************* 2024-06-01
+| 2024:06:15 13:06:38,566 | I | STDOUT | ************* 2024-06-30
+| 2024:06:15 13:06:38,575 | I | STDOUT | 66681d79a3c4ba4888ad4965
+| 2024:06:15 13:06:38,656 | D | root | web\accountManagement\salary.py 267 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:06:38,658 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 153.59ms
+| 2024:06:15 13:07:48,373 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:07:49,426 | I | root | ------
+| 2024:06:15 13:07:49,618 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:07:50,363 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:07:50,373 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:07:54,550 | I | STDOUT | 66681d79a3c4ba4888ad4965
+| 2024:06:15 13:07:54,609 | D | root | web\accountManagement\salary.py 267 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:07:54,613 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 87.77ms
+| 2024:06:15 13:08:36,459 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:08:37,616 | I | root | ------
+| 2024:06:15 13:08:37,803 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:08:38,590 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:08:38,599 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:08:41,886 | I | STDOUT | 66681d79a3c4ba4888ad4965
+| 2024:06:15 13:08:41,886 | I | STDOUT | ********************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001E49A39BEF0>)
+| 2024:06:15 13:08:41,948 | D | root | web\accountManagement\salary.py 267 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:08:41,950 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 81.78ms
+| 2024:06:15 13:09:31,655 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:09:32,931 | I | root | ------
+| 2024:06:15 13:09:33,178 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:09:34,046 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:09:34,053 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:10:24,116 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:10:25,274 | I | root | ------
+| 2024:06:15 13:10:25,508 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:10:26,353 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:10:26,363 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:10:29,255 | I | STDOUT | ********************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000021365B9BD40>)
+| 2024:06:15 13:10:29,255 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:10:29,350 | D | root | web\accountManagement\salary.py 268 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:10:29,352 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 125.66ms
+| 2024:06:15 13:31:49,897 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:31:50,413 | I | root | ------
+| 2024:06:15 13:31:50,511 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:31:50,988 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:31:50,995 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:32:02,851 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:32:02,851 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:32:02,854 | I | STDOUT | ********************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000027276B9B980>)
+| 2024:06:15 13:32:02,858 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:32:02,899 | D | root | web\accountManagement\salary.py 270 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:32:02,900 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 58.84ms
+| 2024:06:15 13:34:54,520 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:34:55,129 | I | root | ------
+| 2024:06:15 13:34:55,224 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:34:55,579 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:34:55,583 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:34:58,943 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:34:58,944 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:34:58,956 | I | STDOUT | None
+| 2024:06:15 13:34:58,956 | I | STDOUT | ********************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001CCFE29BE00>)
+| 2024:06:15 13:34:58,957 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:34:58,990 | D | root | web\accountManagement\salary.py 275 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:34:58,991 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 62.83ms
+| 2024:06:15 13:35:24,612 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:35:25,448 | I | root | ------
+| 2024:06:15 13:35:25,581 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:35:26,059 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:35:26,095 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:35:27,416 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:35:27,417 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:35:27,428 | I | STDOUT | None
+| 2024:06:15 13:35:27,473 | D | root | web\accountManagement\salary.py 275 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:35:27,474 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 77.79ms
+| 2024:06:15 13:36:05,629 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:36:06,514 | I | root | ------
+| 2024:06:15 13:36:06,654 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:36:07,125 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:36:07,131 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:36:08,742 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:36:08,742 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:36:08,746 | I | STDOUT | {'_id': ObjectId('666af52cb3f5b3183945aa22'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'accountsmanger@gmail.com', 'password': b'gAAAAABmavUr6_ZUY81eaoYZYhbAnsorE11OWBlr2IhAF1s66aFCfCHgUI1d2KeuKyagvLyFVp75QCkJAW3RAelFEwE3HWJx3w==', 'role': ObjectId('666af23c0e7e429a807fd951'), 'personalInfo': {'firstName': 'Accounts', 'lastName': 'Manager', 'phone': '1234567890'}, 'active': True, 'createdAt': 1718285612022498, 'updatedAt': None, 'deletedAt': None, 'deleted': False}
+| 2024:06:15 13:36:08,787 | D | root | web\accountManagement\salary.py 275 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:36:08,789 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 59.84ms
+| 2024:06:15 13:36:58,694 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:36:59,247 | I | root | ------
+| 2024:06:15 13:36:59,344 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:36:59,742 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:36:59,754 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:37:00,977 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:37:00,977 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:37:00,981 | I | STDOUT | None
+| 2024:06:15 13:37:01,018 | D | root | web\accountManagement\salary.py 275 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:37:01,018 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 52.39ms
+| 2024:06:15 13:37:25,781 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:37:26,392 | I | root | ------
+| 2024:06:15 13:37:26,491 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:37:26,840 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:37:26,845 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:37:33,383 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:37:34,039 | I | root | ------
+| 2024:06:15 13:37:34,178 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:37:34,954 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:37:34,961 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:37:36,278 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:37:36,278 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:37:36,283 | I | STDOUT | None
+| 2024:06:15 13:37:36,336 | D | root | web\accountManagement\salary.py 275 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:37:36,338 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 79.79ms
+| 2024:06:15 13:38:33,486 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:38:34,033 | I | root | ------
+| 2024:06:15 13:38:34,153 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:38:34,585 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:38:34,590 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:38:37,612 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:38:37,612 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:38:37,616 | I | STDOUT | None
+| 2024:06:15 13:38:37,658 | D | root | web\accountManagement\salary.py 277 post RSP	{'code': 4100, 'status': False, 'message': '', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:38:37,659 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 97.74ms
+| 2024:06:15 13:38:50,138 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:38:50,835 | I | root | ------
+| 2024:06:15 13:38:50,962 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:38:51,490 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:38:51,498 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:39:00,544 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:39:01,120 | I | root | ------
+| 2024:06:15 13:39:01,268 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:39:02,099 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:39:02,109 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:39:04,423 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:39:04,423 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:39:04,425 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:39:04,464 | D | root | web\accountManagement\salary.py 277 post RSP	{'code': 4100, 'status': False, 'message': '', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:39:04,464 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 53.86ms
+| 2024:06:15 13:47:14,640 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:47:15,145 | I | root | ------
+| 2024:06:15 13:47:15,239 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:47:15,596 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:47:15,602 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:47:25,000 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:47:25,001 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:47:25,004 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:47:25,040 | D | root | web\accountManagement\salary.py 303 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:47:25,042 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 53.86ms
+| 2024:06:15 13:48:26,652 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:48:27,144 | I | root | ------
+| 2024:06:15 13:48:27,278 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:48:27,628 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:48:27,632 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:48:41,052 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:48:41,052 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:48:41,052 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:48:41,080 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:48:41,081 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 58.84ms
+| 2024:06:15 13:48:46,811 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:48:46,811 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:48:46,811 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:48:46,815 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:48:46,816 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 9.97ms
+| 2024:06:15 13:48:47,864 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:48:47,864 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:48:47,864 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:48:47,871 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:48:47,872 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 12.97ms
+| 2024:06:15 13:48:48,733 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:48:48,734 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:48:48,734 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:48:48,737 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:48:48,738 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 6.98ms
+| 2024:06:15 13:48:55,507 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:48:55,508 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:48:55,509 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:48:55,516 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:48:55,517 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 12.96ms
+| 2024:06:15 13:48:56,592 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:48:56,592 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:48:56,592 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:48:56,596 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:48:56,597 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 9.97ms
+| 2024:06:15 13:48:57,278 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:48:57,279 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:48:57,279 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:48:57,284 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:48:57,285 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 10.97ms
+| 2024:06:15 13:48:58,389 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:48:58,389 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:48:58,390 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:48:58,395 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:48:58,396 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 9.97ms
+| 2024:06:15 13:48:58,755 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:48:58,755 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:48:58,756 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:48:58,762 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:48:58,762 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 9.97ms
+| 2024:06:15 13:48:59,212 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:48:59,212 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:48:59,212 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:48:59,217 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:48:59,217 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 8.98ms
+| 2024:06:15 13:48:59,561 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:48:59,562 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:48:59,562 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:48:59,568 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:48:59,569 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 10.97ms
+| 2024:06:15 13:49:01,078 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:49:01,078 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:49:01,080 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:49:01,088 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:49:01,089 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 14.95ms
+| 2024:06:15 13:49:01,693 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:49:01,694 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:49:01,696 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:49:01,705 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:49:01,710 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 20.95ms
+| 2024:06:15 13:49:02,492 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:49:02,492 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:49:02,494 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:49:02,502 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:49:02,503 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 14.96ms
+| 2024:06:15 13:49:03,004 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:49:03,004 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:49:03,011 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:49:03,017 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:49:03,017 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 16.95ms
+| 2024:06:15 13:49:03,401 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:49:03,402 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:49:03,404 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:49:03,415 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:49:03,415 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 16.95ms
+| 2024:06:15 13:49:03,773 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:49:03,774 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:49:03,777 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:49:03,786 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:49:03,787 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 16.96ms
+| 2024:06:15 13:49:04,180 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:49:04,181 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:49:04,183 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:49:04,194 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:49:04,194 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 16.96ms
+| 2024:06:15 13:49:04,890 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:49:04,891 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:49:04,893 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:49:04,901 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:49:04,902 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 14.96ms
+| 2024:06:15 13:49:05,932 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:49:05,932 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:49:05,934 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:49:05,945 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:49:05,946 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 16.95ms
+| 2024:06:15 13:49:47,190 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:49:47,190 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:49:47,191 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:49:47,197 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:49:47,198 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 10.97ms
+| 2024:06:15 13:50:34,177 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:50:34,711 | I | root | ------
+| 2024:06:15 13:50:34,802 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:50:35,328 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:50:35,332 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:50:39,350 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:50:39,350 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:50:39,350 | I | STDOUT | ********************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001D1BA0C30E0>)
+| 2024:06:15 13:50:39,350 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:50:39,374 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:50:39,376 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 62.84ms
+| 2024:06:15 13:51:12,876 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:51:13,618 | I | root | ------
+| 2024:06:15 13:51:13,751 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:51:14,288 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:51:14,296 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:51:17,598 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:51:17,599 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:51:17,599 | I | STDOUT | ********************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001E379B9BDA0>)
+| 2024:06:15 13:51:17,599 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:51:17,632 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:51:17,633 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 117.68ms
+| 2024:06:15 13:52:02,338 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:52:02,894 | I | root | ------
+| 2024:06:15 13:52:02,986 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:52:03,343 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:52:03,346 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:52:05,022 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:52:05,023 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:52:05,023 | I | STDOUT | ********************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000020107E9BD40>)
+| 2024:06:15 13:52:05,023 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:52:05,070 | D | root | web\accountManagement\salary.py 302 post RSP	{'code': 4100, 'status': False, 'message': '', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:52:05,071 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 57.84ms
+| 2024:06:15 13:52:36,880 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:52:37,745 | I | root | ------
+| 2024:06:15 13:52:37,876 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:52:38,427 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:52:38,435 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:52:39,004 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:52:39,004 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:52:39,006 | I | STDOUT | ********************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000002805BD9BD70>)
+| 2024:06:15 13:52:39,013 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:52:39,053 | D | root | web\accountManagement\salary.py 304 post RSP	{'code': 200, 'status': False, 'message': 'Working Fine.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:52:39,054 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 63.83ms
+| 2024:06:15 13:52:51,476 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:52:52,488 | I | root | ------
+| 2024:06:15 13:52:52,629 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:52:53,183 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:52:53,193 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:52:53,652 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:52:53,652 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:52:53,654 | I | STDOUT | ********************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001F7E5499580>)
+| 2024:06:15 13:52:53,660 | I | STDOUT | ****************presentADy********* []
+| 2024:06:15 13:52:53,697 | D | root | web\accountManagement\salary.py 305 post RSP	{'code': 200, 'status': True, 'message': 'Working Fine.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:52:53,698 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 56.85ms
+| 2024:06:15 13:53:10,225 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:53:10,892 | I | root | ------
+| 2024:06:15 13:53:11,014 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:53:11,776 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:53:11,784 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:53:16,256 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:53:16,256 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:53:16,265 | I | STDOUT | ********************************* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001E89CA9BEC0>)
+| 2024:06:15 13:53:16,267 | I | STDOUT | ****************presentADy********* [{'late_count': 2, 'leave_count': 0, 'total_present_days': 2}]
+| 2024:06:15 13:53:16,312 | D | root | web\accountManagement\salary.py 306 post RSP	{'code': 200, 'status': True, 'message': 'Working Fine.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:53:16,313 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 73.80ms
+| 2024:06:15 13:54:41,810 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:54:42,308 | I | root | ------
+| 2024:06:15 13:54:42,397 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:54:42,807 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:54:42,813 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:54:46,206 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:54:46,206 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:54:46,246 | D | root | web\accountManagement\salary.py 306 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:54:46,246 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 47.87ms
+| 2024:06:15 13:55:39,361 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:55:39,853 | I | root | ------
+| 2024:06:15 13:55:39,939 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:55:40,284 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:55:40,289 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:56:17,828 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:56:18,728 | I | root | ------
+| 2024:06:15 13:56:18,900 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:56:19,747 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:56:19,758 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:56:20,412 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:56:20,413 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:56:20,481 | D | root | web\accountManagement\salary.py 307 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:56:20,482 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 92.75ms
+| 2024:06:15 13:56:32,297 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:56:33,223 | I | root | ------
+| 2024:06:15 13:56:33,386 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:56:34,056 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:56:34,063 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:56:37,200 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:56:37,200 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:56:37,254 | D | root | web\accountManagement\salary.py 307 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:56:37,255 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 73.80ms
+| 2024:06:15 13:56:51,105 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:56:52,107 | I | root | ------
+| 2024:06:15 13:56:52,260 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:56:52,741 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:56:52,747 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:56:54,447 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:56:54,447 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:56:54,484 | D | root | web\accountManagement\salary.py 307 post RSP	{'code': 200, 'status': True, 'message': 'Working Fine.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:56:54,485 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 49.87ms
+| 2024:06:15 13:57:01,300 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:57:02,289 | I | root | ------
+| 2024:06:15 13:57:02,433 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:57:02,920 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:57:02,927 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:57:04,698 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:57:04,698 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:57:04,734 | D | root | web\accountManagement\salary.py 307 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:57:04,734 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 66.82ms
+| 2024:06:15 13:57:17,460 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:57:18,394 | I | root | ------
+| 2024:06:15 13:57:18,554 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:57:19,026 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:57:19,032 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:57:20,319 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:57:20,320 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:57:20,340 | I | STDOUT | ****************presentADy********* [{'late_count': 2, 'leave_count': 0, 'total_present_days': 2}]
+| 2024:06:15 13:57:20,398 | D | root | web\accountManagement\salary.py 307 post RSP	{'code': 200, 'status': True, 'message': 'Working Fine.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:57:20,399 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 107.71ms
+| 2024:06:15 13:57:41,087 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 13:57:41,901 | I | root | ------
+| 2024:06:15 13:57:42,132 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 13:57:42,685 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 13:57:42,693 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 13:57:44,415 | I | STDOUT | 2024-06-01
+| 2024:06:15 13:57:44,415 | I | STDOUT | 2024-06-30
+| 2024:06:15 13:57:44,423 | I | STDOUT | ****************presentADy********* 2
+| 2024:06:15 13:57:44,474 | D | root | web\accountManagement\salary.py 307 post RSP	{'code': 200, 'status': True, 'message': 'Working Fine.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 13:57:44,475 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 134.64ms
+| 2024:06:15 14:00:32,727 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 14:00:33,327 | I | root | ------
+| 2024:06:15 14:00:33,435 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:00:33,788 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:00:33,793 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:00:35,836 | I | STDOUT | 2024-06-01
+| 2024:06:15 14:00:35,836 | I | STDOUT | 2024-06-30
+| 2024:06:15 14:00:35,872 | D | root | web\accountManagement\salary.py 307 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'performanceBounous': '3000', 'singingBonous': '2000'}]}
+| 2024:06:15 14:00:35,873 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 99.73ms
+| 2024:06:15 14:01:28,824 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:15 14:01:29,398 | I | root | ------
+| 2024:06:15 14:01:29,494 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:01:29,872 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:01:29,880 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:01:32,436 | I | STDOUT | 2024-06-01
+| 2024:06:15 14:01:32,436 | I | STDOUT | 2024-06-30
+| 2024:06:15 14:01:32,441 | I | STDOUT | ****************presentADy********* 2
+| 2024:06:15 14:01:32,479 | D | root | web\accountManagement\salary.py 308 post RSP	{'code': 200, 'status': True, 'message': 'Working Fine.', 'result': []}
+| 2024:06:15 14:01:32,481 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 57.85ms
