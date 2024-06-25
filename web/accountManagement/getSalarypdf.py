@@ -74,7 +74,8 @@ class getSalarypdfHandler(tornado.web.RequestHandler, MongoMixin):
                 [
                     {
                         '$match': {
-                            'userId': ObjectId(user_id)
+                            'userId': ObjectId(user_id),
+                            'isActive':True
                         }
                     }
                 ]

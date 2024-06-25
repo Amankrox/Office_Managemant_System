@@ -1,0 +1,10 @@
+| 2024:06:21 15:43:11,700 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\attendance\test.py modified; restarting server
+| 2024:06:21 15:43:12,961 | I | root | ------
+| 2024:06:21 15:43:13,060 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 15:43:14,406 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 15:43:14,411 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 15:43:49,030 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\attendance\leave.py modified; restarting server
+| 2024:06:21 15:43:49,769 | I | root | ------
+| 2024:06:21 15:43:49,857 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 15:43:50,879 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 15:43:50,883 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]

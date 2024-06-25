@@ -91,27 +91,27 @@ class AddHolidayHandler(tornado.web.RequestHandler,MongoMixin):
             async for i in userQ:
                 user.append(i)
 
-            print('*****************',user)
+            # print('*****************',user)
             if not user:
                 message='user not found'
                 code=4005
                 status=False
                 raise Exception
             branch_id=user[0]['branchId']
-            print("breach _id is",branch_id)
+            # print("breach _id is",branch_id)
             
          
             title=self.request.arguments.get('title')
-            print("your title is :--------------",title)
+            # print("your title is :--------------",title)
             
             if title is None or not title or  not isinstance(title,str):
-                print("***********",title)
+                # print("***********",title)
                 code = 4332
                 message = 'Please Enter Valid Title.'
                 status = False
                 raise Exception
            
-            print('***********',title)
+            # print('***********',title)
 
             holidayDate=self.request.arguments.get('holidayDate')
             holidayDate = datetime.strptime(holidayDate, '%Y-%m-%d').date()
@@ -121,7 +121,7 @@ class AddHolidayHandler(tornado.web.RequestHandler,MongoMixin):
                 status = False
                 raise Exception
             
-            print('*************',holidayDate)
+            # print('*************',holidayDate)
 
              #wirte code here
             data={
@@ -135,7 +135,7 @@ class AddHolidayHandler(tornado.web.RequestHandler,MongoMixin):
                 'isDeleted':False
                  
              }
-            print("*&*&*&*&*&*&*&*&*&**&*&*&*&*&*&*&*&*&*&*&*&*&*&")
+            # print("*&*&*&*&*&*&*&*&*&**&*&*&*&*&*&*&*&*&*&*&*&*&*&")
             
             try:
                 await self.holiday.insert_one(data)

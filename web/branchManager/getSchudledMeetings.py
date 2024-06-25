@@ -97,15 +97,6 @@ class GetScheduledMeetingsHandler(tornado.web.RequestHandler, MongoMixin):
                 status = False
                 raise Exception
 
-            # try:
-            #     start_date = datetime.strptime(start_date, '%Y-%m-%d')
-            #     end_date = datetime.strptime(end_date, '%Y-%m-%d')
-            #     print('*******',start_date)
-            # except ValueError:
-            #     message = 'Invalid date format. Use YYYY-MM-DD'
-            #     code = 4007
-            #     status = False
-            #     raise Exception
 
             meetingsQ = self.meeting.aggregate(
                 [
@@ -125,7 +116,7 @@ class GetScheduledMeetingsHandler(tornado.web.RequestHandler, MongoMixin):
             meetings = []
             async for i in meetingsQ:
                 meetings.append(i)
-            print("***************",meetings)
+            # print("***************",meetings)
 
             result = meetings
             status = True

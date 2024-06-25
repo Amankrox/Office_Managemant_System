@@ -1,0 +1,216 @@
+| 2024:06:20 15:16:45,603 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 15:16:46,310 | I | root | ------
+| 2024:06:20 15:16:46,400 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:16:47,517 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:16:47,523 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:18:00,081 | W | root | web\accountManagement\salary.py 317 post EXC	Exception: TypeError. Argument: ('strptime() argument 1 must be str, not datetime.date',)
+| 2024:06:20 15:18:00,084 | D | root | web\accountManagement\salary.py 318 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 144 TYPE: <class 'TypeError'>
+| 2024:06:20 15:18:00,087 | D | root | web\accountManagement\salary.py 326 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:20 15:18:00,088 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 297.21ms
+| 2024:06:20 15:21:43,070 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 15:21:43,568 | I | root | ------
+| 2024:06:20 15:21:43,656 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:21:44,798 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:21:44,802 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:21:49,727 | W | root | web\accountManagement\salary.py 317 post EXC	Exception: TypeError. Argument: ('strptime() argument 1 must be str, not datetime.date',)
+| 2024:06:20 15:21:49,730 | D | root | web\accountManagement\salary.py 318 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 144 TYPE: <class 'TypeError'>
+| 2024:06:20 15:21:49,732 | D | root | web\accountManagement\salary.py 326 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:20 15:21:49,732 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 99.73ms
+| 2024:06:20 15:23:03,342 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 15:23:03,845 | I | root | ------
+| 2024:06:20 15:23:03,929 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:23:04,952 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:23:04,956 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:23:09,818 | W | root | web\accountManagement\salary.py 318 post EXC	Exception: TypeError. Argument: ('strptime() argument 1 must be str, not datetime.date',)
+| 2024:06:20 15:23:09,820 | D | root | web\accountManagement\salary.py 319 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 144 TYPE: <class 'TypeError'>
+| 2024:06:20 15:23:09,823 | D | root | web\accountManagement\salary.py 327 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:20 15:23:09,824 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 101.73ms
+| 2024:06:20 15:23:26,996 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 15:23:27,495 | I | root | ------
+| 2024:06:20 15:23:27,608 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:23:28,694 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:23:28,698 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:23:33,156 | W | root | web\accountManagement\salary.py 318 post EXC	Exception: TypeError. Argument: ('strptime() argument 1 must be str, not datetime.date',)
+| 2024:06:20 15:23:33,159 | D | root | web\accountManagement\salary.py 319 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 144 TYPE: <class 'TypeError'>
+| 2024:06:20 15:23:33,164 | D | root | web\accountManagement\salary.py 327 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:20 15:23:33,166 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 109.71ms
+| 2024:06:20 15:24:35,753 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 15:24:36,265 | I | root | ------
+| 2024:06:20 15:24:36,353 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:24:37,441 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:24:37,446 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:24:40,586 | W | root | web\accountManagement\salary.py 317 post EXC	Exception: TypeError. Argument: ("'int' object is not callable",)
+| 2024:06:20 15:24:40,589 | D | root | web\accountManagement\salary.py 318 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 144 TYPE: <class 'TypeError'>
+| 2024:06:20 15:24:40,592 | D | root | web\accountManagement\salary.py 326 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:20 15:24:40,593 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 98.73ms
+| 2024:06:20 15:25:03,983 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 15:25:04,482 | I | root | ------
+| 2024:06:20 15:25:04,575 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:25:05,705 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:25:05,712 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:25:09,404 | I | STDOUT | 80000
+| 2024:06:20 15:25:09,404 | I | STDOUT | 2024-06-01
+| 2024:06:20 15:25:09,406 | I | STDOUT | 2024-06-30
+| 2024:06:20 15:25:09,521 | W | root | web\accountManagement\salary.py 317 post EXC	Exception: TypeError. Argument: ('can only concatenate tuple (not "int") to tuple',)
+| 2024:06:20 15:25:09,524 | D | root | web\accountManagement\salary.py 318 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 270 TYPE: <class 'TypeError'>
+| 2024:06:20 15:25:09,526 | D | root | web\accountManagement\salary.py 326 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:20 15:25:09,528 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 136.64ms
+| 2024:06:20 15:26:07,749 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 15:26:08,274 | I | root | ------
+| 2024:06:20 15:26:08,367 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:26:09,443 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:26:09,451 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:26:15,615 | I | STDOUT | *********** 2024
+| 2024:06:20 15:26:15,617 | I | STDOUT | 80000
+| 2024:06:20 15:26:15,617 | I | STDOUT | 2024-06-01
+| 2024:06:20 15:26:15,621 | I | STDOUT | 2024-06-30
+| 2024:06:20 15:26:15,714 | W | root | web\accountManagement\salary.py 318 post EXC	Exception: TypeError. Argument: ('can only concatenate tuple (not "int") to tuple',)
+| 2024:06:20 15:26:15,716 | D | root | web\accountManagement\salary.py 319 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 271 TYPE: <class 'TypeError'>
+| 2024:06:20 15:26:15,718 | D | root | web\accountManagement\salary.py 327 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:20 15:26:15,720 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 114.70ms
+| 2024:06:20 15:28:07,978 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 15:28:08,483 | I | root | ------
+| 2024:06:20 15:28:08,573 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:28:09,667 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:28:09,671 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:28:17,711 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 15:28:18,290 | I | root | ------
+| 2024:06:20 15:28:18,389 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:28:19,394 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:28:19,403 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:28:22,383 | I | STDOUT | *********** 2024
+| 2024:06:20 15:28:22,426 | I | STDOUT | 80000
+| 2024:06:20 15:28:22,426 | I | STDOUT | 2024-06-01
+| 2024:06:20 15:28:22,434 | I | STDOUT | 2024-06-30
+| 2024:06:20 15:28:22,520 | W | root | web\accountManagement\salary.py 318 post EXC	Exception: TypeError. Argument: ('can only concatenate tuple (not "int") to tuple',)
+| 2024:06:20 15:28:22,522 | D | root | web\accountManagement\salary.py 319 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 271 TYPE: <class 'TypeError'>
+| 2024:06:20 15:28:22,526 | D | root | web\accountManagement\salary.py 327 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:20 15:28:22,527 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 153.59ms
+| 2024:06:20 15:31:08,456 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 15:31:08,991 | I | root | ------
+| 2024:06:20 15:31:09,135 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:31:10,191 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:31:10,195 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:31:15,006 | I | STDOUT | *********** 2024
+| 2024:06:20 15:31:15,008 | I | STDOUT | 80000
+| 2024:06:20 15:31:15,008 | I | STDOUT | 2024-06-01
+| 2024:06:20 15:31:15,008 | I | STDOUT | 2024-06-30
+| 2024:06:20 15:31:15,095 | W | root | web\accountManagement\salary.py 322 post EXC	Exception: TypeError. Argument: ('can only concatenate tuple (not "int") to tuple',)
+| 2024:06:20 15:31:15,099 | D | root | web\accountManagement\salary.py 323 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 271 TYPE: <class 'TypeError'>
+| 2024:06:20 15:31:15,102 | D | root | web\accountManagement\salary.py 331 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:20 15:31:15,103 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 103.72ms
+| 2024:06:20 15:31:57,236 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 15:31:57,745 | I | root | ------
+| 2024:06:20 15:31:57,886 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:31:58,924 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:31:58,929 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:32:02,060 | I | STDOUT | *********** 2024
+| 2024:06:20 15:32:02,061 | I | STDOUT | 80000
+| 2024:06:20 15:32:02,061 | I | STDOUT | 2024-06-01
+| 2024:06:20 15:32:02,061 | I | STDOUT | 2024-06-30
+| 2024:06:20 15:32:02,149 | W | root | web\accountManagement\salary.py 322 post EXC	Exception: TypeError. Argument: ('can only concatenate tuple (not "int") to tuple',)
+| 2024:06:20 15:32:02,151 | D | root | web\accountManagement\salary.py 323 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 271 TYPE: <class 'TypeError'>
+| 2024:06:20 15:32:02,153 | D | root | web\accountManagement\salary.py 331 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:20 15:32:02,154 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 100.73ms
+| 2024:06:20 15:34:51,460 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 15:34:51,982 | I | root | ------
+| 2024:06:20 15:34:52,078 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:34:53,115 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:34:53,120 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:35:21,163 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 15:35:21,653 | I | root | ------
+| 2024:06:20 15:35:21,746 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:35:22,747 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:35:22,751 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:35:27,487 | I | STDOUT | *********** 2024
+| 2024:06:20 15:35:27,488 | I | STDOUT | 80000
+| 2024:06:20 15:35:27,489 | I | STDOUT | 2024-06-01
+| 2024:06:20 15:35:27,489 | I | STDOUT | 2024-06-30
+| 2024:06:20 15:35:27,490 | I | STDOUT | ******* 5
+| 2024:06:20 15:35:27,491 | I | STDOUT | ******* <class 'int'>
+| 2024:06:20 15:35:27,491 | I | STDOUT | ******* 5
+| 2024:06:20 15:35:27,491 | I | STDOUT | ******* <class 'int'>
+| 2024:06:20 15:35:27,491 | I | STDOUT | -23000.0
+| 2024:06:20 15:35:27,583 | D | root | web\accountManagement\salary.py 331 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:20 15:35:27,584 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 106.71ms
+| 2024:06:20 15:37:29,785 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 15:37:30,284 | I | root | ------
+| 2024:06:20 15:37:30,375 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:37:31,416 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:37:31,421 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:37:51,457 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 15:37:51,947 | I | root | ------
+| 2024:06:20 15:37:52,036 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:37:53,143 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:37:53,147 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:37:59,091 | I | STDOUT | *********** 2024
+| 2024:06:20 15:37:59,093 | I | STDOUT | 80000
+| 2024:06:20 15:37:59,093 | I | STDOUT | 2024-06-01
+| 2024:06:20 15:37:59,093 | I | STDOUT | 2024-06-30
+| 2024:06:20 15:37:59,095 | I | STDOUT | ******* 5
+| 2024:06:20 15:37:59,096 | I | STDOUT | ******* <class 'int'>
+| 2024:06:20 15:37:59,096 | I | STDOUT | ******* 5
+| 2024:06:20 15:37:59,096 | I | STDOUT | ******* <class 'int'>
+| 2024:06:20 15:37:59,096 | I | STDOUT | 17000.0
+| 2024:06:20 15:37:59,190 | D | root | web\accountManagement\salary.py 331 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:20 15:37:59,191 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 113.70ms
+| 2024:06:20 15:39:12,627 | I | STDOUT | *********** 2024
+| 2024:06:20 15:39:12,673 | I | STDOUT | 80000
+| 2024:06:20 15:39:12,673 | I | STDOUT | 2024-06-01
+| 2024:06:20 15:39:12,673 | I | STDOUT | 2024-06-30
+| 2024:06:20 15:39:12,675 | I | STDOUT | ******* 5
+| 2024:06:20 15:39:12,675 | I | STDOUT | ******* <class 'int'>
+| 2024:06:20 15:39:12,676 | I | STDOUT | ******* 5
+| 2024:06:20 15:39:12,676 | I | STDOUT | ******* <class 'int'>
+| 2024:06:20 15:39:12,676 | I | STDOUT | 17000.0
+| 2024:06:20 15:39:12,679 | D | root | web\accountManagement\salary.py 331 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:20 15:39:12,680 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 54.85ms
+| 2024:06:20 15:42:00,030 | I | STDOUT | ********* [{'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'johndoe@gmail.com', 'role': ObjectId('666824e2c43f23878e12216c'), 'PersonalInfo': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'createdBy': ObjectId('6668259eb27f0e68666fa3b9'), 'companyName': 'Abir Private Company', 'roleName': 'branchManager'}]
+| 2024:06:20 15:42:00,030 | I | STDOUT | ******* {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}
+| 2024:06:20 15:42:00,031 | I | STDOUT | ***month name*********** 4
+| 2024:06:20 15:42:00,031 | I | STDOUT | ***month name*********** 4
+| 2024:06:20 15:42:00,041 | D | root | web\user\getEmployeeDetail.py 543 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': '66681a63ed55f1052413d85c', 'comp_name': 'Abir Private Company', 'branchId': '66681d79a3c4ba4888ad4965', 'user_id': '6668259eb27f0e68666fa3ba', 'name': 'John Doe', 'mobile_no.': '1234567890', 'email': 'johndoe@gmail.com', 'role_id': '666824e2c43f23878e12216c', 'role_name': 'branchManager', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 23, 'total_present': 0, 'total_absent': 23, 'Leave_taken': 0, 'base_Salary': 80000, 'salary_taken': 0}, 'June': {'total_working_days': 20, 'total_present': 3, 'total_absent': 17, 'Leave_taken': 0, 'base_Salary': 80000, 'salary_taken': 17000}}, 'Task': [{'Project': '1', 'project_id': '667120e0bfc4dda06d254e02', 'Date_of_Assign': 1718690016204923, 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}, {'Project': '2', 'project_id': '6673b9baa1d752cec115deb5', 'Date_of_Assign': datetime.datetime(2024, 6, 20, 10, 40, 18, 532000), 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}]}]}}
+| 2024:06:20 15:42:00,042 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 13.96ms
+| 2024:06:20 15:56:36,691 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 15:56:37,337 | I | root | ------
+| 2024:06:20 15:56:37,426 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:56:38,452 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:56:38,458 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:58:20,023 | I | STDOUT | 80000
+| 2024:06:20 15:58:20,024 | I | STDOUT | 2024-06-01
+| 2024:06:20 15:58:20,025 | I | STDOUT | 2024-06-30
+| 2024:06:20 15:58:20,121 | D | root | web\accountManagement\salary.py 333 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:20 15:58:20,122 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 133.64ms
+| 2024:06:20 15:59:07,994 | I | STDOUT | 80000
+| 2024:06:20 15:59:07,995 | I | STDOUT | 2024-06-01
+| 2024:06:20 15:59:07,995 | I | STDOUT | 2024-06-30
+| 2024:06:20 15:59:07,999 | D | root | web\accountManagement\salary.py 333 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:20 15:59:08,000 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 7.98ms
+| 2024:06:20 16:01:01,488 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 16:01:02,023 | I | root | ------
+| 2024:06:20 16:01:02,118 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 16:01:03,111 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 16:01:03,114 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 16:01:14,090 | I | STDOUT | 80000
+| 2024:06:20 16:01:14,090 | I | STDOUT | 2024-06-01
+| 2024:06:20 16:01:14,091 | I | STDOUT | 2024-06-30
+| 2024:06:20 16:01:14,095 | I | STDOUT | ************ None
+| 2024:06:20 16:01:14,182 | D | root | web\accountManagement\salary.py 334 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:20 16:01:14,182 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 100.73ms
+| 2024:06:20 16:03:12,143 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:20 16:03:12,672 | I | root | ------
+| 2024:06:20 16:03:12,765 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 16:03:13,871 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 16:03:13,876 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 16:03:20,718 | I | STDOUT | 80000
+| 2024:06:20 16:03:20,718 | I | STDOUT | 2024-06-01
+| 2024:06:20 16:03:20,719 | I | STDOUT | 2024-06-30
+| 2024:06:20 16:03:20,727 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000023FE7C8B4A0>)
+| 2024:06:20 16:03:20,811 | D | root | web\accountManagement\salary.py 338 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:20 16:03:20,811 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 104.72ms
+| 2024:06:20 16:07:08,409 | I | STDOUT | ********* [{'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'johndoe@gmail.com', 'role': ObjectId('666824e2c43f23878e12216c'), 'PersonalInfo': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'createdBy': ObjectId('6668259eb27f0e68666fa3b9'), 'companyName': 'Abir Private Company', 'roleName': 'branchManager'}]
+| 2024:06:20 16:07:08,409 | I | STDOUT | ******* {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}
+| 2024:06:20 16:07:08,413 | I | STDOUT | ***month name*********** 4
+| 2024:06:20 16:07:08,417 | I | STDOUT | ***month name*********** 4
+| 2024:06:20 16:07:08,424 | D | root | web\user\getEmployeeDetail.py 543 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'companyId': '66681a63ed55f1052413d85c', 'comp_name': 'Abir Private Company', 'branchId': '66681d79a3c4ba4888ad4965', 'user_id': '6668259eb27f0e68666fa3ba', 'name': 'John Doe', 'mobile_no.': '1234567890', 'email': 'johndoe@gmail.com', 'role_id': '666824e2c43f23878e12216c', 'role_name': 'branchManager', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 23, 'total_present': 0, 'total_absent': 23, 'Leave_taken': 0, 'base_Salary': 80000, 'salary_taken': 0}, 'June': {'total_working_days': 20, 'total_present': 3, 'total_absent': 17, 'Leave_taken': 0, 'base_Salary': 80000, 'salary_taken': 17000}}, 'Task': [{'Project': '1', 'project_id': '667120e0bfc4dda06d254e02', 'Date_of_Assign': 1718690016204923, 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}, {'Project': '2', 'project_id': '6673b9baa1d752cec115deb5', 'Date_of_Assign': datetime.datetime(2024, 6, 20, 10, 40, 18, 532000), 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}]}]}}
+| 2024:06:20 16:07:08,425 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail?empUserId: (::1) 17.95ms

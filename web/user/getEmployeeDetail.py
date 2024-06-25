@@ -157,94 +157,91 @@ class getEmployeeDetailHandler(tornado.web.RequestHandler, MongoMixin):
 
 
             
-            userQ = self.user.aggregate(
-                [
+
+            company_role_NameQ=self.user.aggregate(
+                 [
                     {
                         '$match': {
                             '_id': ObjectId(empUserId)
                         }
                     }, {
+                        '$lookup': {
+                            'from': 'role', 
+                            'localField': 'role', 
+                            'foreignField': '_id', 
+                            'as': 'userRole'
+                        }
+                    }, {
+                        '$lookup': {
+                            'from': 'company', 
+                            'localField': 'companyId', 
+                            'foreignField': '_id', 
+                            'as': 'userCompany'
+                        }
+                    }, {
                         '$project': {
-                            'companyId': {
-                                '$toString':'$companyId'
-                            }, 
-                            'branchId':{
-                                '$toString':'$branchId'
-                            }, 
-                            'email': 1,
+                            '_id': 0, 
+                            'email':1,
                             'companyId':1,
+                            'branchId':1,
+                            'role':1,
+                            'createdBy':1,
                             'PersonalInfo':1,
-                            'role': 1, 
-                            'createdBy': 1
+                            'companyName': {
+                                '$arrayElemAt': [
+                                    '$userCompany.companyName', 0
+                                ]
+                            }, 
+                            'roleName': {
+                                '$arrayElemAt': [
+                                    '$userRole.role', 0
+                                ]
+                            }
+                            
                         }
                     }
                 ]
             )
-
-            user = []
-            async for i in userQ:
-                user.append(i)
-            if not user:
-                code = 4001
-                message = 'Invalid - [ Authorization ]'
-                status = False
-                raise Exception
-            personal_info = user[0]['PersonalInfo']
-            print("*******",personal_info)
+            # print("*********",company_role_NameQ)
+            if not company_role_NameQ:
+                 code=40004
+                 message="cannot able to find company name and role  "
+                 status=False
+                 raise Exception
+            company_role_Name=[]
+            async for i in company_role_NameQ:
+                company_role_Name.append(i)
+            # print("*********",company_role_Name)
+            personal_info = company_role_Name[0]['PersonalInfo']
+            # print("*******",personal_info)
             full_name = f"{personal_info['firstName']} {personal_info['lastName']}"
             phone = personal_info['phone']
-
-
-            companyNameQ=self.company.aggregate(
-                [
+            createdBy=company_role_Name[0]['createdBy']
+            # print("55555555555555555565555",createdBy)
+            createdByNameQ= self.user.aggregate(
+                 [
                     {
                         '$match': {
-                            '_id': ObjectId(user[0]['companyId'])
+                            '_id': ObjectId(createdBy)
                         }
                     }, {
                         '$project': {
-                            'companyName': 1, 
+                            'PersonalInfo': 1, 
                             '_id': 0
                         }
                     }
                 ]
             )
-            if not companyNameQ:
-                 code=40004
-                 message="cannot able to find company name "
+            if not createdByNameQ:
+                 code=40009
+                 message="cannot able to find name   "
                  status=False
                  raise Exception
-            companyName=[]
-            async for i in companyNameQ:
-                 companyName.append(i)
-            # comp_name=companyName[0]['companyName']
-
-            roleQ=self.role.aggregate(
-                [
-                    {
-                        '$match': {
-                            '_id': ObjectId(user[0]['role'])
-                        }
-                    }, {
-                        '$project': {
-                            'role': 1, 
-                            '_id': 0
-                        }
-                    }
-                ]
-            )
-            if not roleQ:
-                 code=40004
-                 message="cannot able to find company name "
-                 status=False
-                 raise Exception
-            role1=[]
-            async for i in roleQ:
-                role1.append(i)
-           
-
-
-            
+            createdByName=[]
+            async for i in createdByNameQ:
+                createdByName.append(i)
+            # print("55555555555555555565555",createdByNameQ)
+            # print("55555555555555555565555",createdByName)
             
 
             startDate1 = sartDate1
@@ -258,8 +255,18 @@ class getEmployeeDetailHandler(tornado.web.RequestHandler, MongoMixin):
             # print('month is *************',month2)
             month_name2 = datetime.strptime(sartDate2, '%Y-%m-%d').strftime('%B')
             month_days2=calendar.monthrange(datetime.strptime(sartDate2, '%Y-%m-%d').year, datetime.strptime(sartDate2, '%Y-%m-%d').month)[1]
-            # print('***month name***********',month_days2)
-            # nt('***month name***********',month_name2)
+            year=2024
+            num_saturdays = sum(1 for day in range(1,  month_days1 + 1) if calendar.weekday(year, month1 , day) == calendar.SATURDAY)
+            num_sundays = sum(1 for day in range(1,  month_days1 + 1) if calendar.weekday(year, month1 , day) == calendar.SUNDAY)
+            sum_sat_sun=num_saturdays+num_sundays
+
+            num_saturdays2 = sum(1 for day in range(1,  month_days2 + 1) if calendar.weekday(year, month2 , day) == calendar.SATURDAY)
+            num_sundays2 = sum(1 for day in range(1,  month_days2 + 1) if calendar.weekday(year, month2 , day) == calendar.SUNDAY)
+            sum_sat_sun2=num_saturdays2+num_sundays2
+    
+    
+            # print('***month name***********',num_saturdays)
+            # print('***month name***********',num_sundays)
             if not startDate1:
                 code = 4333
                 message = 'Please enter the valid date in the format of YYYY-MM-DD.'
@@ -389,7 +396,7 @@ class getEmployeeDetailHandler(tornado.web.RequestHandler, MongoMixin):
                     lateCount2 = presentDay2[0]['is_late_count']
                     leaveCount2 = presentDay2[0]['leave_count']
                     totalPresentDay2 = presentDay2[0]['total_present_days']
-                # print("******************",lateCount2,leaveCount2,totalPresentDay2)
+                print("******************",lateCount2,leaveCount2,totalPresentDay2)
             
             except Exception as e:
                 code=400
@@ -477,25 +484,6 @@ class getEmployeeDetailHandler(tornado.web.RequestHandler, MongoMixin):
             async for i in projectQ:
                 projects.append(i)
 
-            # print("************",projects)
-
-            # projectDetails = [
-            #     {
-            #         "Project": f"{index + 1}",
-            #        ' tasks':projects
-            #         # "Date_of_Assign": project['AssignedOn'],
-
-            #         # "List_of_task": [
-            #         #     {
-            #         #         "taskName": task['tasks.taskName'],
-            #         #         "dueDate": task['tasks.dueDate']
-            #         #     }
-            #         #     for task in project.get('taskDetails', [])
-            #         # ]
-            #     }
-            #     for index, project in enumerate(projects)
-            # ]
-            # print("8888888**********",projectDetails)
 
             projectDetails = [
                 {
@@ -514,40 +502,40 @@ class getEmployeeDetailHandler(tornado.web.RequestHandler, MongoMixin):
                 for index, project in enumerate(projects)
             ]
 
-            print('**********************',datetime.now().date())
+            # print('**********************',datetime.now().date())
             
 
             response_data = {
                 "Result": [
                     {
                         "Employee_info": {
-                            "companyId": str(user[0]['companyId']),
-                            "comp_name":companyName[0]['companyName'],
-                            "branchId": user[0]['branchId'],
-                            "user_id": str(empUserId),
+                            # "companyId": str(company_role_Name[0]['companyId']),
+                            "comp_name":company_role_Name[0]['companyName'],
+                            # "branchId": str(company_role_Name[0]['branchId']),
+                            # "user_id": str(empUserId),
                             "name": full_name,
                             "mobile_no.":phone,
-                            "email": user[0]['email'],
-                            "role_id": str(user[0]['role']),
-                            "role_name":role1[0]['role'],
-                            "createdBy": str(user[0]['createdBy'])
+                            "email": company_role_Name[0]['email'],
+                            # "role_id": str(company_role_Name[0]['role']),
+                            "role_name":company_role_Name[0]['roleName'],
+                            "createdBy": str(company_role_Name[0]['createdBy'])
                         },
                         "Month": {
                             month_name1: {
-                                "total_working_days": month_days1,
+                                "total_working_days": month_days1-sum_sat_sun,
                                 "total_present": totalPresentDay,
-                                "total_absent": month_days1 - totalPresentDay,
+                                "total_absent": month_days1 - totalPresentDay-sum_sat_sun,
                                 "Leave_taken": leaveCount,
-                                 "base_Salary":baseSalary2,
+                                 "base_Salary":baseSalary,
                                 "salary_taken": finalSalary2
                                 
                             },
                             month_name2: {
-                                "total_working_days":month_days2,
+                                "total_working_days":month_days2-sum_sat_sun2,
                                 "total_present": totalPresentDay2,
-                                "total_absent": month_days2 - totalPresentDay2,
+                                "total_absent": month_days2 - totalPresentDay2-sum_sat_sun2,
                                 "Leave_taken": leaveCount2,
-                                 "base_Salary":baseSalary2,
+                                 "base_Salary":baseSalary,
                                 "salary_taken": finalSalary
                             }
                         },
