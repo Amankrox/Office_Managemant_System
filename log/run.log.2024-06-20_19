@@ -1,0 +1,125 @@
+| 2024:06:20 18:42:09,828 | D | root | web\branchManager\addRole.py 266 get RSP	{'code': 200, 'status': True, 'message': 'Role found successfully', 'result': [{'role': 'HR-1', '_id': '666821adc43f23878e122168'}, {'role': 'branchManager', '_id': '666824e2c43f23878e12216c'}, {'role': 'PROJECTMANAGER', '_id': '66693920b44eb2133282d589'}, {'role': 'HR-2', '_id': '6668246fc43f23878e12216a'}, {'role': 'HR-3', '_id': '66682471c43f23878e12216b'}, {'role': 'AccountsManager', '_id': '666af23c0e7e429a807fd951'}]}
+| 2024:06:20 18:42:09,917 | I | tornado.access | 200 GET /v1/api/role (::1) 571.99ms
+| 2024:06:20 18:45:49,758 | D | root | web\accountManagement\account.py 330 post RSP	{'code': 200, 'status': True, 'message': 'paylip added succesfully', 'result': []}
+| 2024:06:20 18:45:49,762 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 51.37ms
+| 2024:06:20 18:47:08,276 | I | STDOUT | *********the useer_id 666af52cb3f5b3183945aa22
+| 2024:06:20 18:47:08,278 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000023FE7C88D70>)
+| 2024:06:20 18:47:08,288 | I | STDOUT | *************alary []
+| 2024:06:20 18:47:08,294 | D | root | web\accountManagement\getSalary.py 144 get RSP	{'code': 4004, 'status': False, 'message': 'salary not found', 'result': []}
+| 2024:06:20 18:47:08,296 | I | tornado.access | 200 GET /v1/api/get/getSalary (::1) 26.93ms
+| 2024:06:20 18:48:26,793 | I | STDOUT | 80000
+| 2024:06:20 18:48:26,794 | I | STDOUT | 2024-06-01
+| 2024:06:20 18:48:26,794 | I | STDOUT | 2024-06-30
+| 2024:06:20 18:48:26,802 | D | root | web\accountManagement\salary.py 338 post RSP	{'code': 402, 'status': False, 'message': 'check your presentDay  aggeregate part', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}, {'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:20 18:48:26,805 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 25.92ms
+| 2024:06:20 18:49:15,830 | I | STDOUT | 80000
+| 2024:06:20 18:49:15,831 | I | STDOUT | 2024-06-01
+| 2024:06:20 18:49:15,831 | I | STDOUT | 2024-06-30
+| 2024:06:20 18:49:15,838 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000023FE7C8B4D0>)
+| 2024:06:20 18:49:15,842 | D | root | web\accountManagement\salary.py 338 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:20 18:49:15,843 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 18.95ms
+| 2024:06:20 18:50:01,013 | I | STDOUT | *********the useer_id 666af52cb3f5b3183945aa22
+| 2024:06:20 18:50:01,014 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000023FE7C89A30>)
+| 2024:06:20 18:50:01,015 | I | STDOUT | *************alary []
+| 2024:06:20 18:50:01,019 | D | root | web\accountManagement\getSalary.py 144 get RSP	{'code': 4004, 'status': False, 'message': 'salary not found', 'result': []}
+| 2024:06:20 18:50:01,019 | I | tornado.access | 200 GET /v1/api/get/getSalary (::1) 6.98ms
+| 2024:06:20 18:50:51,942 | I | STDOUT | *********the useer_id 666af52cb3f5b3183945aa22
+| 2024:06:20 18:50:51,942 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000023FE7C89A60>)
+| 2024:06:20 18:50:51,944 | I | STDOUT | *************alary []
+| 2024:06:20 18:50:51,946 | D | root | web\accountManagement\getSalary.py 144 get RSP	{'code': 4004, 'status': False, 'message': 'salary not found', 'result': []}
+| 2024:06:20 18:50:51,947 | I | tornado.access | 200 GET /v1/api/get/getSalary? (::1) 5.99ms
+| 2024:06:20 18:51:20,308 | I | STDOUT | *********the useer_id 666af52cb3f5b3183945aa22
+| 2024:06:20 18:51:20,309 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000023FE7C88AD0>)
+| 2024:06:20 18:51:20,310 | I | STDOUT | *************alary []
+| 2024:06:20 18:51:20,313 | D | root | web\accountManagement\getSalary.py 144 get RSP	{'code': 4004, 'status': False, 'message': 'salary not found', 'result': []}
+| 2024:06:20 18:51:20,314 | I | tornado.access | 200 GET /v1/api/get/getSalary? (::1) 5.98ms
+| 2024:06:20 18:52:10,599 | I | STDOUT | *********the useer_id 666af52cb3f5b3183945aa22
+| 2024:06:20 18:52:10,601 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000023FE7C88E60>)
+| 2024:06:20 18:52:10,604 | I | STDOUT | *************alary []
+| 2024:06:20 18:52:10,606 | D | root | web\accountManagement\getSalary.py 144 get RSP	{'code': 4004, 'status': False, 'message': 'salary not found', 'result': []}
+| 2024:06:20 18:52:10,607 | I | tornado.access | 200 GET /v1/api/get/getSalary (::1) 7.98ms
+| 2024:06:20 18:52:43,740 | I | STDOUT | *********the user_id 6668259eb27f0e68666fa3ba
+| 2024:06:20 18:52:43,745 | I | STDOUT | **************** [{'_id': ObjectId('66740444f81c3ec3ac3cb1da'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'userId': ObjectId('6668259eb27f0e68666fa3ba'), 'createdBy': ObjectId('666af52cb3f5b3183945aa22'), 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'finalSalary': 17000.0, 'month': 6, 'performanceBounous': 3000, 'singingBonous': 2000, 'createdAt': datetime.datetime(2024, 6, 20, 15, 58, 20, 29000), 'isActive': True}, {'_id': ObjectId('66742c53cd7de85586758d26'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'userId': ObjectId('6668259eb27f0e68666fa3ba'), 'createdBy': ObjectId('666af52cb3f5b3183945aa22'), 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'finalSalary': 15000.0, 'month': 6, 'performanceBounous': 3000, 'singingBonous': 2000, 'createdAt': datetime.datetime(2024, 6, 20, 18, 49, 15, 839000), 'isActive': True}]
+| 2024:06:20 18:52:43,843 | I | tornado.access | 200 GET /v1/api/get/getSalarypdf (::1) 109.22ms
+| 2024:06:20 18:54:11,304 | I | STDOUT | ***************** [{'_id': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'johndoe@gmail.com', 'password': b'gAAAAABmaCWesE_wTW47idqKVDsO2YLuAhzfkXSAzZTejuoW5t1zUOnm6y-MAmnJ4M9B-3AGx0fuqiwj3PfzwQgShvcTbQ-k7A==', 'role': ObjectId('666824e2c43f23878e12216c'), 'PersonalInfo': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'active': True, 'createdAt': 1718101406408103, 'createdBy': ObjectId('6668259eb27f0e68666fa3b9'), 'updatedAt': None, 'deletedAt': None, 'deleted': False}]
+| 2024:06:20 18:54:11,305 | I | STDOUT | breach _id is 66681d79a3c4ba4888ad4965
+| 2024:06:20 18:54:11,306 | I | STDOUT | your title is :-------------- rrrrrrrrrrrr holiday
+| 2024:06:20 18:54:11,306 | I | STDOUT | *********** rrrrrrrrrrrr holiday
+| 2024:06:20 18:54:11,307 | I | STDOUT | ************* 2024-06-28
+| 2024:06:20 18:54:11,307 | I | STDOUT | *&*&*&*&*&*&*&*&*&**&*&*&*&*&*&*&*&*&*&*&*&*&*&
+| 2024:06:20 18:54:11,360 | D | root | web\branchManager\addHoliday.py 173 post RSP	{'code': 200, 'status': True, 'message': 'Holiday added successfully', 'result': []}
+| 2024:06:20 18:54:11,361 | I | tornado.access | 200 POST /v1/api/add/holiday (::1) 63.83ms
+| 2024:06:20 18:54:46,430 | I | STDOUT | ***************** [{'date': '2024-06-11', 'in_time': '10:50 PM', 'out_time': '10:56 PM', 'is_absent': False}, {'date': '2024-06-10', 'in_time': None, 'out_time': None, 'is_absent': True}, {'date': '2024-06-12', 'in_time': '01:01 PM', 'out_time': None, 'is_absent': False}, {'date': '2024-06-18', 'in_time': '01:32 PM', 'out_time': None, 'is_absent': False}]
+| 2024:06:20 18:54:46,433 | I | STDOUT | *&*&*&*&*&*&*&*&*&*&*&*&*&*&* {}
+| 2024:06:20 18:54:46,433 | I | STDOUT | *&*&*&*&*&*&*&*&*&*&*&*&*&*&* {}
+| 2024:06:20 18:54:46,437 | I | STDOUT | *&*&*&*&*&*&*&*&*&*&*&*&*&*&* {}
+| 2024:06:20 18:54:46,444 | I | tornado.access | 200 GET /test (::1) 19.95ms
+| 2024:06:20 18:55:41,499 | I | STDOUT | ******* 66681d79a3c4ba4888ad4965
+| 2024:06:20 18:55:41,499 | I | STDOUT | 11111111
+| 2024:06:20 18:55:41,500 | I | STDOUT | 222222222
+| 2024:06:20 18:55:41,503 | I | STDOUT | pppppppppppppppppppppppp [{'title': 'eidholiday', 'date': '2024-07-11'}, {'title': 'barkridholiday', 'date': '2024-08-12'}, {'title': 'barkridholiday', 'date': '2024-08-12'}, {'title': 'additional holiday', 'date': '2024-06-22'}, {'title': 'abcd holiday', 'date': '2024-06-27'}, {'title': 'rrrrrrrrrrrr holiday', 'date': '2024-06-28'}]
+| 2024:06:20 18:55:41,521 | D | root | web\hr\getHoliday.py 144 get RSP	{'code': 200, 'status': False, 'message': 'this is your holidays list', 'result': [{'title': 'eidholiday', 'date': '2024-07-11'}, {'title': 'barkridholiday', 'date': '2024-08-12'}, {'title': 'barkridholiday', 'date': '2024-08-12'}, {'title': 'additional holiday', 'date': '2024-06-22'}, {'title': 'abcd holiday', 'date': '2024-06-27'}, {'title': 'rrrrrrrrrrrr holiday', 'date': '2024-06-28'}]}
+| 2024:06:20 18:55:41,522 | I | tornado.access | 200 GET /v1/api/get/holiday (::1) 26.91ms
+| 2024:06:20 18:56:28,832 | W | root | web\attendance\leave.py 151 post EXC	Exception: ValueError. Argument: ('unconverted data remains: 7',)
+| 2024:06:20 18:56:28,837 | D | root | web\attendance\leave.py 152 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\attendance\leave.py LINE: 98 TYPE: <class 'ValueError'>
+| 2024:06:20 18:56:28,841 | D | root | web\attendance\leave.py 160 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:20 18:56:28,842 | I | tornado.access | 200 POST /v1/api/add/leave (::1) 42.89ms
+| 2024:06:20 18:56:35,738 | I | STDOUT | 8888888888********************8 2024-06-27
+| 2024:06:20 18:56:35,739 | I | STDOUT | ************************ ghsdhjg
+| 2024:06:20 18:56:35,740 | I | STDOUT | 2024-06-27
+| 2024:06:20 18:56:35,747 | D | root | web\attendance\leave.py 160 post RSP	{'code': 200, 'status': True, 'message': 'Applied for leave', 'result': []}
+| 2024:06:20 18:56:35,748 | I | tornado.access | 200 POST /v1/api/add/leave (::1) 12.96ms
+| 2024:06:20 18:57:58,945 | I | STDOUT | branchManager
+| 2024:06:20 18:57:58,945 | I | STDOUT | **********
+| 2024:06:20 18:57:58,946 | I | STDOUT | ************** 66742e0bcd7de85586758d29
+| 2024:06:20 18:57:58,947 | I | STDOUT | AsyncIOMotorCursor(<pymongo.cursor.Cursor object at 0x0000023FE7D70D70>)
+| 2024:06:20 18:57:58,957 | D | root | web\hr\leaveAproval.py 167 put RSP	{'code': 2000, 'status': True, 'message': 'Leave approved successfully', 'result': {'leaveId': '66742e0bcd7de85586758d29'}}
+| 2024:06:20 18:57:58,958 | I | tornado.access | 200 PUT /v1/api/put/leaveAproval (::1) 13.96ms
+| 2024:06:20 19:16:20,527 | I | STDOUT | *********the useer_id 666af52cb3f5b3183945aa22
+| 2024:06:20 19:16:20,529 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000023FE7D71160>)
+| 2024:06:20 19:16:20,534 | I | STDOUT | *************alary []
+| 2024:06:20 19:16:20,536 | D | root | web\accountManagement\getSalary.py 144 get RSP	{'code': 4004, 'status': False, 'message': 'salary not found', 'result': []}
+| 2024:06:20 19:16:20,537 | I | tornado.access | 200 GET /v1/api/get/getSalary (::1) 14.96ms
+| 2024:06:20 19:16:21,700 | I | STDOUT | *********the useer_id 666af52cb3f5b3183945aa22
+| 2024:06:20 19:16:21,701 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000023FE7D711C0>)
+| 2024:06:20 19:16:21,702 | I | STDOUT | *************alary []
+| 2024:06:20 19:16:21,704 | D | root | web\accountManagement\getSalary.py 144 get RSP	{'code': 4004, 'status': False, 'message': 'salary not found', 'result': []}
+| 2024:06:20 19:16:21,705 | I | tornado.access | 200 GET /v1/api/get/getSalary (::1) 4.99ms
+| 2024:06:20 19:16:55,599 | I | STDOUT | *********the useer_id 666af52cb3f5b3183945aa22
+| 2024:06:20 19:16:55,600 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000023FE7D710D0>)
+| 2024:06:20 19:16:55,601 | I | STDOUT | *************alary []
+| 2024:06:20 19:16:55,604 | D | root | web\accountManagement\getSalary.py 144 get RSP	{'code': 4004, 'status': False, 'message': 'salary not found', 'result': []}
+| 2024:06:20 19:16:55,605 | I | tornado.access | 200 GET /v1/api/get/getSalary (::1) 5.98ms
+| 2024:06:20 19:17:02,925 | I | STDOUT | *********the useer_id 666af52cb3f5b3183945aa22
+| 2024:06:20 19:17:02,925 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000023FE7D70980>)
+| 2024:06:20 19:17:02,929 | I | STDOUT | *************alary []
+| 2024:06:20 19:17:02,932 | D | root | web\accountManagement\getSalary.py 144 get RSP	{'code': 4004, 'status': False, 'message': 'salary not found', 'result': []}
+| 2024:06:20 19:17:02,932 | I | tornado.access | 200 GET /v1/api/get/getSalary (::1) 6.98ms
+| 2024:06:20 19:17:14,079 | I | STDOUT | {'_id': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'johndoe@gmail.com', 'password': b'gAAAAABmaCWesE_wTW47idqKVDsO2YLuAhzfkXSAzZTejuoW5t1zUOnm6y-MAmnJ4M9B-3AGx0fuqiwj3PfzwQgShvcTbQ-k7A==', 'role': ObjectId('666824e2c43f23878e12216c'), 'PersonalInfo': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'active': True, 'createdAt': 1718101406408103, 'createdBy': ObjectId('6668259eb27f0e68666fa3b9'), 'updatedAt': None, 'deletedAt': None, 'deleted': False}
+| 2024:06:20 19:17:14,085 | D | root | web\login.py 128 post RSP	{'code': 200, 'status': True, 'message': 'Login Successful.', 'result': {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY4MjU5ZWIyN2YwZTY4NjY2ZmEzYmEiLCJjb21wYW55SWQiOiI2NjY4MWE2M2VkNTVmMTA1MjQxM2Q4NWMiLCJ1c2VyUm9sZSI6ImJyYW5jaE1hbmFnZXIifQ.jWH6CX9L0am9vxdejg4gRcRuMmAzrUi9asxi1L2lgDI'}}
+| 2024:06:20 19:17:14,086 | I | tornado.access | 200 POST /v1/api/login (::1) 60.83ms
+| 2024:06:20 19:17:18,081 | I | STDOUT | *********the useer_id 666af52cb3f5b3183945aa22
+| 2024:06:20 19:17:18,082 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000023FE7D70F20>)
+| 2024:06:20 19:17:18,084 | I | STDOUT | *************alary []
+| 2024:06:20 19:17:18,087 | D | root | web\accountManagement\getSalary.py 144 get RSP	{'code': 4004, 'status': False, 'message': 'salary not found', 'result': []}
+| 2024:06:20 19:17:18,088 | I | tornado.access | 200 GET /v1/api/get/getSalary (::1) 6.98ms
+| 2024:06:20 19:18:13,414 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\getSalary.py modified; restarting server
+| 2024:06:20 19:18:14,331 | I | root | ------
+| 2024:06:20 19:18:14,463 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 19:18:15,924 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 19:18:15,930 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 19:18:17,491 | I | STDOUT | *********the useer_id 666af52cb3f5b3183945aa22
+| 2024:06:20 19:18:17,492 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000021FC2588B60>)
+| 2024:06:20 19:18:17,524 | I | STDOUT | *************alary [{'_id': ObjectId('66740444f81c3ec3ac3cb1da'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'userId': ObjectId('6668259eb27f0e68666fa3ba'), 'createdBy': ObjectId('666af52cb3f5b3183945aa22'), 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'finalSalary': 17000.0, 'month': 6, 'performanceBounous': 3000, 'singingBonous': 2000, 'createdAt': datetime.datetime(2024, 6, 20, 15, 58, 20, 29000), 'isActive': True}, {'_id': ObjectId('66742c53cd7de85586758d26'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'userId': ObjectId('6668259eb27f0e68666fa3ba'), 'createdBy': ObjectId('666af52cb3f5b3183945aa22'), 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'finalSalary': 15000.0, 'month': 6, 'performanceBounous': 3000, 'singingBonous': 2000, 'createdAt': datetime.datetime(2024, 6, 20, 18, 49, 15, 839000), 'isActive': True}]
+| 2024:06:20 19:18:17,609 | D | root | web\accountManagement\getSalary.py 144 get RSP	{'code': 200, 'status': True, 'message': 'your salary is', 'result': [{'_id': ObjectId('66740444f81c3ec3ac3cb1da'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'userId': ObjectId('6668259eb27f0e68666fa3ba'), 'createdBy': ObjectId('666af52cb3f5b3183945aa22'), 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'finalSalary': 17000.0, 'month': 6, 'performanceBounous': 3000, 'singingBonous': 2000, 'createdAt': datetime.datetime(2024, 6, 20, 15, 58, 20, 29000), 'isActive': True}, {'_id': ObjectId('66742c53cd7de85586758d26'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'userId': ObjectId('6668259eb27f0e68666fa3ba'), 'createdBy': ObjectId('666af52cb3f5b3183945aa22'), 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'finalSalary': 15000.0, 'month': 6, 'performanceBounous': 3000, 'singingBonous': 2000, 'createdAt': datetime.datetime(2024, 6, 20, 18, 49, 15, 839000), 'isActive': True}]}
+| 2024:06:20 19:18:17,612 | I | tornado.access | 200 GET /v1/api/get/getSalary (::1) 120.68ms
+| 2024:06:20 19:18:40,967 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\getSalary.py modified; restarting server
+| 2024:06:20 19:18:41,590 | I | root | ------
+| 2024:06:20 19:18:41,696 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 19:18:42,734 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 19:18:42,738 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 19:18:49,678 | I | STDOUT | *********the useer_id 666af52cb3f5b3183945aa22
+| 2024:06:20 19:18:49,678 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000002B70F8990A0>)
+| 2024:06:20 19:18:49,703 | I | STDOUT | *************alary []
+| 2024:06:20 19:18:49,788 | D | root | web\accountManagement\getSalary.py 144 get RSP	{'code': 4004, 'status': False, 'message': 'salary not found', 'result': []}
+| 2024:06:20 19:18:49,789 | I | tornado.access | 200 GET /v1/api/get/getSalary (::1) 112.70ms

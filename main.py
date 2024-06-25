@@ -8,6 +8,7 @@ from util.file_util import FileUtil
 from util.log_util import Log
 
 from web.attendance.test import Testhandler
+from web.branchManager.getEmployeeByBranch import getEmployeesByBranchHandler
 from web.login import LoginHandler
 from web.company.addCompany import CompanyCreateHandler
 from web.company.addBranch import AddBranchHandler
@@ -32,6 +33,7 @@ from web.accountManagement.getSalarypdf import getSalarypdfHandler
 from web.user.getEmployeeDetail import getEmployeeDetailHandler
 from web.user.resetPassword import AddCalComMeetingsHandler
 from web.project.assignProjectToEmp import ProjectAssignToEmpHandler
+from web.branchManager.getEmployeeByBranch import getEmployeesByBranchHandler
 
 class IndexHandler(tornado.web.RequestHandler, metaclass=ABCMeta):
     fu = FileUtil()
@@ -81,6 +83,7 @@ class App(tornado.web.Application, MongoMixin):
                 (r"/schedule-meeting", AddCalComMeetingsHandler),
                 (r'/v1/api/get/getemployeeDetail',getEmployeeDetailHandler),
                 (r'/v1/api/post/assignProjectToEmp',ProjectAssignToEmpHandler),
+                (r'/v1/api/get/empByBranch',getEmployeesByBranchHandler),
 
             ],
             **settings,

@@ -13,7 +13,7 @@ from helper.jwt_helper import JWT_DECODE_1
 from helper.decorators import all_origin
 
 class AddCalComMeetingsHandler(tornado.web.RequestHandler, MongoMixin):
-    SUPPORTED_METHODS = ('OPTIONS', 'POST')
+    SUPPORTED_METHODS = ('OPTIONS', 'POST', 'GET')
 
     user = MongoMixin.userDb[CONFIG['database'][0]['table'][12]['name']]
     meeting = MongoMixin.userDb[CONFIG['database'][0]['table'][24]['name']]
@@ -49,12 +49,6 @@ class AddCalComMeetingsHandler(tornado.web.RequestHandler, MongoMixin):
             user_id = payload.get('userId')
             company_id = payload.get('companyId')
             role = payload.get('userRole')
-
-            if role not in ['branchManager', 'HR-1', 'HR-2', 'HR-3', 'company', 'PROJECTMANAGER', 'AccountsManager']:
-                code = 4003
-                message = 'You are not Authorized to use this'
-                status = False
-                raise Exception
 
             # Parse request body
             data = json.loads(self.request.body)
@@ -119,12 +113,17 @@ class AddCalComMeetingsHandler(tornado.web.RequestHandler, MongoMixin):
             }
             cal_com_headers = {
                 "Content-Type": "application/json",
-                "Authorization": 'cal_live_62d6cc49065c0459b902d6f14e2a2090'
+                "Authorization": "Bearer cal_live_62d6cc49065c0459b902d6f14e2a2090"  # Note the Bearer prefix
             }
-            cal_com_response = requests.post(cal_com_endpoint, data=json.dumps(cal_com_data), headers=cal_com_headers)
-            print('***************')
-            print('**************',cal_com_response.status_code)#405
 
+            Log.d("Cal.com request", {
+                "url": cal_com_endpoint,
+                "headers": cal_com_headers,
+                "data": cal_com_data
+            })
+
+            cal_com_response = requests.post(cal_com_endpoint, json=cal_com_data, headers=cal_com_headers)
+            
             if cal_com_response.status_code == 201:
                 code = 2000
                 status = True
@@ -132,6 +131,67 @@ class AddCalComMeetingsHandler(tornado.web.RequestHandler, MongoMixin):
                 result = meeting_data
             else:
                 message = f'Failed to schedule meeting in Cal.com: {cal_com_response.text}'
+                code = 4008
+                status = False
+                Log.e(f'Cal.com response: {cal_com_response.status_code} {cal_com_response.text}')
+                raise Exception
+
+        except Exception as e:
+            Log.i(e)
+            if not message:
+                template = 'Exception: {0}. Argument: {1!r}'
+                code = 5010
+                message = 'Internal Error, Please Contact the Support Team.'
+                exc_type, exc_obj, exc_tb = sys.exc_info()
+                fname = exc_tb.tb_frame.f_code.co_filename
+                Log.w('EXC', template.format(type(e).__name__, e.args))
+                Log.d('EX2', f'FILE: {fname} LINE: {exc_tb.tb_lineno} TYPE: {exc_type}')
+
+        response = {'code': code, 'status': status, 'message': message, 'result': result}
+        Log.d('RSP', response)
+        self.write(json.loads(bdumps(response)))
+        await self.finish()
+
+    async def get(self):
+        code = 4100
+        status = False
+        message = ''
+        result = []
+
+        try:
+            # Authorization
+            token = self.request.headers.get('Authorization')
+            if token:
+                token = token.replace('Bearer ', '')
+            else:
+                code = 4211
+                message = 'Invalid - [ Authorization ]'
+                status = False
+                raise Exception
+
+            payload = JWT_DECODE_1(token)
+            if payload is None:
+                code = 4212
+                message = 'Invalid - [ Authorization ]'
+                status = False
+                raise Exception
+
+            # Fetch meetings from Cal.com
+            cal_com_endpoint = "https://api.cal.com/v1/meetings"
+            cal_com_headers = {
+                "Content-Type": "application/json",
+                "Authorization": "Bearer cal_live_62d6cc49065c0459b902d6f14e2a2090"
+            }
+
+            cal_com_response = requests.get(cal_com_endpoint, headers=cal_com_headers)
+            
+            if cal_com_response.status_code == 200:
+                code = 2000
+                status = True
+                message = 'Meetings fetched successfully from Cal.com'
+                result = cal_com_response.json()
+            else:
+                message = f'Failed to fetch meetings from Cal.com: {cal_com_response.text}'
                 code = 4008
                 status = False
                 Log.e(f'Cal.com response: {cal_com_response.status_code} {cal_com_response.text}')

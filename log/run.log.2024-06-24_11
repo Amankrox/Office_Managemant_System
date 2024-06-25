@@ -1,0 +1,8 @@
+| 2024:06:24 11:37:36,024 | I | root | ------
+| 2024:06:24 11:37:36,132 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 11:37:38,549 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 11:37:38,565 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 12:16:27,222 | I | root | ------
+| 2024:06:24 12:16:27,310 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 12:16:28,310 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 12:16:28,313 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]

@@ -86,7 +86,7 @@ class Testhandler(tornado.web.RequestHandler, MongoMixin):
             async for i in attendanceQ:
                 aaya.append(i)
     
-            print("*****************",aaya)
+            # print("*****************",aaya)
             
             
 
@@ -135,11 +135,11 @@ class Testhandler(tornado.web.RequestHandler, MongoMixin):
             ])
 
             attendance_records = {record['date']: record async for record in attendanceQ}
-            print("*&*&*&*&*&*&*&*&*&*&*&*&*&*&*",attendance_records)#{}
+            # print("*&*&*&*&*&*&*&*&*&*&*&*&*&*&*",attendance_records)#{}
             holidays = {record['date']: record async for record in holidaysQ}
-            print("*&*&*&*&*&*&*&*&*&*&*&*&*&*&*",holidays)#{}
+            # print("*&*&*&*&*&*&*&*&*&*&*&*&*&*&*",holidays)#{}
             approved_leaves = {record['date']: record async for record in leavesQ}
-            print("*&*&*&*&*&*&*&*&*&*&*&*&*&*&*",approved_leaves)#{}
+            # print("*&*&*&*&*&*&*&*&*&*&*&*&*&*&*",approved_leaves)#{}
 
             
 

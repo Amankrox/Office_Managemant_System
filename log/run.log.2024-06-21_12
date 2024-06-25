@@ -1,0 +1,221 @@
+| 2024:06:21 10:13:54,770 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:21 10:13:57,116 | I | root | ------
+| 2024:06:21 10:13:57,234 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:14:00,085 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:14:00,105 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:26:37,139 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:21 10:26:37,838 | I | root | ------
+| 2024:06:21 10:26:37,927 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:26:38,999 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:26:39,006 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:28:11,422 | I | STDOUT | 80000
+| 2024:06:21 10:28:11,423 | I | STDOUT | 2024-06-01
+| 2024:06:21 10:28:11,424 | I | STDOUT | 2024-06-30
+| 2024:06:21 10:28:11,435 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001F49668B770>)
+| 2024:06:21 10:28:11,646 | D | root | web\accountManagement\salary.py 343 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:21 10:28:11,647 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 279.25ms
+| 2024:06:21 10:28:36,651 | I | STDOUT | 80000
+| 2024:06:21 10:28:36,651 | I | STDOUT | 2024-06-01
+| 2024:06:21 10:28:36,652 | I | STDOUT | 2024-06-30
+| 2024:06:21 10:28:36,657 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001F49668B920>)
+| 2024:06:21 10:28:36,661 | D | root | web\accountManagement\salary.py 343 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:21 10:28:36,661 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 14.96ms
+| 2024:06:21 10:31:40,552 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:21 10:31:41,422 | I | root | ------
+| 2024:06:21 10:31:41,514 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:31:42,536 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:31:42,541 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:31:46,315 | I | STDOUT | 80000
+| 2024:06:21 10:31:46,316 | I | STDOUT | 2024-06-01
+| 2024:06:21 10:31:46,316 | I | STDOUT | 2024-06-30
+| 2024:06:21 10:31:46,320 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000029CFD587860>)
+| 2024:06:21 10:31:46,409 | D | root | web\accountManagement\salary.py 343 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:21 10:31:46,410 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 108.71ms
+| 2024:06:21 10:33:55,072 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:21 10:33:55,725 | I | root | ------
+| 2024:06:21 10:33:55,820 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:33:56,845 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:33:56,850 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:34:04,416 | I | STDOUT | 80000
+| 2024:06:21 10:34:04,417 | I | STDOUT | 2024-06-01
+| 2024:06:21 10:34:04,417 | I | STDOUT | 2024-06-30
+| 2024:06:21 10:34:04,419 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000026BCA187860>)
+| 2024:06:21 10:34:04,511 | D | root | web\accountManagement\salary.py 350 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:21 10:34:04,512 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 109.71ms
+| 2024:06:21 10:34:20,888 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:21 10:34:21,400 | I | root | ------
+| 2024:06:21 10:34:21,492 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:34:22,508 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:34:22,512 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:39:00,559 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:21 10:39:01,265 | I | root | ------
+| 2024:06:21 10:39:01,378 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:39:02,554 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:39:02,560 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:43:25,610 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:21 10:43:26,265 | I | root | ------
+| 2024:06:21 10:43:26,352 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:43:27,379 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:43:27,385 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:43:34,639 | I | STDOUT | 80000
+| 2024:06:21 10:43:34,639 | I | STDOUT | 2024-06-01
+| 2024:06:21 10:43:34,639 | I | STDOUT | 2024-06-30
+| 2024:06:21 10:43:34,642 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001E7EA88B530>)
+| 2024:06:21 10:43:34,731 | D | root | web\accountManagement\salary.py 353 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:21 10:43:34,732 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 123.67ms
+| 2024:06:21 10:44:39,428 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:21 10:44:39,930 | I | root | ------
+| 2024:06:21 10:44:40,020 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:44:41,096 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:44:41,100 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:44:45,926 | I | STDOUT | 80000
+| 2024:06:21 10:44:45,926 | I | STDOUT | 2024-06-01
+| 2024:06:21 10:44:45,933 | I | STDOUT | 2024-06-30
+| 2024:06:21 10:44:45,936 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000024DEA4875C0>)
+| 2024:06:21 10:44:46,035 | D | root | web\accountManagement\salary.py 354 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': BulkWriteResult({'writeErrors': [], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 4, 'nModified': 4, 'nRemoved': 0, 'upserted': []}, acknowledged=True)}
+| 2024:06:21 10:44:46,038 | W | root | web\accountManagement\salary.py 367 post EXC	Exception: TypeError. Argument: ('Object of type BulkWriteResult is not JSON serializable',)
+| 2024:06:21 10:44:46,041 | D | root | web\accountManagement\salary.py 368 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 356 TYPE: <class 'TypeError'>
+| 2024:06:21 10:44:46,042 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 126.66ms
+| 2024:06:21 10:46:51,754 | I | STDOUT | 80000
+| 2024:06:21 10:46:51,755 | I | STDOUT | 2024-06-01
+| 2024:06:21 10:46:51,757 | I | STDOUT | 2024-06-30
+| 2024:06:21 10:46:51,764 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000024DEA4B4C80>)
+| 2024:06:21 10:46:51,770 | D | root | web\accountManagement\salary.py 354 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': BulkWriteResult({'writeErrors': [], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 5, 'nModified': 1, 'nRemoved': 0, 'upserted': []}, acknowledged=True)}
+| 2024:06:21 10:46:51,772 | W | root | web\accountManagement\salary.py 367 post EXC	Exception: TypeError. Argument: ('Object of type BulkWriteResult is not JSON serializable',)
+| 2024:06:21 10:46:51,774 | D | root | web\accountManagement\salary.py 368 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 356 TYPE: <class 'TypeError'>
+| 2024:06:21 10:46:51,774 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 22.94ms
+| 2024:06:21 10:48:52,148 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:21 10:48:52,775 | I | root | ------
+| 2024:06:21 10:48:52,871 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:48:53,986 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:48:53,992 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:48:56,616 | I | STDOUT | 80000
+| 2024:06:21 10:48:56,616 | I | STDOUT | 2024-06-01
+| 2024:06:21 10:48:56,618 | I | STDOUT | 2024-06-30
+| 2024:06:21 10:48:56,624 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000022E9E18B560>)
+| 2024:06:21 10:48:56,716 | D | root | web\accountManagement\salary.py 358 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': BulkWriteResult({'writeErrors': [], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 6, 'nModified': 1, 'nRemoved': 0, 'upserted': []}, acknowledged=True)}
+| 2024:06:21 10:48:56,718 | W | root | web\accountManagement\salary.py 371 post EXC	Exception: TypeError. Argument: ('Object of type BulkWriteResult is not JSON serializable',)
+| 2024:06:21 10:48:56,721 | D | root | web\accountManagement\salary.py 372 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 360 TYPE: <class 'TypeError'>
+| 2024:06:21 10:48:56,723 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 122.67ms
+| 2024:06:21 10:50:13,026 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:21 10:50:13,758 | I | root | ------
+| 2024:06:21 10:50:13,886 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:50:14,984 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:50:14,989 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:50:17,019 | I | STDOUT | 80000
+| 2024:06:21 10:50:17,020 | I | STDOUT | 2024-06-01
+| 2024:06:21 10:50:17,022 | I | STDOUT | 2024-06-30
+| 2024:06:21 10:50:17,032 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001EF98C8B5F0>)
+| 2024:06:21 10:50:17,119 | D | root | web\accountManagement\salary.py 359 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': BulkWriteResult({'writeErrors': [], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 7, 'nModified': 1, 'nRemoved': 0, 'upserted': []}, acknowledged=True)}
+| 2024:06:21 10:50:17,121 | W | root | web\accountManagement\salary.py 372 post EXC	Exception: TypeError. Argument: ('Object of type BulkWriteResult is not JSON serializable',)
+| 2024:06:21 10:50:17,124 | D | root | web\accountManagement\salary.py 373 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 361 TYPE: <class 'TypeError'>
+| 2024:06:21 10:50:17,127 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 161.57ms
+| 2024:06:21 10:51:08,015 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:21 10:51:08,532 | I | root | ------
+| 2024:06:21 10:51:08,619 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:51:09,687 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:51:09,692 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:51:11,978 | I | STDOUT | 80000
+| 2024:06:21 10:51:11,979 | I | STDOUT | 2024-06-01
+| 2024:06:21 10:51:11,986 | I | STDOUT | 2024-06-30
+| 2024:06:21 10:51:11,988 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x00000290374B7BF0>)
+| 2024:06:21 10:51:12,079 | D | root | web\accountManagement\salary.py 359 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:21 10:51:12,081 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 112.71ms
+| 2024:06:21 10:54:16,720 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\getSalary.py modified; restarting server
+| 2024:06:21 10:54:17,367 | I | root | ------
+| 2024:06:21 10:54:17,462 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:54:18,607 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:54:18,614 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:54:23,918 | I | STDOUT | *********the useer_id 666af52cb3f5b3183945aa22
+| 2024:06:21 10:54:23,918 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x00000139205891C0>)
+| 2024:06:21 10:54:23,936 | I | STDOUT | *************alary []
+| 2024:06:21 10:54:24,029 | D | root | web\accountManagement\getSalary.py 145 get RSP	{'code': 4004, 'status': False, 'message': 'salary not found', 'result': []}
+| 2024:06:21 10:54:24,030 | I | tornado.access | 200 GET /v1/api/get/getSalary (::1) 112.70ms
+| 2024:06:21 10:55:09,168 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\getSalary.py modified; restarting server
+| 2024:06:21 10:55:09,666 | I | root | ------
+| 2024:06:21 10:55:09,758 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:55:10,840 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:55:10,845 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:55:16,414 | I | STDOUT | 80000
+| 2024:06:21 10:55:16,415 | I | STDOUT | 2024-06-01
+| 2024:06:21 10:55:16,419 | I | STDOUT | 2024-06-30
+| 2024:06:21 10:55:16,425 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000002B93218B620>)
+| 2024:06:21 10:55:16,518 | D | root | web\accountManagement\salary.py 359 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:21 10:55:16,519 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 114.69ms
+| 2024:06:21 10:55:23,887 | I | STDOUT | *********the useer_id 666af52cb3f5b3183945aa22
+| 2024:06:21 10:55:23,887 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000002B932075B50>)
+| 2024:06:21 10:55:23,892 | I | STDOUT | *************alary [{'_id': ObjectId('66750ebce4fe6a1136f75783'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'userId': ObjectId('6668259eb27f0e68666fa3ba'), 'createdBy': ObjectId('666af52cb3f5b3183945aa22'), 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'finalSalary': 15000.0, 'month': 6, 'performanceBounous': 3000, 'singingBonous': 2000, 'createdAt': datetime.datetime(2024, 6, 21, 10, 55, 16, 428000), 'isActive': True}]
+| 2024:06:21 10:55:23,896 | D | root | web\accountManagement\getSalary.py 145 get RSP	{'code': 200, 'status': True, 'message': 'your salary is', 'result': [{'_id': ObjectId('66750ebce4fe6a1136f75783'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'userId': ObjectId('6668259eb27f0e68666fa3ba'), 'createdBy': ObjectId('666af52cb3f5b3183945aa22'), 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'finalSalary': 15000.0, 'month': 6, 'performanceBounous': 3000, 'singingBonous': 2000, 'createdAt': datetime.datetime(2024, 6, 21, 10, 55, 16, 428000), 'isActive': True}]}
+| 2024:06:21 10:55:23,897 | I | tornado.access | 200 GET /v1/api/get/getSalary (::1) 10.97ms
+| 2024:06:21 10:55:48,890 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\getSalary.py modified; restarting server
+| 2024:06:21 10:55:49,402 | I | root | ------
+| 2024:06:21 10:55:49,489 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:55:50,472 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:55:50,476 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:56:29,527 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\getSalarypdf.py modified; restarting server
+| 2024:06:21 10:56:30,016 | I | root | ------
+| 2024:06:21 10:56:30,109 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:56:31,141 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:56:31,146 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:57:15,188 | I | STDOUT | *********the useer_id 666af52cb3f5b3183945aa22
+| 2024:06:21 10:57:15,188 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000026C84E88CB0>)
+| 2024:06:21 10:57:15,195 | I | STDOUT | *************alary []
+| 2024:06:21 10:57:15,278 | D | root | web\accountManagement\getSalary.py 145 get RSP	{'code': 4004, 'status': False, 'message': 'salary not found', 'result': []}
+| 2024:06:21 10:57:15,278 | I | tornado.access | 200 GET /v1/api/get/getSalary (::1) 90.76ms
+| 2024:06:21 11:01:38,286 | I | STDOUT | {'_id': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'johndoe@gmail.com', 'password': b'gAAAAABmaCWesE_wTW47idqKVDsO2YLuAhzfkXSAzZTejuoW5t1zUOnm6y-MAmnJ4M9B-3AGx0fuqiwj3PfzwQgShvcTbQ-k7A==', 'role': ObjectId('666824e2c43f23878e12216c'), 'PersonalInfo': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'active': True, 'createdAt': 1718101406408103, 'createdBy': ObjectId('6668259eb27f0e68666fa3b9'), 'updatedAt': None, 'deletedAt': None, 'deleted': False}
+| 2024:06:21 11:01:38,313 | D | root | web\login.py 128 post RSP	{'code': 200, 'status': True, 'message': 'Login Successful.', 'result': {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY4MjU5ZWIyN2YwZTY4NjY2ZmEzYmEiLCJjb21wYW55SWQiOiI2NjY4MWE2M2VkNTVmMTA1MjQxM2Q4NWMiLCJ1c2VyUm9sZSI6ImJyYW5jaE1hbmFnZXIifQ.jWH6CX9L0am9vxdejg4gRcRuMmAzrUi9asxi1L2lgDI'}}
+| 2024:06:21 11:01:38,314 | I | tornado.access | 200 POST /v1/api/login (::1) 109.71ms
+| 2024:06:21 11:01:43,208 | I | STDOUT | *********the useer_id 666af52cb3f5b3183945aa22
+| 2024:06:21 11:01:43,208 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000026C84E89430>)
+| 2024:06:21 11:01:43,210 | I | STDOUT | *************alary []
+| 2024:06:21 11:01:43,211 | D | root | web\accountManagement\getSalary.py 145 get RSP	{'code': 4004, 'status': False, 'message': 'salary not found', 'result': []}
+| 2024:06:21 11:01:43,212 | I | tornado.access | 200 GET /v1/api/get/getSalary (::1) 4.99ms
+| 2024:06:21 11:02:57,673 | I | STDOUT | *********the useer_id 6668259eb27f0e68666fa3ba
+| 2024:06:21 11:02:57,673 | I | STDOUT | ***************************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000026C84E8A7B0>)
+| 2024:06:21 11:02:57,675 | I | STDOUT | *************alary [{'_id': ObjectId('66750ebce4fe6a1136f75783'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'userId': ObjectId('6668259eb27f0e68666fa3ba'), 'createdBy': ObjectId('666af52cb3f5b3183945aa22'), 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'finalSalary': 15000.0, 'month': 6, 'performanceBounous': 3000, 'singingBonous': 2000, 'createdAt': datetime.datetime(2024, 6, 21, 10, 55, 16, 428000), 'isActive': True}]
+| 2024:06:21 11:02:57,677 | D | root | web\accountManagement\getSalary.py 145 get RSP	{'code': 200, 'status': True, 'message': 'your salary is', 'result': [{'_id': ObjectId('66750ebce4fe6a1136f75783'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'userId': ObjectId('6668259eb27f0e68666fa3ba'), 'createdBy': ObjectId('666af52cb3f5b3183945aa22'), 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'finalSalary': 15000.0, 'month': 6, 'performanceBounous': 3000, 'singingBonous': 2000, 'createdAt': datetime.datetime(2024, 6, 21, 10, 55, 16, 428000), 'isActive': True}]}
+| 2024:06:21 11:02:57,678 | I | tornado.access | 200 GET /v1/api/get/getSalary (::1) 5.98ms
+| 2024:06:21 11:08:39,111 | I | root | ------
+| 2024:06:21 11:08:39,210 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 11:08:41,201 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 11:08:41,211 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 11:08:41,212 | E | STDERR | Traceback (most recent call last):
+| 2024:06:21 11:08:41,212 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\server\main.py", line 94, in <module>
+| 2024:06:21 11:08:41,213 | E | STDERR |     app.listen(WEB_SERVER_PORT)
+| 2024:06:21 11:08:41,213 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\tornado\web.py", line 2211, in listen
+| 2024:06:21 11:08:41,235 | E | STDERR |     server.listen(
+| 2024:06:21 11:08:41,236 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\tornado\tcpserver.py", line 183, in listen
+| 2024:06:21 11:08:41,248 | E | STDERR |     sockets = bind_sockets(
+| 2024:06:21 11:08:41,249 | E | STDERR |               ^^^^^^^^^^^^^
+| 2024:06:21 11:08:41,249 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\xenv\Lib\site-packages\tornado\netutil.py", line 162, in bind_sockets
+| 2024:06:21 11:08:41,260 | E | STDERR |     sock.bind(sockaddr)
+| 2024:06:21 11:08:41,261 | E | STDERR | OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+| 2024:06:21 11:09:22,310 | I | root | ------
+| 2024:06:21 11:09:22,401 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 11:09:23,370 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 11:09:23,374 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 11:10:03,696 | I | root | web\branchManager\getSchudledMeetings.py 61 get 	
+| 2024:06:21 11:10:10,475 | D | root | web\branchManager\getSchudledMeetings.py 144 get RSP	{'code': 4334, 'status': False, 'message': 'Invalid - [ Authorization ]', 'result': []}
+| 2024:06:21 11:10:10,477 | I | tornado.access | 200 GET /v1/api/get/meetings (::1) 6892.57ms
+| 2024:06:21 11:12:35,171 | D | root | web\branchManager\getSchudledMeetings.py 144 get RSP	{'code': 4006, 'status': False, 'message': 'start_date and end_date are required', 'result': []}
+| 2024:06:21 11:12:35,173 | I | tornado.access | 200 GET /v1/api/get/meetings (::1) 21.94ms
+| 2024:06:21 11:13:47,334 | I | STDOUT | *************** [{'_id': ObjectId('666fe67a80aca819639fd65d'), 'branch_id': ObjectId('66681d79a3c4ba4888ad4965'), 'date': '2024-06-18', 'start_time': datetime.datetime(2024, 6, 18, 14, 0), 'end_time': datetime.datetime(2024, 6, 18, 15, 0), 'title': 'Project Planning Meeting', 'description': 'Discuss the project plan and milestones.', 'created_by': '6668259eb27f0e68666fa3ba', 'created_at': datetime.datetime(2024, 6, 17, 7, 32, 10, 519000)}, {'_id': ObjectId('666fe86ac0f2b130f1093ec8'), 'companyId': '66681a63ed55f1052413d85c', 'branch_id': ObjectId('66681d79a3c4ba4888ad4965'), 'date': '2024-06-18', 'start_time': datetime.datetime(2024, 6, 18, 16, 0), 'end_time': datetime.datetime(2024, 6, 18, 17, 0), 'title': 'Project Planning Meeting', 'description': 'Discuss the project plan and milestones.', 'created_by': '6668259eb27f0e68666fa3ba', 'created_at': datetime.datetime(2024, 6, 17, 7, 40, 26, 46000)}, {'_id': ObjectId('666fec1f22606471f3fb8558'), 'companyId': '66681a63ed55f1052413d85c', 'branch_id': ObjectId('66681d79a3c4ba4888ad4965'), 'date': '2024-06-18', 'start_time': datetime.datetime(2024, 6, 18, 18, 0), 'end_time': datetime.datetime(2024, 6, 18, 19, 0), 'title': 'Project Planning Meeting', 'description': 'Discuss the project plan and milestones.', 'created_by': '6668259eb27f0e68666fa3ba', 'created_at': datetime.datetime(2024, 6, 17, 7, 56, 15, 510000)}, {'_id': ObjectId('66700cda7dfc962595755396'), 'companyId': '66681a63ed55f1052413d85c', 'branch_id': ObjectId('66681d79a3c4ba4888ad4965'), 'date': '2024-06-18', 'start_time': datetime.datetime(2024, 6, 18, 20, 0), 'end_time': datetime.datetime(2024, 6, 18, 20, 30), 'title': 'Project Planning Meeting', 'description': 'Discuss the project plan and milestones.', 'created_by': '6668259eb27f0e68666fa3ba', 'created_at': datetime.datetime(2024, 6, 17, 10, 15, 54, 512000), 'isActive': True, 'isDeleted': False}]
+| 2024:06:21 11:13:47,336 | D | root | web\branchManager\getSchudledMeetings.py 144 get RSP	{'code': 2000, 'status': True, 'message': 'Meetings retrieved successfully', 'result': [{'_id': ObjectId('666fe67a80aca819639fd65d'), 'branch_id': ObjectId('66681d79a3c4ba4888ad4965'), 'date': '2024-06-18', 'start_time': datetime.datetime(2024, 6, 18, 14, 0), 'end_time': datetime.datetime(2024, 6, 18, 15, 0), 'title': 'Project Planning Meeting', 'description': 'Discuss the project plan and milestones.', 'created_by': '6668259eb27f0e68666fa3ba', 'created_at': datetime.datetime(2024, 6, 17, 7, 32, 10, 519000)}, {'_id': ObjectId('666fe86ac0f2b130f1093ec8'), 'companyId': '66681a63ed55f1052413d85c', 'branch_id': ObjectId('66681d79a3c4ba4888ad4965'), 'date': '2024-06-18', 'start_time': datetime.datetime(2024, 6, 18, 16, 0), 'end_time': datetime.datetime(2024, 6, 18, 17, 0), 'title': 'Project Planning Meeting', 'description': 'Discuss the project plan and milestones.', 'created_by': '6668259eb27f0e68666fa3ba', 'created_at': datetime.datetime(2024, 6, 17, 7, 40, 26, 46000)}, {'_id': ObjectId('666fec1f22606471f3fb8558'), 'companyId': '66681a63ed55f1052413d85c', 'branch_id': ObjectId('66681d79a3c4ba4888ad4965'), 'date': '2024-06-18', 'start_time': datetime.datetime(2024, 6, 18, 18, 0), 'end_time': datetime.datetime(2024, 6, 18, 19, 0), 'title': 'Project Planning Meeting', 'description': 'Discuss the project plan and milestones.', 'created_by': '6668259eb27f0e68666fa3ba', 'created_at': datetime.datetime(2024, 6, 17, 7, 56, 15, 510000)}, {'_id': ObjectId('66700cda7dfc962595755396'), 'companyId': '66681a63ed55f1052413d85c', 'branch_id': ObjectId('66681d79a3c4ba4888ad4965'), 'date': '2024-06-18', 'start_time': datetime.datetime(2024, 6, 18, 20, 0), 'end_time': datetime.datetime(2024, 6, 18, 20, 30), 'title': 'Project Planning Meeting', 'description': 'Discuss the project plan and milestones.', 'created_by': '6668259eb27f0e68666fa3ba', 'created_at': datetime.datetime(2024, 6, 17, 10, 15, 54, 512000), 'isActive': True, 'isDeleted': False}]}
+| 2024:06:21 11:13:47,338 | I | tornado.access | 200 GET /v1/api/get/meetings?start_date=2024-06-01&end_date=2024-06-30 (::1) 9.97ms
+| 2024:06:21 11:18:34,402 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\branchManager\getSchudledMeetings.py modified; restarting server
+| 2024:06:21 11:18:35,105 | I | root | ------
+| 2024:06:21 11:18:35,198 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 11:18:36,404 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 11:18:36,408 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 11:27:51,773 | D | root | web\accountManagement\salary.py 359 post RSP	{'code': 4003, 'status': False, 'message': 'You are not Authorized to use this', 'result': []}
+| 2024:06:21 11:27:51,775 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 122.67ms
+| 2024:06:21 12:00:57,962 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\branchManager\addHoliday.py modified; restarting server
+| 2024:06:21 12:01:02,324 | I | root | ------
+| 2024:06:21 12:01:02,457 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 12:01:04,557 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 12:01:04,572 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 12:01:24,601 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\branchManager\addHoliday.py modified; restarting server
+| 2024:06:21 12:01:25,181 | I | root | ------
+| 2024:06:21 12:01:25,270 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 12:01:26,305 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 12:01:26,309 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]

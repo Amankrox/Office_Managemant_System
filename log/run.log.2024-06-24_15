@@ -1,0 +1,36 @@
+| 2024:06:24 15:12:36,666 | I | STDOUT | {'_id': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'johndoe@gmail.com', 'password': b'gAAAAABmaCWesE_wTW47idqKVDsO2YLuAhzfkXSAzZTejuoW5t1zUOnm6y-MAmnJ4M9B-3AGx0fuqiwj3PfzwQgShvcTbQ-k7A==', 'role': ObjectId('666824e2c43f23878e12216c'), 'PersonalInfo': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'active': True, 'createdAt': 1718101406408103, 'createdBy': ObjectId('6668259eb27f0e68666fa3b9'), 'updatedAt': None, 'deletedAt': None, 'deleted': False}
+| 2024:06:24 15:12:36,849 | D | root | web\login.py 128 post RSP	{'code': 200, 'status': True, 'message': 'Login Successful.', 'result': {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY4MjU5ZWIyN2YwZTY4NjY2ZmEzYmEiLCJjb21wYW55SWQiOiI2NjY4MWE2M2VkNTVmMTA1MjQxM2Q4NWMiLCJ1c2VyUm9sZSI6ImJyYW5jaE1hbmFnZXIifQ.jWH6CX9L0am9vxdejg4gRcRuMmAzrUi9asxi1L2lgDI'}}
+| 2024:06:24 15:12:36,852 | I | tornado.access | 200 POST /v1/api/login (::1) 269.28ms
+| 2024:06:24 15:13:03,729 | D | urllib3.connectionpool | Starting new HTTPS connection (1): api.cal.com:443
+| 2024:06:24 15:13:04,003 | D | urllib3.connectionpool | https://api.cal.com:443 "POST /v1/meetings HTTP/1.1" 405 None
+| 2024:06:24 15:13:04,005 | I | STDOUT | ***************
+| 2024:06:24 15:13:04,005 | I | STDOUT | ************** 405
+| 2024:06:24 15:13:04,010 | E | root | web\user\resetPassword.py 137 post Cal.com response: 405 	
+| 2024:06:24 15:13:04,011 | I | root | web\user\resetPassword.py 141 post 	
+| 2024:06:24 15:13:04,013 | D | root | web\user\resetPassword.py 152 post RSP	{'code': 4008, 'status': False, 'message': 'Failed to schedule meeting in Cal.com: ', 'result': []}
+| 2024:06:24 15:13:04,014 | I | tornado.access | 200 POST /schedule-meeting (::1) 345.08ms
+| 2024:06:24 15:19:47,893 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\resetPassword.py modified; restarting server
+| 2024:06:24 15:19:48,762 | I | root | ------
+| 2024:06:24 15:19:48,862 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 15:19:50,121 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 15:19:50,125 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 15:20:15,093 | I | root | web\user\resetPassword.py 146 post 	
+| 2024:06:24 15:20:15,095 | D | root | web\user\resetPassword.py 157 post RSP	{'code': 4211, 'status': False, 'message': 'Invalid - [ Authorization ]', 'result': []}
+| 2024:06:24 15:20:15,096 | I | tornado.access | 200 POST /schedule-meeting (::1) 95.75ms
+| 2024:06:24 15:32:43,978 | I | root | web\user\resetPassword.py 146 post 	
+| 2024:06:24 15:32:43,980 | D | root | web\user\resetPassword.py 157 post RSP	{'code': 4007, 'status': False, 'message': 'A meeting is already scheduled during this time.', 'result': []}
+| 2024:06:24 15:32:43,981 | I | tornado.access | 200 POST /schedule-meeting (::1) 17.95ms
+| 2024:06:24 15:33:20,951 | D | root | web\user\resetPassword.py 125 post Cal.com request	{'url': 'https://api.cal.com/v1/meetings', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer cal_live_62d6cc49065c0459b902d6f14e2a2090'}, 'data': {'title': 'Team5454654654654 Sync Meeting', 'date': '2024-06-30', 'start_time': '12:00', 'end_time': '12:20', 'description': 'Discussion on project status and next steps.'}}
+| 2024:06:24 15:33:20,956 | D | urllib3.connectionpool | Starting new HTTPS connection (1): api.cal.com:443
+| 2024:06:24 15:33:21,294 | D | urllib3.connectionpool | https://api.cal.com:443 "POST /v1/meetings HTTP/1.1" 405 None
+| 2024:06:24 15:33:21,303 | E | root | web\user\resetPassword.py 142 post Cal.com response: 405 	
+| 2024:06:24 15:33:21,307 | I | root | web\user\resetPassword.py 146 post 	
+| 2024:06:24 15:33:21,309 | D | root | web\user\resetPassword.py 157 post RSP	{'code': 4008, 'status': False, 'message': 'Failed to schedule meeting in Cal.com: ', 'result': []}
+| 2024:06:24 15:33:21,310 | I | tornado.access | 200 POST /schedule-meeting (::1) 367.02ms
+| 2024:06:24 15:45:49,577 | D | root | web\user\resetPassword.py 125 post Cal.com request	{'url': 'https://api.cal.com/v1/meetings', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer cal_live_62d6cc49065c0459b902d6f14e2a2090'}, 'data': {'title': 'Team5454654654654 Sync Meeting', 'date': '2024-06-30', 'start_time': '12:22', 'end_time': '12:30', 'description': 'Discussion on project status and next steps.'}}
+| 2024:06:24 15:45:49,578 | D | urllib3.connectionpool | Starting new HTTPS connection (1): api.cal.com:443
+| 2024:06:24 15:45:49,910 | D | urllib3.connectionpool | https://api.cal.com:443 "POST /v1/meetings HTTP/1.1" 405 None
+| 2024:06:24 15:45:49,912 | E | root | web\user\resetPassword.py 142 post Cal.com response: 405 	
+| 2024:06:24 15:45:49,914 | I | root | web\user\resetPassword.py 146 post 	
+| 2024:06:24 15:45:49,916 | D | root | web\user\resetPassword.py 157 post RSP	{'code': 4008, 'status': False, 'message': 'Failed to schedule meeting in Cal.com: ', 'result': []}
+| 2024:06:24 15:45:49,917 | I | tornado.access | 200 POST /schedule-meeting (::1) 344.80ms

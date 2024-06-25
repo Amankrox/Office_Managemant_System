@@ -1,7 +1,9 @@
+import calendar
 import json
 import sys
 from datetime import datetime, timedelta
 
+from pymongo import UpdateOne
 import tornado.web
 from bson import ObjectId
 from build_config import CONFIG
@@ -140,7 +142,10 @@ class getPaySlipHandler(tornado.web.RequestHandler, MongoMixin):
 
             endDate=self.request.arguments.get('endDate')
             endDate = datetime.strptime(endDate, '%Y-%m-%d').date()
+            currentYear = endDate.year
             mmonths = endDate.month
+            num_days_in_month = calendar.monthrange(currentYear, mmonths)[1]
+
             # print("**********************", mmonths)
 
 
@@ -202,9 +207,6 @@ class getPaySlipHandler(tornado.web.RequestHandler, MongoMixin):
                 endDate = str(endDate)
                 print(startDate)
                 print(endDate)
-                # month=endDate.month()
-                # print("*******************************",month)
-                
                 presentDayQ= self.attendance.aggregate(
                     [
                         
@@ -263,15 +265,51 @@ class getPaySlipHandler(tornado.web.RequestHandler, MongoMixin):
                 message='check your presentDay  aggeregate part'
                 status= False
                 raise Exception
-            
-            dailySalary = baseSalary / 30  
+            num_saturdays = sum(1 for day in range(1,  num_days_in_month + 1) if calendar.weekday(currentYear, mmonths , day) == calendar.SATURDAY)
+            num_sundays = sum(1 for day in range(1,  num_days_in_month + 1) if calendar.weekday(currentYear, mmonths, day) == calendar.SUNDAY)
+            sum_sat_sun=num_saturdays+num_sundays
+            dailySalary = baseSalary / (num_days_in_month- sum_sat_sun) 
             totalPresent = totalPresentDay  - leaveCount
-            finalSalary= ((dailySalary * totalPresent)+ performanceBonous+singingBounous)
+            finalSalary= ((dailySalary * totalPresent)+ performanceBonous)
 
+
+
+            payslip_existsQ = self.paySlip.aggregate(
+                [
+                    {
+                        '$match': {
+                            'userId': ObjectId(empUserId)
+                        }
+                    }
+                ]
+            )
+            print("************",payslip_existsQ)
+            payslip_exists=[]
+
+            async for i in payslip_existsQ:
+                payslip_exists.append(i) 
+            
+
+            # Add singing bonus only if no payslip exists
+            if not payslip_existsQ:
+                finalSalary += singingBounous
+            else:
+                bulk_operations = [
+                        UpdateOne(
+                            {'_id': payslip['_id']},
+                            {'$set': {'isActive': False}}
+                        ) for payslip in payslip_exists
+                    ]
+
+                # Execute bulk write operations
+                resulttt = await self.paySlip.bulk_write(bulk_operations)
+                if resulttt:
+                    code=200
+                    message="updated and added successfully"
+                    status=True
             # If late more than 3 days, deduct one day's salary
             if lateCount > 3:
                 finalSalary -= dailySalary
-            print(finalSalary)
             data={
                 'companyId':ObjectId(company_id),
                 'branchId':ObjectId(branch_id),
@@ -291,6 +329,7 @@ class getPaySlipHandler(tornado.web.RequestHandler, MongoMixin):
                 code = 200
                 status = True
                 message = 'salary added succesfully'
+                result=result
 
             except Exception as e:
                 code = 43315

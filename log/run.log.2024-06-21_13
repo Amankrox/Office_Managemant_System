@@ -1,0 +1,60 @@
+| 2024:06:21 13:12:54,337 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\main.py modified; restarting server
+| 2024:06:21 13:12:55,235 | I | root | ------
+| 2024:06:21 13:12:55,333 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 13:12:57,371 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 13:12:57,377 | I | root | main.py 91 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 13:15:25,661 | W | tornado.access | 405 GET /v1/api/get/empByBranch?role_id=666824e2c43f23878e12216c (::1) 2.99ms
+| 2024:06:21 13:16:33,400 | I | root | ------
+| 2024:06:21 13:16:33,493 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 13:16:35,027 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 13:16:35,033 | I | root | main.py 91 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 13:16:39,975 | W | tornado.access | 405 GET /v1/api/get/empByBranch?role_id=666824e2c43f23878e12216c (::1) 3.01ms
+| 2024:06:21 13:17:49,560 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\branchManager\getEmployeeByBranch.py modified; restarting server
+| 2024:06:21 13:17:50,255 | I | root | ------
+| 2024:06:21 13:17:50,352 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 13:17:51,531 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 13:17:51,537 | I | root | main.py 91 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 13:18:03,818 | W | tornado.access | 405 GET /v1/api/get/empByBranch?role_id=666824e2c43f23878e12216c (::1) 65.82ms
+| 2024:06:21 13:20:38,073 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\branchManager\getEmployeeByBranch.py modified; restarting server
+| 2024:06:21 13:20:38,902 | I | root | ------
+| 2024:06:21 13:20:38,998 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 13:20:40,179 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 13:20:40,184 | I | root | main.py 91 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 13:20:45,063 | W | tornado.access | 405 GET /v1/api/get/empByBranch?role_id=666824e2c43f23878e12216c (::1) 3.99ms
+| 2024:06:21 13:21:28,147 | W | tornado.access | 405 GET /v1/api/get/empByBranch?role_id=666824e2c43f23878e12216c (::1) 1.00ms
+| 2024:06:21 13:23:11,211 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\branchManager\getEmployeeByBranch.py modified; restarting server
+| 2024:06:21 13:23:12,024 | I | root | ------
+| 2024:06:21 13:23:12,119 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 13:23:13,380 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 13:23:13,384 | I | root | main.py 91 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 13:23:19,596 | D | root | web\branchManager\getEmployeeByBranch.py 164 get RSP	{'code': 4004, 'status': False, 'message': 'Expected request type json', 'result': []}
+| 2024:06:21 13:23:19,603 | I | tornado.access | 200 GET /v1/api/get/empByBranch?role_id=666824e2c43f23878e12216c (::1) 174.54ms
+| 2024:06:21 13:25:06,973 | I | STDOUT | ***************** [{'_id': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'johndoe@gmail.com', 'password': b'gAAAAABmaCWesE_wTW47idqKVDsO2YLuAhzfkXSAzZTejuoW5t1zUOnm6y-MAmnJ4M9B-3AGx0fuqiwj3PfzwQgShvcTbQ-k7A==', 'role': ObjectId('666824e2c43f23878e12216c'), 'PersonalInfo': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'active': True, 'createdAt': 1718101406408103, 'createdBy': ObjectId('6668259eb27f0e68666fa3b9'), 'updatedAt': None, 'deletedAt': None, 'deleted': False}]
+| 2024:06:21 13:25:06,973 | I | STDOUT | breach _id is 66681d79a3c4ba4888ad4965
+| 2024:06:21 13:25:06,991 | D | root | web\branchManager\getEmployeeByBranch.py 164 get RSP	{'code': 4100, 'status': False, 'message': '', 'result': []}
+| 2024:06:21 13:25:06,991 | I | tornado.access | 200 GET /v1/api/get/empByBranch?role_id=666824e2c43f23878e12216c (::1) 57.85ms
+| 2024:06:21 13:25:43,428 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\branchManager\getEmployeeByBranch.py modified; restarting server
+| 2024:06:21 13:25:44,743 | I | root | ------
+| 2024:06:21 13:25:44,842 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 13:25:44,900 | E | STDERR | Traceback (most recent call last):
+| 2024:06:21 13:25:44,901 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\server\main.py", line 11, in <module>
+| 2024:06:21 13:25:44,903 | E | STDERR |     from web.branchManager.getEmployeeByBranch import getEmployeesByBranchHandler
+| 2024:06:21 13:25:44,906 | E | STDERR | ImportError: cannot import name 'getEmployeesByBranchHandler' from 'web.branchManager.getEmployeeByBranch' (C:\Users\AMAN\OneDrive\Desktop\Project\server\web\branchManager\getEmployeeByBranch.py). Did you mean: 'GetEmployeesByBranchHandler'?
+| 2024:06:21 13:26:04,527 | I | root | ------
+| 2024:06:21 13:26:04,624 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 13:26:04,646 | E | STDERR | Traceback (most recent call last):
+| 2024:06:21 13:26:04,647 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\server\main.py", line 11, in <module>
+| 2024:06:21 13:26:04,647 | E | STDERR |     from web.branchManager.getEmployeeByBranch import getEmployeesByBranchHandler
+| 2024:06:21 13:26:04,647 | E | STDERR | ImportError: cannot import name 'getEmployeesByBranchHandler' from 'web.branchManager.getEmployeeByBranch' (C:\Users\AMAN\OneDrive\Desktop\Project\server\web\branchManager\getEmployeeByBranch.py). Did you mean: 'GetEmployeesByBranchHandler'?
+| 2024:06:21 13:31:01,648 | I | root | ------
+| 2024:06:21 13:31:01,737 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 13:31:02,972 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 13:31:02,979 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 13:31:07,212 | W | tornado.access | 405 GET /v1/api/get/empByBranch?role_id=666824e2c43f23878e12216c (::1) 2.99ms
+| 2024:06:21 13:31:44,523 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\branchManager\getEmployeeByBranch.py modified; restarting server
+| 2024:06:21 13:31:45,244 | I | root | ------
+| 2024:06:21 13:31:45,361 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 13:31:46,625 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 13:31:46,630 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 13:31:47,828 | D | root | web\branchManager\getEmployeeByBranch.py 138 get RSP	{'code': 2000, 'status': True, 'message': 'Success', 'result': [{'_id': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'johndoe@gmail.com', 'role': ObjectId('666824e2c43f23878e12216c'), 'PersonalInfo': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'active': True}]}
+| 2024:06:21 13:31:47,833 | I | tornado.access | 200 GET /v1/api/get/empByBranch?role_id=666824e2c43f23878e12216c (::1) 137.63ms

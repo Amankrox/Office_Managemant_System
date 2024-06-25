@@ -96,7 +96,7 @@ class LeaveHandler(tornado.web.RequestHandler, MongoMixin):
             # print("************************",branchId)
             leaveDate = self.request.arguments.get('leaveDate')
             leaveDate = datetime.strptime(leaveDate, '%Y-%m-%d').date()
-            print("8888888888********************8",leaveDate )
+            # print("8888888888********************8",leaveDate )
             if leaveDate is None or not leaveDate:
                 code = 400
                 message = 'Enter leave date in yyyy-mm-dd'
@@ -104,14 +104,14 @@ class LeaveHandler(tornado.web.RequestHandler, MongoMixin):
                 raise Exception
 
             reason=self.request.arguments.get('reason')
-            print("************************",reason)
+            # print("************************",reason)
             if reason is None or not reason or not isinstance(reason,str):
                 code=401
                 message='enter reason in correct format'
                 status=False
                 raise Exception
             leaveDate = str(leaveDate)
-            print(leaveDate)
+            # print(leaveDate)
             
             #code from here:-
             data = {
