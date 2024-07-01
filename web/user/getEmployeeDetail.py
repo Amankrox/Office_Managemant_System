@@ -1,7 +1,7 @@
 import calendar
 import json
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 import tornado.web
 from bson import ObjectId
@@ -58,6 +58,9 @@ class getEmployeeDetailHandler(tornado.web.RequestHandler, MongoMixin):
     ]
     role=MongoMixin.userDb[
         CONFIG['database'][0]['table'][15]['name']
+    ]
+    leave=MongoMixin.userDb[
+        CONFIG['database'][0]['table'][22]['name']
     ]
 
     def options(self):
@@ -217,7 +220,7 @@ class getEmployeeDetailHandler(tornado.web.RequestHandler, MongoMixin):
             full_name = f"{personal_info['firstName']} {personal_info['lastName']}"
             phone = personal_info['phone']
             createdBy=company_role_Name[0]['createdBy']
-            # print("55555555555555555565555",createdBy)
+            # int("pr55555555555555555565555",createdBy)
             createdByNameQ= self.user.aggregate(
                  [
                     {
@@ -226,7 +229,9 @@ class getEmployeeDetailHandler(tornado.web.RequestHandler, MongoMixin):
                         }
                     }, {
                         '$project': {
-                            'PersonalInfo': 1, 
+                            'PersonalInfo.firstName': 1, 
+                            'PersonalInfo.lastName': 1, 
+                            'PersonalInfo.phone':1,
                             '_id': 0
                         }
                     }
@@ -241,7 +246,12 @@ class getEmployeeDetailHandler(tornado.web.RequestHandler, MongoMixin):
             async for i in createdByNameQ:
                 createdByName.append(i)
             # print("55555555555555555565555",createdByNameQ)
-            # print("55555555555555555565555",createdByName)
+            # print("55555555555555555565555",createdByName[0]['PersonalInfo'])
+            creatorName=createdByName[0]['PersonalInfo']
+            # print("55555555555555555565555",creatorName)
+            creatorname1=f"{creatorName['firstName']} {creatorName['lastName']}"
+            creatorPhone=creatorName['phone']
+            
             
 
             startDate1 = sartDate1
@@ -322,20 +332,66 @@ class getEmployeeDetailHandler(tornado.web.RequestHandler, MongoMixin):
                     }
                 ]
             )
+            # print("******************",presentDayQ)
             presentDay = []
             async for i in presentDayQ:
                 presentDay.append(i)
+            # print("******************",presentDay)
             if not presentDay:
-                    lateCount = 0
-                    leaveCount = 0
-                    totalPresentDay = 0
-                 
+                attendance = ["The user has not attended this month"]
             else:
                 lateCount = presentDay[0]['is_late_count']
                 leaveCount = presentDay[0]['leave_count']
                 totalPresentDay = presentDay[0]['total_present_days']
+                attendance = [
+                    f"total working day:{(month_days2-sum_sat_sun2)}",
+                    f"total Absent :{( month_days1 - totalPresentDay-sum_sat_sun)}",
+                    f"Late count: {lateCount}",
+                    f"Leave count: {leaveCount}",
+                    f"Total present days: {totalPresentDay}"
+                ]
             # print("******************",lateCount,leaveCount,totalPresentDay)
+            try:
+                totalLeaveQ=self.leave.aggregate(
+                     
+                    [
+                        {
+                            '$addFields': {
+                                'leaveDate': {
+                                    '$toDate': '$leaveDate'
+                                }
+                            }
+                        }, {
+                            '$match': {
+                                'userId': ObjectId(empUserId), 
+                                'isApproved': True, 
+                                'leaveDate': {
+                                    '$lte': datetime(2024, 6, 30, 0, 0, 0, tzinfo=timezone.utc), 
+                                    '$gte': datetime(2024, 6, 1, 0, 0, 0, tzinfo=timezone.utc)
+                                }
+                            }
+                        }, {
+                            '$count': 'approvedLeaves'
+                        }
+                    ]
+                 )
+                # print("*****************",totalLeaveQ)
+                totalLeave = []
+                async for i in totalLeaveQ:
+                    totalLeave.append(i)
+                # print("*****************",totalLeave)
 
+                if not totalLeave:
+                    totalLeaveQ21 = ["The user has not taken any leave yet"]
+                else:
+                    totalLeaveQ2 = totalLeave[0]['approvedLeaves']
+                    totalLeaveQ21 = [f"Total approved leaves: {totalLeaveQ2}"]
+                # print("******************",totalLeaveQ2)
+            except Exception as e:
+                code=4366
+                message='probelm in line no 342'
+                status=False
+                raise Exception    
 
             try:
 
@@ -389,29 +445,33 @@ class getEmployeeDetailHandler(tornado.web.RequestHandler, MongoMixin):
                     presentDay2.append(i)
 
                 if not presentDay2:
-                    lateCount2 = 0
-                    leaveCount2 = 0
-                    totalPresentDay2 = 0
+                    attendance2 = ["The user has not attended this month"]
                 else:
-                    lateCount2 = presentDay2[0]['is_late_count']
-                    leaveCount2 = presentDay2[0]['leave_count']
-                    totalPresentDay2 = presentDay2[0]['total_present_days']
-                print("******************",lateCount2,leaveCount2,totalPresentDay2)
+                    lateCount1 = presentDay2[0]['is_late_count']
+                    leaveCount1 = presentDay2[0]['leave_count']
+                    totalPresentDay1 = presentDay2[0]['total_present_days']
+                    attendance2 = [
+                        f"total working day:{(month_days2-sum_sat_sun)}",
+                        f"total Absent :{( month_days1 - totalPresentDay1-sum_sat_sun2)}",
+                        f"Late count: {lateCount1}",
+                        f"Leave count: {leaveCount1}",
+                        f"Total present days: {totalPresentDay1}"
+                    ]
+                # print("******************",lateCount2,totalLeaveQ2,totalPresentDay2)
             
             except Exception as e:
                 code=400
                 message='probelm in line no279'
                 status=False
                 raise Exception
-
-
             
+
 
             salaryQ = self.paySlip.aggregate(
                 [
                     {
                         '$match': {
-                            'userId': ObjectId(user_id),
+                            'userId': ObjectId(empUserId),
                             'month':month2
                         }
                     }, {
@@ -426,15 +486,24 @@ class getEmployeeDetailHandler(tornado.web.RequestHandler, MongoMixin):
             salary = []
             async for i in salaryQ:
                 salary.append(i)
+            if not salary:
+                monthsSalary1 = [
+                    "Salary is not generated for this month"
+                ]
+            else:
+                baseSalary = salary[0]['baseSalary']
+                finalSalary = round(salary[0]['finalSalary'])
+                monthsSalary1 = [
+                    f"Base Salary: {baseSalary}",
+                    f"Final Salary: {finalSalary}"
+                ]
+                
             
-            baseSalary = salary[0]['baseSalary']
-            finalSalary = round(salary[0]['finalSalary'])
-
             salaryQ2 = self.paySlip.aggregate(
                 [
                     {
                         '$match': {
-                            'userId': ObjectId(user_id),
+                            'userId': ObjectId(empUserId),
                             'month':month1
                         }
                     }, {
@@ -450,12 +519,17 @@ class getEmployeeDetailHandler(tornado.web.RequestHandler, MongoMixin):
             async for i in salaryQ2:
                 salary.append(i)
             if not salary2:
-                baseSalary2=0
-                finalSalary2=0
+                monthsSalary2 = [
+                    "Salary is not generated for this month"
+                ]
             else:
             
                 baseSalary2 = salary2[0]['baseSalary']
                 finalSalary2 = round(salary2[0]['finalSalary'])
+                monthsSalary2 = [
+                    f"Base Salary: {baseSalary2}",
+                    f"Final Salary: {finalSalary2}"
+                ]
 
             projectQ = self.assignProject.aggregate(
                 [
@@ -483,24 +557,25 @@ class getEmployeeDetailHandler(tornado.web.RequestHandler, MongoMixin):
             projects = []
             async for i in projectQ:
                 projects.append(i)
-
-
-            projectDetails = [
-                {
-                    "Project": f"{index + 1}",
-                    "project_id": project['project_id'],
-                    "Date_of_Assign": project['AssignedOn'],
-                    "List_of_tasks": [
-                        {
-                            "taskId": task['taskId'],
-                            "taskName": task['taskName'],
-                            "dueDate": task['dueDate']
-                        }
-                        for task in project['tasks']
-                    ]
-                }
-                for index, project in enumerate(projects)
-            ]
+            if not projects:
+                 projectDetails=["the user is not assigned with any projects the user is still on bench"]
+            else:
+                projectDetails = [
+                    {
+                        "Project": f"{index + 1}",
+                        "project_id": project['project_id'],
+                        "Date_of_Assign": project['AssignedOn'],
+                        "List_of_tasks": [
+                            {
+                                "taskId": task['taskId'],
+                                "taskName": task['taskName'],
+                                "dueDate": task['dueDate']
+                            }
+                            for task in project['tasks']
+                        ]
+                    }
+                    for index, project in enumerate(projects)
+                ]
 
             # print('**********************',datetime.now().date())
             
@@ -518,25 +593,34 @@ class getEmployeeDetailHandler(tornado.web.RequestHandler, MongoMixin):
                             "email": company_role_Name[0]['email'],
                             # "role_id": str(company_role_Name[0]['role']),
                             "role_name":company_role_Name[0]['roleName'],
-                            "createdBy": str(company_role_Name[0]['createdBy'])
+                            "createdBy": creatorname1,
+                            "Cteator_phone":creatorPhone
                         },
                         "Month": {
                             month_name1: {
-                                "total_working_days": month_days1-sum_sat_sun,
-                                "total_present": totalPresentDay,
-                                "total_absent": month_days1 - totalPresentDay-sum_sat_sun,
-                                "Leave_taken": leaveCount,
-                                 "base_Salary":baseSalary,
-                                "salary_taken": finalSalary2
+                                "attendance":attendance,
+                                "salary":monthsSalary2
+                                # "message":message1,
+                                # "total_working_days": month_days1-sum_sat_sun,
+                                # "total_present": totalPresentDay,
+                                # "total_absent": month_days1 - totalPresentDay-sum_sat_sun,
+                                # "Leave_taken": leaveCount,
+                                # "late_Count":lateCount,
+                                #  "base_Salary":baseSalary,
+                                # "salary_taken": finalSalary2
                                 
                             },
                             month_name2: {
-                                "total_working_days":month_days2-sum_sat_sun2,
-                                "total_present": totalPresentDay2,
-                                "total_absent": month_days2 - totalPresentDay2-sum_sat_sun2,
-                                "Leave_taken": leaveCount2,
-                                 "base_Salary":baseSalary,
-                                "salary_taken": finalSalary
+                                "attendance":attendance2,
+                                "salary":monthsSalary1
+                                # "message":message2,
+                                # "total_working_days":month_days2-sum_sat_sun2,
+                                # "total_present": totalPresentDay2,
+                                # "total_absent": month_days2 - totalPresentDay2-sum_sat_sun2,
+                                # "Leave_taken": totalLeaveQ2,
+                                # "late_Count":lateCount2,
+                                # "base_Salary":baseSalary,
+                                # "salary_taken": finalSalary
                             }
                         },
                         "Task": projectDetails

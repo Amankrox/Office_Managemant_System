@@ -1,0 +1,72 @@
+| 2024:06:28 15:10:09,247 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:28 15:10:09,817 | I | root | ------
+| 2024:06:28 15:10:09,907 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 15:10:11,003 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 15:10:11,009 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 15:13:47,049 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:28 15:13:47,554 | I | root | ------
+| 2024:06:28 15:13:47,643 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 15:13:48,666 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 15:13:48,670 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 15:17:14,724 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:28 15:17:15,226 | I | root | ------
+| 2024:06:28 15:17:15,315 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 15:17:16,320 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 15:17:16,326 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 15:17:20,361 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:28 15:17:20,929 | I | root | ------
+| 2024:06:28 15:17:21,022 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 15:17:22,120 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 15:17:22,125 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 15:19:22,179 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:28 15:19:22,688 | I | root | ------
+| 2024:06:28 15:19:22,778 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 15:19:23,171 | E | STDERR | Traceback (most recent call last):
+| 2024:06:28 15:19:23,172 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\server\main.py", line 33, in <module>
+| 2024:06:28 15:19:23,173 | E | STDERR |     from web.user.getEmployeeDetail import getEmployeeDetailHandler
+| 2024:06:28 15:19:23,177 | E | STDERR |   File "C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py", line 351
+| 2024:06:28 15:19:23,177 | E | STDERR |     f"latecount"={"lateCount"},
+| 2024:06:28 15:19:23,178 | E | STDERR |     ^^^^^^^^^^^^
+| 2024:06:28 15:19:23,178 | E | STDERR | SyntaxError: cannot assign to f-string expression here. Maybe you meant '==' instead of '='?
+| 2024:06:28 15:31:29,121 | I | root | ------
+| 2024:06:28 15:31:29,210 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 15:31:30,179 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 15:31:30,183 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 15:31:41,399 | D | root | web\user\getEmployeeDetail.py 646 get RSP	{'code': 4100, 'status': False, 'message': 'salary is not genetaed yet for this months', 'result': []}
+| 2024:06:28 15:31:41,400 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 121.67ms
+| 2024:06:28 15:35:10,217 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:28 15:35:10,744 | I | root | ------
+| 2024:06:28 15:35:10,833 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 15:35:12,072 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 15:35:12,076 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 15:35:13,686 | D | root | web\user\getEmployeeDetail.py 636 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'comp_name': 'Abir Private Company', 'name': 'Ram Chandra', 'mobile_no.': '1234567890', 'email': 'ramchandra@gmail.com', 'role_name': 'branchManager', 'createdBy': 'John Doe', 'Cteator_phone': '1234567890'}, 'Month': {'May': {'message': 'the user not attented this months', 'total_working_days': 23, 'total_present': 0, 'total_absent': 23, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'message': 'the user not attented this month', 'total_working_days': 20, 'total_present': 0, 'total_absent': 20, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}}, 'Task': ['the user is not assigned with any projects the user is still on bench']}]}}
+| 2024:06:28 15:35:13,687 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 142.62ms
+| 2024:06:28 15:35:45,665 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:28 15:35:46,342 | I | root | ------
+| 2024:06:28 15:35:46,458 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 15:35:47,728 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 15:35:47,733 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 15:38:02,268 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:28 15:38:02,788 | I | root | ------
+| 2024:06:28 15:38:02,882 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 15:38:04,036 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 15:38:04,041 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 15:38:07,713 | D | root | web\user\getEmployeeDetail.py 634 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'comp_name': 'Abir Private Company', 'name': 'Ram Chandra', 'mobile_no.': '1234567890', 'email': 'ramchandra@gmail.com', 'role_name': 'branchManager', 'createdBy': 'John Doe', 'Cteator_phone': '1234567890'}, 'Month': {'May': {'message': 'the user not attented this months', 'total_working_days': 23, 'total_present': 0, 'total_absent': 23, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'message': 'the user not attented this month', 'total_working_days': 20, 'total_present': 0, 'total_absent': 20, 'Leave_taken': 0, 'late_Count': 0, 'base_Salary': 0, 'salary_taken': 0}}, 'Task': ['the user is not assigned with any projects the user is still on bench']}]}}
+| 2024:06:28 15:38:07,714 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 104.72ms
+| 2024:06:28 15:38:58,067 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:28 15:38:58,698 | I | root | ------
+| 2024:06:28 15:38:58,829 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 15:39:00,063 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 15:39:00,068 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 15:39:01,714 | D | root | web\user\getEmployeeDetail.py 635 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'comp_name': 'Abir Private Company', 'name': 'Ram Chandra', 'mobile_no.': '1234567890', 'email': 'ramchandra@gmail.com', 'role_name': 'branchManager', 'createdBy': 'John Doe', 'Cteator_phone': '1234567890'}, 'Month': {'May': {'message': 'the user not attented this months', 'total_working_days': 23, 'total_present': 0, 'total_absent': 23, 'Leave_taken': 0, 'late_Count': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'message': 'the user not attented this month', 'total_working_days': 20, 'total_present': 0, 'total_absent': 20, 'Leave_taken': 0, 'late_Count': 0, 'base_Salary': 0, 'salary_taken': 0}}, 'Task': ['the user is not assigned with any projects the user is still on bench']}]}}
+| 2024:06:28 15:39:01,716 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 166.55ms
+| 2024:06:28 15:41:11,102 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:28 15:41:11,623 | I | root | ------
+| 2024:06:28 15:41:11,718 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 15:41:12,803 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 15:41:12,811 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 15:59:02,355 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:28 15:59:02,920 | I | root | ------
+| 2024:06:28 15:59:03,016 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 15:59:04,281 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 15:59:04,287 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]

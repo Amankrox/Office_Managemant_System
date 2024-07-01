@@ -1,0 +1,137 @@
+| 2024:06:28 11:00:13,048 | I | root | ------
+| 2024:06:28 11:00:13,162 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 11:00:15,462 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 11:00:15,478 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 11:00:31,366 | D | root | web\user\getEmployeeDetail.py 619 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'comp_name': 'Abir Private Company', 'name': 'Project Manager', 'mobile_no.': '1234567890', 'email': 'projectmanger@gmail.com', 'role_name': 'PROJECTMANAGER', 'createdBy': '6668259eb27f0e68666fa3ba'}, 'Month': {'May': {'total_working_days': 23, 'total_present': 0, 'total_absent': 23, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}, 'June': {'total_working_days': 20, 'total_present': 3, 'total_absent': 17, 'Leave_taken': 0, 'base_Salary': 0, 'salary_taken': 0}}, 'Task': []}]}}
+| 2024:06:28 11:00:31,367 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 541.55ms
+| 2024:06:28 11:05:20,272 | I | STDOUT | {'_id': ObjectId('666af52cb3f5b3183945aa22'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'accountsmanger@gmail.com', 'password': b'gAAAAABmavUr6_ZUY81eaoYZYhbAnsorE11OWBlr2IhAF1s66aFCfCHgUI1d2KeuKyagvLyFVp75QCkJAW3RAelFEwE3HWJx3w==', 'role': ObjectId('666af23c0e7e429a807fd951'), 'active': True, 'createdAt': 1718285612022498, 'updatedAt': None, 'deletedAt': None, 'deleted': False, 'PersonalInfo': {'firstName': 'Accounts', 'lastName': 'Manager', 'phone': '1234567890'}, 'createdBy': ObjectId('6668259eb27f0e68666fa3ba')}
+| 2024:06:28 11:05:20,285 | D | root | web\login.py 128 post RSP	{'code': 200, 'status': True, 'message': 'Login Successful.', 'result': {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjZhZjUyY2IzZjViMzE4Mzk0NWFhMjIiLCJjb21wYW55SWQiOiI2NjY4MWE2M2VkNTVmMTA1MjQxM2Q4NWMiLCJ1c2VyUm9sZSI6IkFjY291bnRzTWFuYWdlciJ9.VuU4HtYzEfzysh4G6hpTXOqQsKH1fPMJjIrlnkx6HVE'}}
+| 2024:06:28 11:05:20,286 | I | tornado.access | 200 POST /v1/api/login (::1) 24.93ms
+| 2024:06:28 11:06:01,681 | I | STDOUT | 80000
+| 2024:06:28 11:06:01,681 | I | STDOUT | 2024-06-01
+| 2024:06:28 11:06:01,681 | I | STDOUT | 2024-06-30
+| 2024:06:28 11:06:01,682 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x00000220CA08A480>)
+| 2024:06:28 11:06:01,713 | W | root | web\accountManagement\salary.py 350 post EXC	Exception: InvalidOperation. Argument: ('No operations to execute',)
+| 2024:06:28 11:06:01,715 | D | root | web\accountManagement\salary.py 351 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 305 TYPE: <class 'pymongo.errors.InvalidOperation'>
+| 2024:06:28 11:06:01,717 | D | root | web\accountManagement\salary.py 359 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:28 11:06:01,717 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 39.89ms
+| 2024:06:28 11:07:59,027 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:28 11:07:59,551 | I | root | ------
+| 2024:06:28 11:07:59,644 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 11:08:00,691 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 11:08:00,695 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 11:08:02,030 | I | STDOUT | ********************** 6
+| 2024:06:28 11:08:02,032 | I | STDOUT | 80000
+| 2024:06:28 11:08:02,032 | I | STDOUT | 2024-06-01
+| 2024:06:28 11:08:02,032 | I | STDOUT | 2024-06-30
+| 2024:06:28 11:08:02,034 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001A9BEEBBDD0>)
+| 2024:06:28 11:08:02,117 | W | root | web\accountManagement\salary.py 350 post EXC	Exception: InvalidOperation. Argument: ('No operations to execute',)
+| 2024:06:28 11:08:02,119 | D | root | web\accountManagement\salary.py 351 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 305 TYPE: <class 'pymongo.errors.InvalidOperation'>
+| 2024:06:28 11:08:02,121 | D | root | web\accountManagement\salary.py 359 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:28 11:08:02,121 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 100.73ms
+| 2024:06:28 11:09:23,738 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:28 11:09:24,208 | I | root | ------
+| 2024:06:28 11:09:24,295 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 11:09:25,363 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 11:09:25,367 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 11:09:27,435 | I | STDOUT | ********************** 6
+| 2024:06:28 11:09:27,436 | I | STDOUT | 80000
+| 2024:06:28 11:09:27,436 | I | STDOUT | 2024-06-01
+| 2024:06:28 11:09:27,436 | I | STDOUT | 2024-06-30
+| 2024:06:28 11:09:27,438 | I | STDOUT | ********** 3
+| 2024:06:28 11:09:27,438 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000002AE8F88BE30>)
+| 2024:06:28 11:09:27,523 | W | root | web\accountManagement\salary.py 350 post EXC	Exception: InvalidOperation. Argument: ('No operations to execute',)
+| 2024:06:28 11:09:27,526 | D | root | web\accountManagement\salary.py 351 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 305 TYPE: <class 'pymongo.errors.InvalidOperation'>
+| 2024:06:28 11:09:27,528 | D | root | web\accountManagement\salary.py 359 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:28 11:09:27,529 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 99.73ms
+| 2024:06:28 11:10:39,400 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:28 11:10:39,896 | I | root | ------
+| 2024:06:28 11:10:39,987 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 11:10:41,100 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 11:10:41,105 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 11:10:42,828 | I | STDOUT | ********************** 6
+| 2024:06:28 11:10:42,829 | I | STDOUT | 80000
+| 2024:06:28 11:10:42,830 | I | STDOUT | 2024-06-01
+| 2024:06:28 11:10:42,833 | I | STDOUT | 2024-06-30
+| 2024:06:28 11:10:42,835 | I | STDOUT | ********** 3 0 3
+| 2024:06:28 11:10:42,835 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000001E54248BE00>)
+| 2024:06:28 11:10:42,942 | W | root | web\accountManagement\salary.py 351 post EXC	Exception: InvalidOperation. Argument: ('No operations to execute',)
+| 2024:06:28 11:10:42,946 | D | root | web\accountManagement\salary.py 352 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 306 TYPE: <class 'pymongo.errors.InvalidOperation'>
+| 2024:06:28 11:10:42,951 | D | root | web\accountManagement\salary.py 360 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:28 11:10:42,952 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 132.65ms
+| 2024:06:28 11:11:13,644 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:28 11:11:14,342 | I | root | ------
+| 2024:06:28 11:11:14,463 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 11:11:15,865 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 11:11:15,871 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 11:11:25,406 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:28 11:11:26,104 | I | root | ------
+| 2024:06:28 11:11:26,252 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 11:11:27,645 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 11:11:27,651 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 11:11:30,082 | I | STDOUT | ********************** 6
+| 2024:06:28 11:11:30,084 | I | STDOUT | 80000
+| 2024:06:28 11:11:30,084 | I | STDOUT | 2024-06-01
+| 2024:06:28 11:11:30,087 | I | STDOUT | 2024-06-30
+| 2024:06:28 11:11:30,090 | I | STDOUT | ********** 15000.0
+| 2024:06:28 11:11:30,091 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x00000173F778BEC0>)
+| 2024:06:28 11:11:30,235 | W | root | web\accountManagement\salary.py 352 post EXC	Exception: InvalidOperation. Argument: ('No operations to execute',)
+| 2024:06:28 11:11:30,239 | D | root | web\accountManagement\salary.py 353 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 307 TYPE: <class 'pymongo.errors.InvalidOperation'>
+| 2024:06:28 11:11:30,244 | D | root | web\accountManagement\salary.py 361 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:28 11:11:30,246 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 173.57ms
+| 2024:06:28 11:12:42,697 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:28 11:12:43,184 | I | root | ------
+| 2024:06:28 11:12:43,276 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 11:12:44,401 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 11:12:44,406 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 11:12:47,532 | I | STDOUT | ********************** 6
+| 2024:06:28 11:12:47,534 | I | STDOUT | 80000
+| 2024:06:28 11:12:47,534 | I | STDOUT | 2024-06-01
+| 2024:06:28 11:12:47,537 | I | STDOUT | 2024-06-30
+| 2024:06:28 11:12:47,539 | I | STDOUT | ********** 15000.0
+| 2024:06:28 11:12:47,539 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000024A0A88BF20>)
+| 2024:06:28 11:12:47,632 | W | root | web\accountManagement\salary.py 353 post EXC	Exception: InvalidOperation. Argument: ('No operations to execute',)
+| 2024:06:28 11:12:47,635 | D | root | web\accountManagement\salary.py 354 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 307 TYPE: <class 'pymongo.errors.InvalidOperation'>
+| 2024:06:28 11:12:47,637 | D | root | web\accountManagement\salary.py 362 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:28 11:12:47,638 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 114.70ms
+| 2024:06:28 11:13:06,937 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:28 11:13:07,591 | I | root | ------
+| 2024:06:28 11:13:07,732 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 11:13:09,262 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 11:13:09,266 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 11:13:13,064 | I | STDOUT | ********************** 6
+| 2024:06:28 11:13:13,066 | I | STDOUT | 80000
+| 2024:06:28 11:13:13,066 | I | STDOUT | 2024-06-01
+| 2024:06:28 11:13:13,066 | I | STDOUT | 2024-06-30
+| 2024:06:28 11:13:13,068 | I | STDOUT | ********** 15000.0
+| 2024:06:28 11:13:13,068 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000029F8818B650>)
+| 2024:06:28 11:13:13,166 | W | root | web\accountManagement\salary.py 353 post EXC	Exception: InvalidOperation. Argument: ('No operations to execute',)
+| 2024:06:28 11:13:13,168 | D | root | web\accountManagement\salary.py 354 post EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py LINE: 307 TYPE: <class 'pymongo.errors.InvalidOperation'>
+| 2024:06:28 11:13:13,170 | D | root | web\accountManagement\salary.py 362 post RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:28 11:13:13,170 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 114.69ms
+| 2024:06:28 11:15:13,291 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:28 11:15:13,837 | I | root | ------
+| 2024:06:28 11:15:13,948 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 11:15:15,049 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 11:15:15,053 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 11:15:17,961 | I | STDOUT | ********************** 6
+| 2024:06:28 11:15:17,962 | I | STDOUT | 80000
+| 2024:06:28 11:15:17,963 | I | STDOUT | 2024-06-01
+| 2024:06:28 11:15:17,963 | I | STDOUT | 2024-06-30
+| 2024:06:28 11:15:17,965 | I | STDOUT | ********** 15000.0
+| 2024:06:28 11:15:17,965 | I | STDOUT | ************ AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000002283851FBF0>)
+| 2024:06:28 11:15:17,967 | I | STDOUT | ***************
+| 2024:06:28 11:15:18,059 | D | root | web\accountManagement\salary.py 362 post RSP	{'code': 200, 'status': True, 'message': 'salary added succesfully', 'result': [{'companyId': '66681a63ed55f1052413d85c', 'branchId': '66681d79a3c4ba4888ad4965', 'payGrade': '666852634e0927faceeb6adf', 'baseSalary': 80000, 'performanceBounous': 3000, 'singingBonous': 2000}]}
+| 2024:06:28 11:15:18,061 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 108.71ms
+| 2024:06:28 11:15:37,081 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:28 11:15:37,581 | I | root | ------
+| 2024:06:28 11:15:37,673 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 11:15:38,837 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 11:15:38,843 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:28 11:15:59,566 | D | root | web\user\getEmployeeDetail.py 619 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'comp_name': 'Abir Private Company', 'name': 'Project Manager', 'mobile_no.': '1234567890', 'email': 'projectmanger@gmail.com', 'role_name': 'PROJECTMANAGER', 'createdBy': '6668259eb27f0e68666fa3ba'}, 'Month': {'May': {'total_working_days': 23, 'total_present': 0, 'total_absent': 23, 'Leave_taken': 0, 'base_Salary': 80000, 'salary_taken': 0}, 'June': {'total_working_days': 20, 'total_present': 3, 'total_absent': 17, 'Leave_taken': 0, 'base_Salary': 80000, 'salary_taken': 15000}}, 'Task': []}]}}
+| 2024:06:28 11:15:59,567 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 114.69ms
+| 2024:06:28 11:19:34,376 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\accountManagement\salary.py modified; restarting server
+| 2024:06:28 11:19:34,883 | I | root | ------
+| 2024:06:28 11:19:34,970 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:28 11:19:35,977 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:28 11:19:35,981 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]

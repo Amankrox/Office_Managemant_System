@@ -1,0 +1,320 @@
+| 2024:06:27 15:00:21,696 | I | root | ------
+| 2024:06:27 15:00:21,840 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:00:26,694 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:00:26,739 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:00:58,339 | D | root | web\branchManager\addEmployee.py 238 post RSP	{'code': 2000, 'status': True, 'message': 'Employee created successfully', 'result': []}
+| 2024:06:27 15:00:58,340 | I | tornado.access | 200 POST /v1/api/add/employee (::1) 395.91ms
+| 2024:06:27 15:03:00,427 | I | STDOUT | ***************** AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x0000024FE608B5C0>)
+| 2024:06:27 15:03:00,486 | I | STDOUT | ****************** 1
+| 2024:06:27 15:03:00,489 | I | STDOUT | ****************** 4 1 4
+| 2024:06:27 15:03:00,680 | D | root | web\user\getEmployeeDetail.py 610 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'comp_name': 'Abir Private Company', 'name': 'John Doe', 'mobile_no.': '1234567890', 'email': 'johndoe@gmail.com', 'role_name': 'branchManager', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 23, 'total_present': 0, 'total_absent': 23, 'Leave_taken': 0, 'base_Salary': 80000, 'salary_taken': 0}, 'June': {'total_working_days': 20, 'total_present': 4, 'total_absent': 16, 'Leave_taken': 1, 'base_Salary': 80000, 'salary_taken': 15000}}, 'Task': [{'Project': '1', 'project_id': '667120e0bfc4dda06d254e02', 'Date_of_Assign': 1718690016204923, 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}, {'Project': '2', 'project_id': '6673b9baa1d752cec115deb5', 'Date_of_Assign': datetime.datetime(2024, 6, 20, 10, 40, 18, 532000), 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}]}]}}
+| 2024:06:27 15:03:00,684 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 446.64ms
+| 2024:06:27 15:11:21,825 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\branchManager\meetings.py modified; restarting server
+| 2024:06:27 15:11:22,642 | I | root | ------
+| 2024:06:27 15:11:22,762 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:11:23,868 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:11:23,872 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:12:56,971 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:12:57,623 | I | root | ------
+| 2024:06:27 15:12:57,711 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:12:58,787 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:12:58,792 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:13:50,398 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:13:51,126 | I | root | ------
+| 2024:06:27 15:13:51,249 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:13:52,576 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:13:52,582 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:15:28,676 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:15:29,316 | I | root | ------
+| 2024:06:27 15:15:29,407 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:15:30,448 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:15:30,452 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:17:25,035 | W | root | web\user\getEmployeeDetail.py 601 get EXC	Exception: KeyError. Argument: ('PersonalInfo',)
+| 2024:06:27 15:17:25,044 | D | root | web\user\getEmployeeDetail.py 602 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 218 TYPE: <class 'KeyError'>
+| 2024:06:27 15:17:25,050 | D | root | web\user\getEmployeeDetail.py 610 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:27 15:17:25,055 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 279.54ms
+| 2024:06:27 15:25:01,055 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:25:01,859 | I | root | ------
+| 2024:06:27 15:25:01,963 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:25:03,197 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:25:03,201 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:27:16,297 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:27:16,953 | I | root | ------
+| 2024:06:27 15:27:17,047 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:27:18,115 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:27:18,120 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:27:26,565 | W | root | web\user\getEmployeeDetail.py 607 get EXC	Exception: KeyError. Argument: ('PersonalInfo',)
+| 2024:06:27 15:27:26,570 | D | root | web\user\getEmployeeDetail.py 608 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 218 TYPE: <class 'KeyError'>
+| 2024:06:27 15:27:26,575 | D | root | web\user\getEmployeeDetail.py 616 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:27 15:27:26,577 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 371.84ms
+| 2024:06:27 15:27:38,484 | D | root | web\user\getEmployeeDetail.py 616 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'comp_name': 'Abir Private Company', 'name': 'John Doe', 'mobile_no.': '1234567890', 'email': 'johndoe@gmail.com', 'role_name': 'branchManager', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 23, 'total_present': 0, 'total_absent': 23, 'Leave_taken': 0, 'base_Salary': 80000, 'salary_taken': 0}, 'June': {'total_working_days': 20, 'total_present': 4, 'total_absent': 16, 'Leave_taken': 1, 'base_Salary': 80000, 'salary_taken': 15000}}, 'Task': [{'Project': '1', 'project_id': '667120e0bfc4dda06d254e02', 'Date_of_Assign': 1718690016204923, 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}, {'Project': '2', 'project_id': '6673b9baa1d752cec115deb5', 'Date_of_Assign': datetime.datetime(2024, 6, 20, 10, 40, 18, 532000), 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}]}]}}
+| 2024:06:27 15:27:38,486 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 39.23ms
+| 2024:06:27 15:29:00,714 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:29:01,332 | I | root | ------
+| 2024:06:27 15:29:01,420 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:29:02,488 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:29:02,492 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:29:07,907 | I | STDOUT | ********************** 2024-06-27
+| 2024:06:27 15:29:08,001 | D | root | web\user\getEmployeeDetail.py 616 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'comp_name': 'Abir Private Company', 'name': 'John Doe', 'mobile_no.': '1234567890', 'email': 'johndoe@gmail.com', 'role_name': 'branchManager', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 23, 'total_present': 0, 'total_absent': 23, 'Leave_taken': 0, 'base_Salary': 80000, 'salary_taken': 0}, 'June': {'total_working_days': 20, 'total_present': 4, 'total_absent': 16, 'Leave_taken': 1, 'base_Salary': 80000, 'salary_taken': 15000}}, 'Task': [{'Project': '1', 'project_id': '667120e0bfc4dda06d254e02', 'Date_of_Assign': 1718690016204923, 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}, {'Project': '2', 'project_id': '6673b9baa1d752cec115deb5', 'Date_of_Assign': datetime.datetime(2024, 6, 20, 10, 40, 18, 532000), 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}]}]}}
+| 2024:06:27 15:29:08,002 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 120.03ms
+| 2024:06:27 15:31:51,439 | D | root | web\accountManagement\account.py 330 post RSP	{'code': 200, 'status': True, 'message': 'paylip added succesfully', 'result': []}
+| 2024:06:27 15:31:51,440 | I | tornado.access | 200 POST /v1/api/add/paySlip (::1) 98.16ms
+| 2024:06:27 15:34:31,831 | D | root | web\accountManagement\salary.py 359 post RSP	{'code': 4003, 'status': False, 'message': 'You are not Authorized to use this', 'result': []}
+| 2024:06:27 15:34:31,832 | I | tornado.access | 200 POST /v1/api/add/salary (::1) 26.93ms
+| 2024:06:27 15:35:56,049 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:35:57,559 | I | root | ------
+| 2024:06:27 15:35:57,650 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:35:59,238 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:35:59,249 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:36:17,414 | I | STDOUT | ********************** 2024-06-27
+| 2024:06:27 15:36:17,638 | D | root | web\user\getEmployeeDetail.py 616 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'comp_name': 'Abir Private Company', 'name': 'John Doe', 'mobile_no.': '1234567890', 'email': 'johndoe@gmail.com', 'role_name': 'branchManager', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 23, 'total_present': 0, 'total_absent': 23, 'Leave_taken': 0, 'base_Salary': 80000, 'salary_taken': 0}, 'June': {'total_working_days': 20, 'total_present': 4, 'total_absent': 16, 'Leave_taken': 1, 'base_Salary': 80000, 'salary_taken': 15000}}, 'Task': [{'Project': '1', 'project_id': '667120e0bfc4dda06d254e02', 'Date_of_Assign': 1718690016204923, 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}, {'Project': '2', 'project_id': '6673b9baa1d752cec115deb5', 'Date_of_Assign': datetime.datetime(2024, 6, 20, 10, 40, 18, 532000), 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}]}]}}
+| 2024:06:27 15:36:17,641 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 268.59ms
+| 2024:06:27 15:36:24,622 | W | root | web\user\getEmployeeDetail.py 607 get EXC	Exception: KeyError. Argument: ('PersonalInfo',)
+| 2024:06:27 15:36:24,628 | D | root | web\user\getEmployeeDetail.py 608 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 218 TYPE: <class 'KeyError'>
+| 2024:06:27 15:36:24,634 | D | root | web\user\getEmployeeDetail.py 616 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 15:36:24,635 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 20.87ms
+| 2024:06:27 15:38:22,475 | I | STDOUT | {'_id': ObjectId('666af55cb3f5b3183945aa23'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'projectmanger@gmail.com', 'password': b'gAAAAABmavVcbhrrkZqYTj62ckgb1XWiNUMi71OtWGEU128gpYiAKLkgIrdu8LUB6pBI_n1FFb7MWyOptPMi1Z5OKdacCagdng==', 'role': ObjectId('66693920b44eb2133282d589'), 'personalInfo': {'firstName': 'Project', 'lastName': 'Manager', 'phone': '1234567890'}, 'active': True, 'createdAt': 1718285660715828, 'updatedAt': None, 'deletedAt': None, 'deleted': False}
+| 2024:06:27 15:38:22,503 | D | root | web\login.py 128 post RSP	{'code': 200, 'status': True, 'message': 'Login Successful.', 'result': {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjZhZjU1Y2IzZjViMzE4Mzk0NWFhMjMiLCJjb21wYW55SWQiOiI2NjY4MWE2M2VkNTVmMTA1MjQxM2Q4NWMiLCJ1c2VyUm9sZSI6IlBST0pFQ1RNQU5BR0VSIn0.iieTexYigtxuVUF4qeRbr0yhcXUZrHcZ1_nPHHazKs4'}}
+| 2024:06:27 15:38:22,505 | I | tornado.access | 200 POST /v1/api/login (::1) 49.98ms
+| 2024:06:27 15:39:26,938 | I | root | web\attendance\attendance.py 115 post ROLE :	PROJECTMANAGER
+| 2024:06:27 15:39:26,945 | D | root | web\attendance\attendance.py 262 post RSP	{'code': 2000, 'status': True, 'message': 'Checked in successfully', 'result': []}
+| 2024:06:27 15:39:26,946 | I | tornado.access | 200 POST /v1/api/attendance (::1) 43.31ms
+| 2024:06:27 15:39:34,445 | I | root | web\attendance\attendance.py 163 post ROLE :	PROJECTMANAGER
+| 2024:06:27 15:39:34,446 | I | STDOUT | 666af55cb3f5b3183945aa23
+| 2024:06:27 15:39:34,447 | I | STDOUT | 2024-06-27
+| 2024:06:27 15:39:34,465 | D | root | web\attendance\attendance.py 262 post RSP	{'code': 2000, 'status': True, 'message': 'Checked out successfully', 'result': []}
+| 2024:06:27 15:39:34,466 | I | tornado.access | 200 POST /v1/api/attendance (::1) 26.50ms
+| 2024:06:27 15:39:40,534 | I | root | web\attendance\attendance.py 115 post ROLE :	PROJECTMANAGER
+| 2024:06:27 15:39:40,538 | D | root | web\attendance\attendance.py 262 post RSP	{'code': 2000, 'status': True, 'message': 'Checked in successfully', 'result': []}
+| 2024:06:27 15:39:40,538 | I | tornado.access | 200 POST /v1/api/attendance (::1) 7.89ms
+| 2024:06:27 15:39:46,460 | I | root | web\attendance\attendance.py 163 post ROLE :	PROJECTMANAGER
+| 2024:06:27 15:39:46,461 | I | STDOUT | 666af55cb3f5b3183945aa23
+| 2024:06:27 15:39:46,461 | I | STDOUT | 2024-06-27
+| 2024:06:27 15:39:46,469 | D | root | web\attendance\attendance.py 262 post RSP	{'code': 4100, 'status': False, 'message': 'You are already checked out', 'result': []}
+| 2024:06:27 15:39:46,470 | I | tornado.access | 200 POST /v1/api/attendance (::1) 16.95ms
+| 2024:06:27 15:39:53,850 | I | root | web\attendance\attendance.py 115 post ROLE :	PROJECTMANAGER
+| 2024:06:27 15:39:53,855 | D | root | web\attendance\attendance.py 262 post RSP	{'code': 2000, 'status': True, 'message': 'Checked in successfully', 'result': []}
+| 2024:06:27 15:39:53,855 | I | tornado.access | 200 POST /v1/api/attendance (::1) 8.99ms
+| 2024:06:27 15:40:57,376 | W | root | web\user\getEmployeeDetail.py 607 get EXC	Exception: KeyError. Argument: ('PersonalInfo',)
+| 2024:06:27 15:40:57,379 | D | root | web\user\getEmployeeDetail.py 608 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 218 TYPE: <class 'KeyError'>
+| 2024:06:27 15:40:57,385 | D | root | web\user\getEmployeeDetail.py 616 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 15:40:57,386 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 20.94ms
+| 2024:06:27 15:42:22,326 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:42:22,952 | I | root | ------
+| 2024:06:27 15:42:23,051 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:42:24,224 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:42:24,228 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:42:30,154 | I | STDOUT | ************ branchManager
+| 2024:06:27 15:42:30,245 | W | root | web\user\getEmployeeDetail.py 608 get EXC	Exception: KeyError. Argument: ('PersonalInfo',)
+| 2024:06:27 15:42:30,247 | D | root | web\user\getEmployeeDetail.py 609 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 219 TYPE: <class 'KeyError'>
+| 2024:06:27 15:42:30,250 | D | root | web\user\getEmployeeDetail.py 617 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 15:42:30,252 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 97.75ms
+| 2024:06:27 15:43:19,829 | I | STDOUT | ************ PROJECTMANAGER
+| 2024:06:27 15:43:19,838 | D | root | web\user\getEmployeeDetail.py 617 get RSP	{'code': 4003, 'status': False, 'message': 'You are not Authorized to use this', 'result': []}
+| 2024:06:27 15:43:19,840 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 11.92ms
+| 2024:06:27 15:43:55,824 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:43:56,430 | I | root | ------
+| 2024:06:27 15:43:56,519 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:43:57,601 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:43:57,607 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:44:30,222 | I | STDOUT | {'_id': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'johndoe@gmail.com', 'password': b'gAAAAABmaCWesE_wTW47idqKVDsO2YLuAhzfkXSAzZTejuoW5t1zUOnm6y-MAmnJ4M9B-3AGx0fuqiwj3PfzwQgShvcTbQ-k7A==', 'role': ObjectId('666824e2c43f23878e12216c'), 'PersonalInfo': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}, 'active': True, 'createdAt': 1718101406408103, 'createdBy': ObjectId('6668259eb27f0e68666fa3b9'), 'updatedAt': None, 'deletedAt': None, 'deleted': False}
+| 2024:06:27 15:44:30,438 | D | root | web\login.py 128 post RSP	{'code': 200, 'status': True, 'message': 'Login Successful.', 'result': {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY4MjU5ZWIyN2YwZTY4NjY2ZmEzYmEiLCJjb21wYW55SWQiOiI2NjY4MWE2M2VkNTVmMTA1MjQxM2Q4NWMiLCJ1c2VyUm9sZSI6ImJyYW5jaE1hbmFnZXIifQ.jWH6CX9L0am9vxdejg4gRcRuMmAzrUi9asxi1L2lgDI'}}
+| 2024:06:27 15:44:30,440 | I | tornado.access | 200 POST /v1/api/login (::1) 236.84ms
+| 2024:06:27 15:44:45,727 | I | STDOUT | ************ branchManager
+| 2024:06:27 15:44:45,727 | I | STDOUT | userID 666af55cb3f5b3183945aa23
+| 2024:06:27 15:44:45,747 | W | root | web\user\getEmployeeDetail.py 608 get EXC	Exception: KeyError. Argument: ('PersonalInfo',)
+| 2024:06:27 15:44:45,758 | D | root | web\user\getEmployeeDetail.py 609 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 219 TYPE: <class 'KeyError'>
+| 2024:06:27 15:44:45,769 | D | root | web\user\getEmployeeDetail.py 617 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 15:44:45,774 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 49.87ms
+| 2024:06:27 15:45:46,144 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:45:46,635 | I | root | ------
+| 2024:06:27 15:45:46,725 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:45:47,895 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:45:47,900 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:45:52,016 | I | STDOUT | ********* AsyncIOMotorLatentCommandCursor(<motor.core._LatentCursor object at 0x000002248CE8D7F0>)
+| 2024:06:27 15:45:52,114 | W | root | web\user\getEmployeeDetail.py 608 get EXC	Exception: KeyError. Argument: ('PersonalInfo',)
+| 2024:06:27 15:45:52,116 | D | root | web\user\getEmployeeDetail.py 609 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 219 TYPE: <class 'KeyError'>
+| 2024:06:27 15:45:52,120 | D | root | web\user\getEmployeeDetail.py 617 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 15:45:52,123 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 107.71ms
+| 2024:06:27 15:46:02,445 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:46:02,912 | I | root | ------
+| 2024:06:27 15:46:02,998 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:46:04,000 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:46:04,005 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:46:13,047 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:46:13,624 | I | root | ------
+| 2024:06:27 15:46:13,734 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:46:14,749 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:46:14,754 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:46:18,154 | I | STDOUT | ********* [{'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'projectmanger@gmail.com', 'role': ObjectId('66693920b44eb2133282d589'), 'companyName': 'Abir Private Company', 'roleName': 'PROJECTMANAGER'}]
+| 2024:06:27 15:46:18,240 | W | root | web\user\getEmployeeDetail.py 608 get EXC	Exception: KeyError. Argument: ('PersonalInfo',)
+| 2024:06:27 15:46:18,242 | D | root | web\user\getEmployeeDetail.py 609 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 219 TYPE: <class 'KeyError'>
+| 2024:06:27 15:46:18,244 | D | root | web\user\getEmployeeDetail.py 617 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 15:46:18,246 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 100.73ms
+| 2024:06:27 15:46:41,797 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:46:42,358 | I | root | ------
+| 2024:06:27 15:46:42,461 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:46:43,473 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:46:43,478 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:46:47,376 | W | root | web\user\getEmployeeDetail.py 608 get EXC	Exception: KeyError. Argument: ('PersonalInfo',)
+| 2024:06:27 15:46:47,378 | D | root | web\user\getEmployeeDetail.py 609 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 219 TYPE: <class 'KeyError'>
+| 2024:06:27 15:46:47,381 | D | root | web\user\getEmployeeDetail.py 617 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 15:46:47,383 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 99.73ms
+| 2024:06:27 15:47:04,523 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:47:05,101 | I | root | ------
+| 2024:06:27 15:47:05,203 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:47:06,246 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:47:06,251 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:47:07,896 | W | root | web\user\getEmployeeDetail.py 608 get EXC	Exception: KeyError. Argument: ('PersonalInfo',)
+| 2024:06:27 15:47:07,898 | D | root | web\user\getEmployeeDetail.py 609 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 219 TYPE: <class 'KeyError'>
+| 2024:06:27 15:47:07,901 | D | root | web\user\getEmployeeDetail.py 617 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 15:47:07,904 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 92.75ms
+| 2024:06:27 15:47:50,792 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:47:51,262 | I | root | ------
+| 2024:06:27 15:47:51,356 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:47:52,348 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:47:52,352 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:48:01,385 | I | STDOUT | ********* [{'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'projectmanger@gmail.com', 'role': ObjectId('66693920b44eb2133282d589'), 'companyName': 'Abir Private Company', 'roleName': 'PROJECTMANAGER'}]
+| 2024:06:27 15:48:01,468 | W | root | web\user\getEmployeeDetail.py 608 get EXC	Exception: KeyError. Argument: ('PersonalInfo',)
+| 2024:06:27 15:48:01,471 | D | root | web\user\getEmployeeDetail.py 609 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 219 TYPE: <class 'KeyError'>
+| 2024:06:27 15:48:01,473 | D | root | web\user\getEmployeeDetail.py 617 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 15:48:01,474 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 94.75ms
+| 2024:06:27 15:48:14,380 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:48:14,849 | I | root | ------
+| 2024:06:27 15:48:14,939 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:48:16,044 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:48:16,048 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:48:18,237 | W | root | web\user\getEmployeeDetail.py 608 get EXC	Exception: KeyError. Argument: ('PersonalInfo',)
+| 2024:06:27 15:48:18,240 | D | root | web\user\getEmployeeDetail.py 609 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 219 TYPE: <class 'KeyError'>
+| 2024:06:27 15:48:18,242 | D | root | web\user\getEmployeeDetail.py 617 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 15:48:18,244 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 96.74ms
+| 2024:06:27 15:56:28,095 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:56:28,603 | I | root | ------
+| 2024:06:27 15:56:28,711 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:56:29,718 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:56:29,723 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:57:00,282 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:57:00,754 | I | root | ------
+| 2024:06:27 15:57:00,847 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:57:01,899 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:57:01,909 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:58:07,953 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 15:58:08,419 | I | root | ------
+| 2024:06:27 15:58:08,511 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 15:58:09,563 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 15:58:09,568 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 15:58:18,304 | I | STDOUT | ******* {'firstName': 'Project', 'lastName': 'Manager', 'phone': '1234567890'}
+| 2024:06:27 15:58:18,398 | W | root | web\user\getEmployeeDetail.py 608 get EXC	Exception: KeyError. Argument: ('createdBy',)
+| 2024:06:27 15:58:18,400 | D | root | web\user\getEmployeeDetail.py 609 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 223 TYPE: <class 'KeyError'>
+| 2024:06:27 15:58:18,403 | D | root | web\user\getEmployeeDetail.py 617 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 15:58:18,404 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 106.72ms
+| 2024:06:27 16:00:09,107 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 16:00:09,684 | I | root | ------
+| 2024:06:27 16:00:09,788 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 16:00:10,804 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 16:00:10,809 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 16:00:13,922 | W | root | web\user\getEmployeeDetail.py 608 get EXC	Exception: KeyError. Argument: ('createdBy',)
+| 2024:06:27 16:00:13,926 | D | root | web\user\getEmployeeDetail.py 609 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 223 TYPE: <class 'KeyError'>
+| 2024:06:27 16:00:13,931 | D | root | web\user\getEmployeeDetail.py 617 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 16:00:13,932 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 139.62ms
+| 2024:06:27 16:00:41,366 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 16:00:41,947 | I | root | ------
+| 2024:06:27 16:00:42,044 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 16:00:43,067 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 16:00:43,070 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 16:00:57,107 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 16:00:57,691 | I | root | ------
+| 2024:06:27 16:00:57,792 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 16:00:58,894 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 16:00:58,898 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 16:01:25,940 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 16:01:26,457 | I | root | ------
+| 2024:06:27 16:01:26,559 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 16:01:27,588 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 16:01:27,591 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 16:01:32,769 | I | STDOUT | ********************** 2024-06-27
+| 2024:06:27 16:01:32,855 | W | root | web\user\getEmployeeDetail.py 608 get EXC	Exception: UnboundLocalError. Argument: ("cannot access local variable 'totalLeaveQ2' where it is not associated with a value",)
+| 2024:06:27 16:01:32,857 | D | root | web\user\getEmployeeDetail.py 609 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 585 TYPE: <class 'UnboundLocalError'>
+| 2024:06:27 16:01:32,860 | D | root | web\user\getEmployeeDetail.py 617 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 16:01:32,861 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 107.71ms
+| 2024:06:27 16:02:20,123 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 16:02:20,696 | I | root | ------
+| 2024:06:27 16:02:20,797 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 16:02:21,818 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 16:02:21,822 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 16:02:23,001 | I | STDOUT | ********************** 2024-06-27
+| 2024:06:27 16:02:23,001 | I | STDOUT | ********************** []
+| 2024:06:27 16:02:23,085 | W | root | web\user\getEmployeeDetail.py 609 get EXC	Exception: UnboundLocalError. Argument: ("cannot access local variable 'totalLeaveQ2' where it is not associated with a value",)
+| 2024:06:27 16:02:23,088 | D | root | web\user\getEmployeeDetail.py 610 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 586 TYPE: <class 'UnboundLocalError'>
+| 2024:06:27 16:02:23,090 | D | root | web\user\getEmployeeDetail.py 618 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 16:02:23,092 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 107.72ms
+| 2024:06:27 16:02:57,361 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 16:02:57,834 | I | root | ------
+| 2024:06:27 16:02:57,925 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 16:02:58,913 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 16:02:58,918 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 16:03:01,568 | I | STDOUT | ********************** 2024-06-27
+| 2024:06:27 16:03:01,568 | I | STDOUT | ********************** []
+| 2024:06:27 16:03:01,650 | W | root | web\user\getEmployeeDetail.py 610 get EXC	Exception: UnboundLocalError. Argument: ("cannot access local variable 'response_data' where it is not associated with a value",)
+| 2024:06:27 16:03:01,652 | D | root | web\user\getEmployeeDetail.py 611 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 555 TYPE: <class 'UnboundLocalError'>
+| 2024:06:27 16:03:01,654 | D | root | web\user\getEmployeeDetail.py 619 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 16:03:01,655 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 104.72ms
+| 2024:06:27 16:03:54,465 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 16:03:54,943 | I | root | ------
+| 2024:06:27 16:03:55,038 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 16:03:56,128 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 16:03:56,132 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 16:03:57,522 | I | STDOUT | ********************** 2024-06-27
+| 2024:06:27 16:03:57,522 | I | STDOUT | ********************** []
+| 2024:06:27 16:03:57,523 | I | STDOUT | ********************** 0
+| 2024:06:27 16:03:57,608 | W | root | web\user\getEmployeeDetail.py 610 get EXC	Exception: UnboundLocalError. Argument: ("cannot access local variable 'totalLeaveQ2' where it is not associated with a value",)
+| 2024:06:27 16:03:57,613 | D | root | web\user\getEmployeeDetail.py 611 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 587 TYPE: <class 'UnboundLocalError'>
+| 2024:06:27 16:03:57,616 | D | root | web\user\getEmployeeDetail.py 619 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 16:03:57,617 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 112.70ms
+| 2024:06:27 16:04:17,668 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 16:04:18,147 | I | root | ------
+| 2024:06:27 16:04:18,240 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 16:04:19,301 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 16:04:19,306 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 16:04:43,359 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 16:04:43,841 | I | root | ------
+| 2024:06:27 16:04:43,935 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 16:04:45,018 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 16:04:45,023 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 16:04:47,157 | W | root | web\user\getEmployeeDetail.py 611 get EXC	Exception: UnboundLocalError. Argument: ("cannot access local variable 'totalLeaveQ2' where it is not associated with a value",)
+| 2024:06:27 16:04:47,161 | D | root | web\user\getEmployeeDetail.py 612 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 587 TYPE: <class 'UnboundLocalError'>
+| 2024:06:27 16:04:47,164 | D | root | web\user\getEmployeeDetail.py 620 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 16:04:47,166 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 148.60ms
+| 2024:06:27 16:05:32,572 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 16:05:33,039 | I | root | ------
+| 2024:06:27 16:05:33,131 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 16:05:34,115 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 16:05:34,120 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 16:05:58,679 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 16:05:59,223 | I | root | ------
+| 2024:06:27 16:05:59,324 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 16:06:00,367 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 16:06:00,372 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 16:06:01,425 | W | root | web\user\getEmployeeDetail.py 611 get EXC	Exception: UnboundLocalError. Argument: ("cannot access local variable 'response' where it is not associated with a value",)
+| 2024:06:27 16:06:01,429 | D | root | web\user\getEmployeeDetail.py 612 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 555 TYPE: <class 'UnboundLocalError'>
+| 2024:06:27 16:06:01,432 | D | root | web\user\getEmployeeDetail.py 620 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 16:06:01,433 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 106.71ms
+| 2024:06:27 16:06:37,906 | W | root | web\user\getEmployeeDetail.py 611 get EXC	Exception: UnboundLocalError. Argument: ("cannot access local variable 'response' where it is not associated with a value",)
+| 2024:06:27 16:06:37,908 | D | root | web\user\getEmployeeDetail.py 612 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 555 TYPE: <class 'UnboundLocalError'>
+| 2024:06:27 16:06:37,911 | D | root | web\user\getEmployeeDetail.py 620 get RSP	{'code': 5010, 'status': False, 'message': 'the user is not yet joined the company.', 'result': []}
+| 2024:06:27 16:06:37,912 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 61.84ms
+| 2024:06:27 16:07:59,418 | I | tornado.general | C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py modified; restarting server
+| 2024:06:27 16:07:59,925 | I | root | ------
+| 2024:06:27 16:08:00,018 | I | root | <frozen importlib._bootstrap> 488 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:27 16:08:01,053 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:27 16:08:01,058 | I | root | main.py 92 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:27 16:08:06,452 | W | root | web\user\getEmployeeDetail.py 607 get EXC	Exception: KeyError. Argument: ('PersonalInfo',)
+| 2024:06:27 16:08:06,454 | D | root | web\user\getEmployeeDetail.py 608 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 218 TYPE: <class 'KeyError'>
+| 2024:06:27 16:08:06,456 | D | root | web\user\getEmployeeDetail.py 616 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:27 16:08:06,458 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 99.73ms
+| 2024:06:27 16:08:57,887 | D | root | web\user\getEmployeeDetail.py 616 get RSP	{'code': 200, 'status': True, 'message': 'Data fetched successfully', 'result': {'Result': [{'Employee_info': {'comp_name': 'Abir Private Company', 'name': 'John Doe', 'mobile_no.': '1234567890', 'email': 'johndoe@gmail.com', 'role_name': 'branchManager', 'createdBy': '6668259eb27f0e68666fa3b9'}, 'Month': {'May': {'total_working_days': 23, 'total_present': 0, 'total_absent': 23, 'Leave_taken': 0, 'base_Salary': 80000, 'salary_taken': 0}, 'June': {'total_working_days': 20, 'total_present': 4, 'total_absent': 16, 'Leave_taken': 1, 'base_Salary': 80000, 'salary_taken': 15000}}, 'Task': [{'Project': '1', 'project_id': '667120e0bfc4dda06d254e02', 'Date_of_Assign': 1718690016204923, 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}, {'Project': '2', 'project_id': '6673b9baa1d752cec115deb5', 'Date_of_Assign': datetime.datetime(2024, 6, 20, 10, 40, 18, 532000), 'List_of_tasks': [{'taskId': '60d5ec3b2ab79a75b8cfe7b1', 'taskName': 'Design database schema', 'dueDate': '2024-06-30'}, {'taskId': '60d5ec3b2ab79a75b8cfe7b2', 'taskName': 'Develop API endpoints', 'dueDate': '2024-07-15'}]}]}]}}
+| 2024:06:27 16:08:57,888 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 18.95ms
+| 2024:06:27 16:14:31,638 | W | root | web\user\getEmployeeDetail.py 607 get EXC	Exception: UnboundLocalError. Argument: ("cannot access local variable 'totalLeaveQ2' where it is not associated with a value",)
+| 2024:06:27 16:14:31,640 | D | root | web\user\getEmployeeDetail.py 608 get EX2	FILE: C:\Users\AMAN\OneDrive\Desktop\Project\server\web\user\getEmployeeDetail.py LINE: 584 TYPE: <class 'UnboundLocalError'>
+| 2024:06:27 16:14:31,642 | D | root | web\user\getEmployeeDetail.py 616 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:27 16:14:31,643 | I | tornado.access | 200 GET /v1/api/get/getemployeeDetail (::1) 20.94ms

@@ -146,7 +146,7 @@ class getPaySlipHandler(tornado.web.RequestHandler, MongoMixin):
             mmonths = endDate.month
             num_days_in_month = calendar.monthrange(currentYear, mmonths)[1]
 
-            # print("**********************", mmonths)
+            print("**********************", mmonths)
 
 
             if endDate is None or not endDate:
@@ -185,14 +185,22 @@ class getPaySlipHandler(tornado.web.RequestHandler, MongoMixin):
                     account.append(i)
                     account[0]['companyId'] = str(account[0]['companyId'])
                     account[0]['branchId'] = str(account[0]['branchId'])
+                if not account:
                     
-                baseSalary=account[0]['baseSalary']
-                branch_id=account[0]['branchId']
-                payGrade=account[0]['payGrade']
-                performanceBonous=account[0]['performanceBounous']
-                singingBounous=account[0]['singingBonous']
+                    
+                    baseSalary=0
+                    branch_id=0
+                    payGrade=0
+                    performanceBonous=0
+                    singingBounous=0
+                else:
+                    baseSalary=account[0]['baseSalary']
+                    branch_id=account[0]['branchId']
+                    payGrade=account[0]['payGrade']
+                    performanceBonous=account[0]['performanceBounous']
+                    singingBounous=account[0]['singingBonous']
 
-                print(account[0]['baseSalary'])
+                # print(account[0]['baseSalary'])
 
                 result = account
 
@@ -255,10 +263,19 @@ class getPaySlipHandler(tornado.web.RequestHandler, MongoMixin):
                     presentDay.append(i)
                 #     print('***************',presentDay[0]['total_present_days'])
                 # print('*************',presentDay)
-                lateCount=presentDay[0]['is_late_count']
-                # print(lateCount)
-                leaveCount=presentDay[0]['leave_count']
-                totalPresentDay=presentDay[0]['total_present_days']
+                if not presentDay:
+                 
+
+                    lateCount=0
+                # print("**********",lateCount)
+                    leaveCount=0
+                    totalPresentDay=0
+                # print("**********",totalPresentDay,leaveCount,lateCount)
+                else:
+                    lateCount=presentDay[0]['is_late_count']
+                # print("**********",lateCount)
+                    leaveCount=presentDay[0]['leave_count']
+                    totalPresentDay=presentDay[0]['total_present_days']
 
             except Exception as e:
                 code=402
@@ -271,6 +288,7 @@ class getPaySlipHandler(tornado.web.RequestHandler, MongoMixin):
             dailySalary = baseSalary / (num_days_in_month- sum_sat_sun) 
             totalPresent = totalPresentDay  - leaveCount
             finalSalary= ((dailySalary * totalPresent)+ performanceBonous)
+            # print("**********",finalSalary)
 
 
 
@@ -283,7 +301,7 @@ class getPaySlipHandler(tornado.web.RequestHandler, MongoMixin):
                     }
                 ]
             )
-            print("************",payslip_existsQ)
+            # print("************",payslip_existsQ)
             payslip_exists=[]
 
             async for i in payslip_existsQ:
@@ -291,7 +309,7 @@ class getPaySlipHandler(tornado.web.RequestHandler, MongoMixin):
             
 
             # Add singing bonus only if no payslip exists
-            if not payslip_existsQ:
+            if not payslip_exists:
                 finalSalary += singingBounous
             else:
                 bulk_operations = [
@@ -310,6 +328,7 @@ class getPaySlipHandler(tornado.web.RequestHandler, MongoMixin):
             # If late more than 3 days, deduct one day's salary
             if lateCount > 3:
                 finalSalary -= dailySalary
+            # print("***************")
             data={
                 'companyId':ObjectId(company_id),
                 'branchId':ObjectId(branch_id),
@@ -344,7 +363,7 @@ class getPaySlipHandler(tornado.web.RequestHandler, MongoMixin):
                 template = 'Exception: {0}. Argument: {1!r}'
                 code = 5010
                 iMessage = template.format(type(e).__name__, e.args)
-                message = 'Internal Error, Please Contact the Support Team.'
+                message = 'this user did not started their office yet,no data found, Please Contact the Support Team.'
                 exc_type, exc_obj, exc_tb = sys.exc_info()
                 fname = exc_tb.tb_frame.f_code.co_filename
                 Log.w('EXC', iMessage)
@@ -366,7 +385,7 @@ class getPaySlipHandler(tornado.web.RequestHandler, MongoMixin):
             template = 'Exception: {0}. Argument: {1!r}'
             code = 5011
             iMessage = template.format(type(e).__name__, e.args)
-            message = 'Internal Error, Please Contact the Support Team.'
+            message = ' Please Contact the Support Team.'
             exc_type, exc_obj, exc_tb = sys.exc_info()
             fname = exc_tb.tb_frame.f_code.co_filename
             Log.w('EXC', iMessage)

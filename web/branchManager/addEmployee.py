@@ -197,9 +197,10 @@ class AddEmployeeHandler(tornado.web.RequestHandler, MongoMixin):
                     'email': email,
                     'password': password,
                     'role': ObjectId(role),
-                    'personalInfo': personalInfo,
+                    'PersonalInfo': personalInfo,
                     'active': True,
                     'createdAt': timeNow(),
+                    'createdBy':userId,
                     'updatedAt': None,
                     'deletedAt': None,
                     'deleted': False
